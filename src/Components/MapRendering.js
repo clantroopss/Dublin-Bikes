@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import ReactInterval from 'react-interval';
 
 
 export default class MapRendering extends Component {

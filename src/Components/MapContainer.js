@@ -19,7 +19,7 @@ class MapContainer extends Component {
   render() {
     return (
       <div className="MapContainer">
-        <h1>🌐 Bike Map - Team 14</h1>
+        <h1><span role="img">🌐</span> Bike Map - Team 14</h1>
         <div className="wrapper">
           <Route path="/" render={(props) => <MapRendering google={this.props.google} stations={this.state.stations} {...props}/>}/>
         </div>
