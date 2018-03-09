@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom'
+import ReactDOM from 'react-dom';
+import ReactInterval from 'react-interval';
 
 
 export default class MapRendering extends Component {
@@ -42,13 +43,17 @@ export default class MapRendering extends Component {
 
         const infowindow = new google.maps.InfoWindow({
           content: `<h3>${station.name}</h3>
-          <h4>Available Bikes: ${station.available_bikes}</h4>
-          <h4>Available Bikes Stands: ${station.available_bike_stands}</h4>
+          <h4 style="color: green;">Available Bikes: ${station.available_bikes}</h4>
+          <h4 style="color: red;">Available Bikes Stands: ${station.available_bike_stands}</h4>
           <h4>Status: ${station.status}</h4>
-          <h4>${(new Date(station.last_update)).toDateString()}</h4>`
+          <h4>${(new Date(station.last_update)).toGMTString()}</h4>`
         });
-        marker.addListener('click', function() {
+        marker.addListener('mouseover', function() {
           infowindow.open(this.map, marker);
+        });
+          
+          marker.addListener('mouseout', function() {
+          infowindow.close(this.map, marker);
         });
       })
       const heatmap = new google.maps.visualization.HeatmapLayer({
@@ -58,15 +63,12 @@ export default class MapRendering extends Component {
       heatmap.setMap(this.map);
     }
   }
-
   render() {
     const style = {
-      width: '85vw',
-      height: '75vh'
+      height: '85vh'
     }
-
     return (
-      <div ref="map" style={style}>
+        <div ref="map" style={style}>
         loading map...
       </div>
     )

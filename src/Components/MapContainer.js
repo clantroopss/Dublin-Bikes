@@ -9,18 +9,17 @@ class MapContainer extends Component {
   state = {
     stations: []
   }
-
-    componentDidMount = () => {
+  componentDidMount = () => {
     fetchData()
       .then((json) => {
-        this.setState({ stations: json}, )
+        this.setState({ stations: json} )
       })
   }
  
   render() {
     return (
       <div className="MapContainer">
-        <h1>🌐 Bike Map</h1>
+        <h1>🌐 Bike Map - Team 14</h1>
         <div className="wrapper">
           <Route path="/" render={(props) => <MapRendering google={this.props.google} stations={this.state.stations} {...props}/>}/>
         </div>
