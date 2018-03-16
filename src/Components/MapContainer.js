@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Route } from 'react-router-dom'
 import { fetchData } from '../Services/BikeService'
+import { BusData } from '../Services/BusService'
 import { GoogleApiWrapper } from 'google-maps-react'
 import MapRendering from './MapRendering'
 
