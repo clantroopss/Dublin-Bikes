@@ -1,0 +1,902 @@
+[
+  {
+    "stationnumber": 42,
+    "distance": 272,
+    "luasinfo": {
+      "latitude": 53.3471333333333,
+      "longitude": -6.27772777777778,
+      "name": "Smithfield"
+    }
+  },
+  {
+    "stationnumber": 30,
+    "distance": 643,
+    "luasinfo": {
+      "latitude": 53.3476861111111,
+      "longitude": -6.26533333333333,
+      "name": "Jervis"
+    }
+  },
+  {
+    "stationnumber": 54,
+    "distance": 297,
+    "luasinfo": {
+      "latitude": 53.3333583333333,
+      "longitude": -6.26265,
+      "name": "Harcourt"
+    }
+  },
+  {
+    "stationnumber": 56,
+    "distance": 1244,
+    "luasinfo": {
+      "latitude": 53.3488222222222,
+      "longitude": -6.23714722222222,
+      "name": "Spencer Dock"
+    }
+  },
+  {
+    "stationnumber": 6,
+    "distance": 447,
+    "luasinfo": {
+      "latitude": 53.3468638888889,
+      "longitude": -6.27343611111111,
+      "name": "Four Courts"
+    }
+  },
+  {
+    "stationnumber": 18,
+    "distance": 204,
+    "luasinfo": {
+      "latitude": 53.3333583333333,
+      "longitude": -6.26265,
+      "name": "Harcourt"
+    }
+  },
+  {
+    "stationnumber": 32,
+    "distance": 612,
+    "luasinfo": {
+      "latitude": 53.349528,
+      "longitude": -6.247575,
+      "name": "George's Dock"
+    }
+  },
+  {
+    "stationnumber": 52,
+    "distance": 57,
+    "luasinfo": {
+      "latitude": 53.3390722222222,
+      "longitude": -6.26133333333333,
+      "name": "St. Stephen's Green"
+    }
+  },
+  {
+    "stationnumber": 48,
+    "distance": 173,
+    "luasinfo": {
+      "latitude": 53.3492472222222,
+      "longitude": -6.24339444444444,
+      "name": "Mayor Square - NCI"
+    }
+  },
+  {
+    "stationnumber": 13,
+    "distance": 658,
+    "luasinfo": {
+      "latitude": 53.3390722222222,
+      "longitude": -6.26133333333333,
+      "name": "St. Stephen's Green"
+    }
+  },
+  {
+    "stationnumber": 43,
+    "distance": 511,
+    "luasinfo": {
+      "latitude": 53.3333583333333,
+      "longitude": -6.26265,
+      "name": "Harcourt"
+    }
+  },
+  {
+    "stationnumber": 81,
+    "distance": 256,
+    "luasinfo": {
+      "latitude": 53.3379083333333,
+      "longitude": -6.29724166666667,
+      "name": "Rialto"
+    }
+  },
+  {
+    "stationnumber": 31,
+    "distance": 361,
+    "luasinfo": {
+      "latitude": 53.3476861111111,
+      "longitude": -6.26533333333333,
+      "name": "Jervis"
+    }
+  },
+  {
+    "stationnumber": 98,
+    "distance": 404,
+    "luasinfo": {
+      "latitude": 53.3390722222222,
+      "longitude": -6.26133333333333,
+      "name": "St. Stephen's Green"
+    }
+  },
+  {
+    "stationnumber": 14,
+    "distance": 367,
+    "luasinfo": {
+      "latitude": 53.3476861111111,
+      "longitude": -6.26533333333333,
+      "name": "Jervis"
+    }
+  },
+  {
+    "stationnumber": 1,
+    "distance": 221,
+    "luasinfo": {
+      "latitude": 53.3390722222222,
+      "longitude": -6.26133333333333,
+      "name": "St. Stephen's Green"
+    }
+  },
+  {
+    "stationnumber": 23,
+    "distance": 236,
+    "luasinfo": {
+      "latitude": 53.3485888888889,
+      "longitude": -6.25817222222222,
+      "name": "Abbey Street"
+    }
+  },
+  {
+    "stationnumber": 68,
+    "distance": 524,
+    "luasinfo": {
+      "latitude": 53.3488222222222,
+      "longitude": -6.23714722222222,
+      "name": "Spencer Dock"
+    }
+  },
+  {
+    "stationnumber": 74,
+    "distance": 406,
+    "luasinfo": {
+      "latitude": 53.3471333333333,
+      "longitude": -6.27772777777778,
+      "name": "Smithfield"
+    }
+  },
+  {
+    "stationnumber": 87,
+    "distance": 107,
+    "luasinfo": {
+      "latitude": 53.3478666666667,
+      "longitude": -6.28671388888889,
+      "name": "Museum"
+    }
+  },
+  {
+    "stationnumber": 84,
+    "distance": 233,
+    "luasinfo": {
+      "latitude": 53.3379083333333,
+      "longitude": -6.29724166666667,
+      "name": "Rialto"
+    }
+  },
+  {
+    "stationnumber": 90,
+    "distance": 544,
+    "luasinfo": {
+      "latitude": 53.34835,
+      "longitude": -6.22925833333333,
+      "name": "The Point"
+    }
+  },
+  {
+    "stationnumber": 11,
+    "distance": 294,
+    "luasinfo": {
+      "latitude": 53.3333583333333,
+      "longitude": -6.26265,
+      "name": "Harcourt"
+    }
+  },
+  {
+    "stationnumber": 17,
+    "distance": 468,
+    "luasinfo": {
+      "latitude": 53.3390722222222,
+      "longitude": -6.26133333333333,
+      "name": "St. Stephen's Green"
+    }
+  },
+  {
+    "stationnumber": 45,
+    "distance": 297,
+    "luasinfo": {
+      "latitude": 53.350075,
+      "longitude": -6.25145,
+      "name": "Busáras"
+    }
+  },
+  {
+    "stationnumber": 72,
+    "distance": 450,
+    "luasinfo": {
+      "latitude": 53.3471333333333,
+      "longitude": -6.27772777777778,
+      "name": "Smithfield"
+    }
+  },
+  {
+    "stationnumber": 63,
+    "distance": 898,
+    "luasinfo": {
+      "latitude": 53.3492472222222,
+      "longitude": -6.24339444444444,
+      "name": "Mayor Square - NCI"
+    }
+  },
+  {
+    "stationnumber": 91,
+    "distance": 738,
+    "luasinfo": {
+      "latitude": 53.34835,
+      "longitude": -6.22925833333333,
+      "name": "The Point"
+    }
+  },
+  {
+    "stationnumber": 99,
+    "distance": 335,
+    "luasinfo": {
+      "latitude": 53.349528,
+      "longitude": -6.247575,
+      "name": "George's Dock"
+    }
+  },
+  {
+    "stationnumber": 9,
+    "distance": 466,
+    "luasinfo": {
+      "latitude": 53.3390722222222,
+      "longitude": -6.26133333333333,
+      "name": "St. Stephen's Green"
+    }
+  },
+  {
+    "stationnumber": 67,
+    "distance": 196,
+    "luasinfo": {
+      "latitude": 53.34835,
+      "longitude": -6.22925833333333,
+      "name": "The Point"
+    }
+  },
+  {
+    "stationnumber": 55,
+    "distance": 149,
+    "luasinfo": {
+      "latitude": 53.3333583333333,
+      "longitude": -6.26265,
+      "name": "Harcourt"
+    }
+  },
+  {
+    "stationnumber": 62,
+    "distance": 359,
+    "luasinfo": {
+      "latitude": 53.3492472222222,
+      "longitude": -6.24339444444444,
+      "name": "Mayor Square - NCI"
+    }
+  },
+  {
+    "stationnumber": 5,
+    "distance": 100,
+    "luasinfo": {
+      "latitude": 53.3306694444444,
+      "longitude": -6.25868333333333,
+      "name": "Charlemont"
+    }
+  },
+  {
+    "stationnumber": 97,
+    "distance": 640,
+    "luasinfo": {
+      "latitude": 53.3366166666667,
+      "longitude": -6.30721111111111,
+      "name": "Suir Road"
+    }
+  },
+  {
+    "stationnumber": 61,
+    "distance": 999,
+    "luasinfo": {
+      "latitude": 53.3485888888889,
+      "longitude": -6.25817222222222,
+      "name": "Abbey Street"
+    }
+  },
+  {
+    "stationnumber": 77,
+    "distance": 194,
+    "luasinfo": {
+      "latitude": 53.3476861111111,
+      "longitude": -6.26533333333333,
+      "name": "Jervis"
+    }
+  },
+  {
+    "stationnumber": 73,
+    "distance": 546,
+    "luasinfo": {
+      "latitude": 53.3468638888889,
+      "longitude": -6.27343611111111,
+      "name": "Four Courts"
+    }
+  },
+  {
+    "stationnumber": 4,
+    "distance": 31,
+    "luasinfo": {
+      "latitude": 53.3468638888889,
+      "longitude": -6.27343611111111,
+      "name": "Four Courts"
+    }
+  },
+  {
+    "stationnumber": 49,
+    "distance": 220,
+    "luasinfo": {
+      "latitude": 53.3492472222222,
+      "longitude": -6.24339444444444,
+      "name": "Mayor Square - NCI"
+    }
+  },
+  {
+    "stationnumber": 19,
+    "distance": 968,
+    "luasinfo": {
+      "latitude": 53.3306694444444,
+      "longitude": -6.25868333333333,
+      "name": "Charlemont"
+    }
+  },
+  {
+    "stationnumber": 7,
+    "distance": 383,
+    "luasinfo": {
+      "latitude": 53.3468638888889,
+      "longitude": -6.27343611111111,
+      "name": "Four Courts"
+    }
+  },
+  {
+    "stationnumber": 60,
+    "distance": 1191,
+    "luasinfo": {
+      "latitude": 53.3509222222222,
+      "longitude": -6.24994166666667,
+      "name": "Connolly"
+    }
+  },
+  {
+    "stationnumber": 102,
+    "distance": 851,
+    "luasinfo": {
+      "latitude": 53.3476861111111,
+      "longitude": -6.26533333333333,
+      "name": "Jervis"
+    }
+  },
+  {
+    "stationnumber": 38,
+    "distance": 141,
+    "luasinfo": {
+      "latitude": 53.350075,
+      "longitude": -6.25145,
+      "name": "Busáras"
+    }
+  },
+  {
+    "stationnumber": 53,
+    "distance": 222,
+    "luasinfo": {
+      "latitude": 53.3390722222222,
+      "longitude": -6.26133333333333,
+      "name": "St. Stephen's Green"
+    }
+  },
+  {
+    "stationnumber": 58,
+    "distance": 1094,
+    "luasinfo": {
+      "latitude": 53.3488222222222,
+      "longitude": -6.23714722222222,
+      "name": "Spencer Dock"
+    }
+  },
+  {
+    "stationnumber": 66,
+    "distance": 248,
+    "luasinfo": {
+      "latitude": 53.3488222222222,
+      "longitude": -6.23714722222222,
+      "name": "Spencer Dock"
+    }
+  },
+  {
+    "stationnumber": 101,
+    "distance": 381,
+    "luasinfo": {
+      "latitude": 53.3468638888889,
+      "longitude": -6.27343611111111,
+      "name": "Four Courts"
+    }
+  },
+  {
+    "stationnumber": 47,
+    "distance": 1043,
+    "luasinfo": {
+      "latitude": 53.3306694444444,
+      "longitude": -6.25868333333333,
+      "name": "Charlemont"
+    }
+  },
+  {
+    "stationnumber": 8,
+    "distance": 186,
+    "luasinfo": {
+      "latitude": 53.349528,
+      "longitude": -6.247575,
+      "name": "George's Dock"
+    }
+  },
+  {
+    "stationnumber": 27,
+    "distance": 327,
+    "luasinfo": {
+      "latitude": 53.3390722222222,
+      "longitude": -6.26133333333333,
+      "name": "St. Stephen's Green"
+    }
+  },
+  {
+    "stationnumber": 16,
+    "distance": 290,
+    "luasinfo": {
+      "latitude": 53.350075,
+      "longitude": -6.25145,
+      "name": "Busáras"
+    }
+  },
+  {
+    "stationnumber": 96,
+    "distance": 595,
+    "luasinfo": {
+      "latitude": 53.3366166666667,
+      "longitude": -6.30721111111111,
+      "name": "Suir Road"
+    }
+  },
+  {
+    "stationnumber": 82,
+    "distance": 257,
+    "luasinfo": {
+      "latitude": 53.3419416666667,
+      "longitude": -6.29336111111111,
+      "name": "James's"
+    }
+  },
+  {
+    "stationnumber": 76,
+    "distance": 382,
+    "luasinfo": {
+      "latitude": 53.3419416666667,
+      "longitude": -6.29336111111111,
+      "name": "James's"
+    }
+  },
+  {
+    "stationnumber": 71,
+    "distance": 449,
+    "luasinfo": {
+      "latitude": 53.3390722222222,
+      "longitude": -6.26133333333333,
+      "name": "St. Stephen's Green"
+    }
+  },
+  {
+    "stationnumber": 79,
+    "distance": 1161,
+    "luasinfo": {
+      "latitude": 53.3476861111111,
+      "longitude": -6.26533333333333,
+      "name": "Jervis"
+    }
+  },
+  {
+    "stationnumber": 69,
+    "distance": 696,
+    "luasinfo": {
+      "latitude": 53.3488222222222,
+      "longitude": -6.23714722222222,
+      "name": "Spencer Dock"
+    }
+  },
+  {
+    "stationnumber": 25,
+    "distance": 986,
+    "luasinfo": {
+      "latitude": 53.3390722222222,
+      "longitude": -6.26133333333333,
+      "name": "St. Stephen's Green"
+    }
+  },
+  {
+    "stationnumber": 51,
+    "distance": 226,
+    "luasinfo": {
+      "latitude": 53.3390722222222,
+      "longitude": -6.26133333333333,
+      "name": "St. Stephen's Green"
+    }
+  },
+  {
+    "stationnumber": 37,
+    "distance": 181,
+    "luasinfo": {
+      "latitude": 53.3390722222222,
+      "longitude": -6.26133333333333,
+      "name": "St. Stephen's Green"
+    }
+  },
+  {
+    "stationnumber": 59,
+    "distance": 810,
+    "luasinfo": {
+      "latitude": 53.3485888888889,
+      "longitude": -6.25817222222222,
+      "name": "Abbey Street"
+    }
+  },
+  {
+    "stationnumber": 95,
+    "distance": 329,
+    "luasinfo": {
+      "latitude": 53.3419416666667,
+      "longitude": -6.29336111111111,
+      "name": "James's"
+    }
+  },
+  {
+    "stationnumber": 94,
+    "distance": 401,
+    "luasinfo": {
+      "latitude": 53.3466472222222,
+      "longitude": -6.29180833333333,
+      "name": "Heuston"
+    }
+  },
+  {
+    "stationnumber": 36,
+    "distance": 379,
+    "luasinfo": {
+      "latitude": 53.3390722222222,
+      "longitude": -6.26133333333333,
+      "name": "St. Stephen's Green"
+    }
+  },
+  {
+    "stationnumber": 93,
+    "distance": 341,
+    "luasinfo": {
+      "latitude": 53.3466472222222,
+      "longitude": -6.29180833333333,
+      "name": "Heuston"
+    }
+  },
+  {
+    "stationnumber": 22,
+    "distance": 380,
+    "luasinfo": {
+      "latitude": 53.3485888888889,
+      "longitude": -6.25817222222222,
+      "name": "Abbey Street"
+    }
+  },
+  {
+    "stationnumber": 12,
+    "distance": 1320,
+    "luasinfo": {
+      "latitude": 53.3476861111111,
+      "longitude": -6.26533333333333,
+      "name": "Jervis"
+    }
+  },
+  {
+    "stationnumber": 34,
+    "distance": 373,
+    "luasinfo": {
+      "latitude": 53.3333583333333,
+      "longitude": -6.26265,
+      "name": "Harcourt"
+    }
+  },
+  {
+    "stationnumber": 78,
+    "distance": 1342,
+    "luasinfo": {
+      "latitude": 53.3485888888889,
+      "longitude": -6.25817222222222,
+      "name": "Abbey Street"
+    }
+  },
+  {
+    "stationnumber": 2,
+    "distance": 1028,
+    "luasinfo": {
+      "latitude": 53.3476861111111,
+      "longitude": -6.26533333333333,
+      "name": "Jervis"
+    }
+  },
+  {
+    "stationnumber": 75,
+    "distance": 431,
+    "luasinfo": {
+      "latitude": 53.3419416666667,
+      "longitude": -6.29336111111111,
+      "name": "James's"
+    }
+  },
+  {
+    "stationnumber": 26,
+    "distance": 627,
+    "luasinfo": {
+      "latitude": 53.3390722222222,
+      "longitude": -6.26133333333333,
+      "name": "St. Stephen's Green"
+    }
+  },
+  {
+    "stationnumber": 65,
+    "distance": 179,
+    "luasinfo": {
+      "latitude": 53.3488222222222,
+      "longitude": -6.23714722222222,
+      "name": "Spencer Dock"
+    }
+  },
+  {
+    "stationnumber": 15,
+    "distance": 869,
+    "luasinfo": {
+      "latitude": 53.3476861111111,
+      "longitude": -6.26533333333333,
+      "name": "Jervis"
+    }
+  },
+  {
+    "stationnumber": 86,
+    "distance": 147,
+    "luasinfo": {
+      "latitude": 53.3466472222222,
+      "longitude": -6.29180833333333,
+      "name": "Heuston"
+    }
+  },
+  {
+    "stationnumber": 35,
+    "distance": 70,
+    "luasinfo": {
+      "latitude": 53.3471333333333,
+      "longitude": -6.27772777777778,
+      "name": "Smithfield"
+    }
+  },
+  {
+    "stationnumber": 10,
+    "distance": 421,
+    "luasinfo": {
+      "latitude": 53.3476861111111,
+      "longitude": -6.26533333333333,
+      "name": "Jervis"
+    }
+  },
+  {
+    "stationnumber": 100,
+    "distance": 53,
+    "luasinfo": {
+      "latitude": 53.3466472222222,
+      "longitude": -6.29180833333333,
+      "name": "Heuston"
+    }
+  },
+  {
+    "stationnumber": 24,
+    "distance": 426,
+    "luasinfo": {
+      "latitude": 53.3485888888889,
+      "longitude": -6.25817222222222,
+      "name": "Abbey Street"
+    }
+  },
+  {
+    "stationnumber": 64,
+    "distance": 482,
+    "luasinfo": {
+      "latitude": 53.349528,
+      "longitude": -6.247575,
+      "name": "George's Dock"
+    }
+  },
+  {
+    "stationnumber": 85,
+    "distance": 324,
+    "luasinfo": {
+      "latitude": 53.3366166666667,
+      "longitude": -6.30721111111111,
+      "name": "Suir Road"
+    }
+  },
+  {
+    "stationnumber": 33,
+    "distance": 150,
+    "luasinfo": {
+      "latitude": 53.3485888888889,
+      "longitude": -6.25817222222222,
+      "name": "Abbey Street"
+    }
+  },
+  {
+    "stationnumber": 44,
+    "distance": 1099,
+    "luasinfo": {
+      "latitude": 53.3509222222222,
+      "longitude": -6.24994166666667,
+      "name": "Connolly"
+    }
+  },
+  {
+    "stationnumber": 89,
+    "distance": 724,
+    "luasinfo": {
+      "latitude": 53.3306694444444,
+      "longitude": -6.25868333333333,
+      "name": "Charlemont"
+    }
+  },
+  {
+    "stationnumber": 57,
+    "distance": 1071,
+    "luasinfo": {
+      "latitude": 53.3492472222222,
+      "longitude": -6.24339444444444,
+      "name": "Mayor Square - NCI"
+    }
+  },
+  {
+    "stationnumber": 80,
+    "distance": 70,
+    "luasinfo": {
+      "latitude": 53.3419416666667,
+      "longitude": -6.29336111111111,
+      "name": "James's"
+    }
+  },
+  {
+    "stationnumber": 41,
+    "distance": 238,
+    "luasinfo": {
+      "latitude": 53.3306694444444,
+      "longitude": -6.25868333333333,
+      "name": "Charlemont"
+    }
+  },
+  {
+    "stationnumber": 3,
+    "distance": 492,
+    "luasinfo": {
+      "latitude": 53.3476861111111,
+      "longitude": -6.26533333333333,
+      "name": "Jervis"
+    }
+  },
+  {
+    "stationnumber": 46,
+    "distance": 101,
+    "luasinfo": {
+      "latitude": 53.3476861111111,
+      "longitude": -6.26533333333333,
+      "name": "Jervis"
+    }
+  },
+  {
+    "stationnumber": 40,
+    "distance": 111,
+    "luasinfo": {
+      "latitude": 53.3476861111111,
+      "longitude": -6.26533333333333,
+      "name": "Jervis"
+    }
+  },
+  {
+    "stationnumber": 29,
+    "distance": 254,
+    "luasinfo": {
+      "latitude": 53.3476861111111,
+      "longitude": -6.26533333333333,
+      "name": "Jervis"
+    }
+  },
+  {
+    "stationnumber": 70,
+    "distance": 800,
+    "luasinfo": {
+      "latitude": 53.3488222222222,
+      "longitude": -6.23714722222222,
+      "name": "Spencer Dock"
+    }
+  },
+  {
+    "stationnumber": 28,
+    "distance": 830,
+    "luasinfo": {
+      "latitude": 53.3509222222222,
+      "longitude": -6.24994166666667,
+      "name": "Connolly"
+    }
+  },
+  {
+    "stationnumber": 39,
+    "distance": 441,
+    "luasinfo": {
+      "latitude": 53.3306694444444,
+      "longitude": -6.25868333333333,
+      "name": "Charlemont"
+    }
+  },
+  {
+    "stationnumber": 83,
+    "distance": 461,
+    "luasinfo": {
+      "latitude": 53.3366166666667,
+      "longitude": -6.30721111111111,
+      "name": "Suir Road"
+    }
+  },
+  {
+    "stationnumber": 92,
+    "distance": 135,
+    "luasinfo": {
+      "latitude": 53.3466472222222,
+      "longitude": -6.29180833333333,
+      "name": "Heuston"
+    }
+  },
+  {
+    "stationnumber": 21,
+    "distance": 572,
+    "luasinfo": {
+      "latitude": 53.3390722222222,
+      "longitude": -6.26133333333333,
+      "name": "St. Stephen's Green"
+    }
+  },
+  {
+    "stationnumber": 88,
+    "distance": 320,
+    "luasinfo": {
+      "latitude": 53.3471333333333,
+      "longitude": -6.27772777777778,
+      "name": "Smithfield"
+    }
+  }
+]

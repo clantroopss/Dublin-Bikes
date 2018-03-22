@@ -1,0 +1,502 @@
+[
+  {
+    "value": 42,
+    "label": "Smithfield North",
+    "name": "SMITHFIELD NORTH"
+  },
+  {
+    "value": 30,
+    "label": "Parnell Square North",
+    "name": "PARNELL SQUARE NORTH"
+  },
+  {
+    "value": 54,
+    "label": "Clonmel Street",
+    "name": "CLONMEL STREET"
+  },
+  {
+    "value": 56,
+    "label": "Mount Street Lower",
+    "name": "MOUNT STREET LOWER"
+  },
+  {
+    "value": 6,
+    "label": "Christchurch Place",
+    "name": "CHRISTCHURCH PLACE"
+  },
+  {
+    "value": 18,
+    "label": "Grantham Street",
+    "name": "GRANTHAM STREET"
+  },
+  {
+    "value": 32,
+    "label": "Pearse Street",
+    "name": "PEARSE STREET"
+  },
+  {
+    "value": 52,
+    "label": "York Street East",
+    "name": "YORK STREET EAST"
+  },
+  {
+    "value": 48,
+    "label": "Excise Walk",
+    "name": "EXCISE WALK"
+  },
+  {
+    "value": 13,
+    "label": "Fitzwilliam Square West",
+    "name": "FITZWILLIAM SQUARE WEST"
+  },
+  {
+    "value": 43,
+    "label": "Portobello Road",
+    "name": "PORTOBELLO ROAD"
+  },
+  {
+    "value": 81,
+    "label": "St. James Hospital (Central)",
+    "name": "ST. JAMES HOSPITAL (CENTRAL)"
+  },
+  {
+    "value": 31,
+    "label": "Parnell Street",
+    "name": "PARNELL STREET"
+  },
+  {
+    "value": 98,
+    "label": "Frederick Street South",
+    "name": "FREDERICK STREET SOUTH"
+  },
+  {
+    "value": 14,
+    "label": "Fownes Street Upper",
+    "name": "FOWNES STREET UPPER"
+  },
+  {
+    "value": 1,
+    "label": "Clarendon Row",
+    "name": "CLARENDON ROW"
+  },
+  {
+    "value": 23,
+    "label": "Custom House",
+    "name": "CUSTOM HOUSE"
+  },
+  {
+    "value": 68,
+    "label": "Hanover Quay",
+    "name": "HANOVER QUAY"
+  },
+  {
+    "value": 74,
+    "label": "Oliver Bond Street",
+    "name": "OLIVER BOND STREET"
+  },
+  {
+    "value": 87,
+    "label": "Collins Barracks Museum",
+    "name": "COLLINS BARRACKS MUSEUM"
+  },
+  {
+    "value": 84,
+    "label": "Brookfield Road",
+    "name": "BROOKFIELD ROAD"
+  },
+  {
+    "value": 90,
+    "label": "Benson Street",
+    "name": "BENSON STREET"
+  },
+  {
+    "value": 11,
+    "label": "Earlsfort Terrace",
+    "name": "EARLSFORT TERRACE"
+  },
+  {
+    "value": 17,
+    "label": "Golden Lane",
+    "name": "GOLDEN LANE"
+  },
+  {
+    "value": 45,
+    "label": "Deverell Place",
+    "name": "DEVERELL PLACE"
+  },
+  {
+    "value": 72,
+    "label": "John Street West",
+    "name": "JOHN STREET WEST"
+  },
+  {
+    "value": 63,
+    "label": "Fenian Street",
+    "name": "FENIAN STREET"
+  },
+  {
+    "value": 91,
+    "label": "South Dock Road",
+    "name": "SOUTH DOCK ROAD"
+  },
+  {
+    "value": 99,
+    "label": "City Quay",
+    "name": "CITY QUAY"
+  },
+  {
+    "value": 9,
+    "label": "Exchequer Street",
+    "name": "EXCHEQUER STREET"
+  },
+  {
+    "value": 67,
+    "label": "The Point",
+    "name": "THE POINT"
+  },
+  {
+    "value": 55,
+    "label": "Hatch Street",
+    "name": "HATCH STREET"
+  },
+  {
+    "value": 62,
+    "label": "Lime Street",
+    "name": "LIME STREET"
+  },
+  {
+    "value": 5,
+    "label": "Charlemont Street",
+    "name": "CHARLEMONT PLACE"
+  },
+  {
+    "value": 97,
+    "label": "Kilmainham Gaol",
+    "name": "KILMAINHAM GAOL"
+  },
+  {
+    "value": 61,
+    "label": "Hardwicke Place",
+    "name": "HARDWICKE PLACE"
+  },
+  {
+    "value": 77,
+    "label": "Wolfe Tone Street",
+    "name": "WOLFE TONE STREET"
+  },
+  {
+    "value": 73,
+    "label": "Francis Street",
+    "name": "FRANCIS STREET"
+  },
+  {
+    "value": 4,
+    "label": "Greek Street",
+    "name": "GREEK STREET"
+  },
+  {
+    "value": 49,
+    "label": "Guild Street",
+    "name": "GUILD STREET"
+  },
+  {
+    "value": 19,
+    "label": "Herbert Place",
+    "name": "HERBERT PLACE"
+  },
+  {
+    "value": 7,
+    "label": "High Street",
+    "name": "HIGH STREET"
+  },
+  {
+    "value": 60,
+    "label": "North Circular Road",
+    "name": "NORTH CIRCULAR ROAD"
+  },
+  {
+    "value": 102,
+    "label": "Western Way",
+    "name": "WESTERN WAY"
+  },
+  {
+    "value": 38,
+    "label": "Talbot Street",
+    "name": "TALBOT STREET"
+  },
+  {
+    "value": 53,
+    "label": "Newman House",
+    "name": "NEWMAN HOUSE"
+  },
+  {
+    "value": 58,
+    "label": "Sir Patrick's Dun",
+    "name": "SIR PATRICK DUN'S"
+  },
+  {
+    "value": 66,
+    "label": "New Central Bank",
+    "name": "NEW CENTRAL BANK"
+  },
+  {
+    "value": 101,
+    "label": "King Street North",
+    "name": "KING STREET NORTH"
+  },
+  {
+    "value": 47,
+    "label": "Herbert Street",
+    "name": "HERBERT STREET"
+  },
+  {
+    "value": 8,
+    "label": "Custom House Quay",
+    "name": "CUSTOM HOUSE QUAY"
+  },
+  {
+    "value": 27,
+    "label": "Molesworth Street",
+    "name": "MOLESWORTH STREET"
+  },
+  {
+    "value": 16,
+    "label": "Georges Quay",
+    "name": "GEORGES QUAY"
+  },
+  {
+    "value": 96,
+    "label": "Kilmainham Lane",
+    "name": "KILMAINHAM LANE"
+  },
+  {
+    "value": 82,
+    "label": "Mount Brown",
+    "name": "MOUNT BROWN"
+  },
+  {
+    "value": 76,
+    "label": "Market Street South",
+    "name": "MARKET STREET SOUTH"
+  },
+  {
+    "value": 71,
+    "label": "Kevin Street",
+    "name": "KEVIN STREET"
+  },
+  {
+    "value": 79,
+    "label": "Eccles Street East",
+    "name": "ECCLES STREET EAST"
+  },
+  {
+    "value": 69,
+    "label": "Grand Canal Dock",
+    "name": "GRAND CANAL DOCK"
+  },
+  {
+    "value": 25,
+    "label": "Merrion Square East",
+    "name": "MERRION SQUARE EAST"
+  },
+  {
+    "value": 51,
+    "label": "York Street West",
+    "name": "YORK STREET WEST"
+  },
+  {
+    "value": 37,
+    "label": "St. Stephen's Green South",
+    "name": "ST. STEPHEN'S GREEN SOUTH"
+  },
+  {
+    "value": 59,
+    "label": "Denmark Street Great",
+    "name": "DENMARK STREET GREAT"
+  },
+  {
+    "value": 95,
+    "label": "Royal Hospital",
+    "name": "ROYAL HOSPITAL"
+  },
+  {
+    "value": 94,
+    "label": "Heuston Station (Car Park)",
+    "name": "HEUSTON STATION (CAR PARK)"
+  },
+  {
+    "value": 36,
+    "label": "St. Stephen's Green East",
+    "name": "ST. STEPHEN'S GREEN EAST"
+  },
+  {
+    "value": 93,
+    "label": "Heuston Station (Central)",
+    "name": "HEUSTON STATION (CENTRAL)"
+  },
+  {
+    "value": 22,
+    "label": "Townsend Street",
+    "name": "TOWNSEND STREET"
+  },
+  {
+    "value": 12,
+    "label": "Eccles Street",
+    "name": "ECCLES STREET"
+  },
+  {
+    "value": 34,
+    "label": "Portobello Harbour",
+    "name": "PORTOBELLO HARBOUR"
+  },
+  {
+    "value": 78,
+    "label": "Mater Hospital",
+    "name": "MATER HOSPITAL"
+  },
+  {
+    "value": 2,
+    "label": "Blessington Street",
+    "name": "BLESSINGTON STREET"
+  },
+  {
+    "value": 75,
+    "label": "James Street",
+    "name": "JAMES STREET"
+  },
+  {
+    "value": 26,
+    "label": "Merrion Square West",
+    "name": "MERRION SQUARE WEST"
+  },
+  {
+    "value": 65,
+    "label": "Convention Centre",
+    "name": "CONVENTION CENTRE"
+  },
+  {
+    "value": 15,
+    "label": "Hardwicke Street",
+    "name": "HARDWICKE STREET"
+  },
+  {
+    "value": 86,
+    "label": "Parkgate Street",
+    "name": "PARKGATE STREET"
+  },
+  {
+    "value": 35,
+    "label": "Smithfield",
+    "name": "SMITHFIELD"
+  },
+  {
+    "value": 10,
+    "label": "Dame Street",
+    "name": "DAME STREET"
+  },
+  {
+    "value": 100,
+    "label": "Heuston Bridge (South)",
+    "name": "HEUSTON BRIDGE (SOUTH)"
+  },
+  {
+    "value": 24,
+    "label": "Cathal Brugha Street",
+    "name": "CATHAL BRUGHA STREET"
+  },
+  {
+    "value": 64,
+    "label": "Sandwith Street",
+    "name": "SANDWITH STREET"
+  },
+  {
+    "value": 85,
+    "label": "Rothe Abbey",
+    "name": "ROTHE ABBEY"
+  },
+  {
+    "value": 33,
+    "label": "Princes Street / O'Connell Street",
+    "name": "PRINCES STREET / O'CONNELL STREET"
+  },
+  {
+    "value": 44,
+    "label": "Upper Sherrard Street",
+    "name": "UPPER SHERRARD STREET"
+  },
+  {
+    "value": 89,
+    "label": "Fitzwilliam Square East",
+    "name": "FITZWILLIAM SQUARE EAST"
+  },
+  {
+    "value": 57,
+    "label": "Grattan Street",
+    "name": "GRATTAN STREET"
+  },
+  {
+    "value": 80,
+    "label": "St James Hospital (Luas)",
+    "name": "ST JAMES HOSPITAL (LUAS)"
+  },
+  {
+    "value": 41,
+    "label": "Harcourt Terrace",
+    "name": "HARCOURT TERRACE"
+  },
+  {
+    "value": 3,
+    "label": "Bolton Street",
+    "name": "BOLTON STREET"
+  },
+  {
+    "value": 46,
+    "label": "Strand Street Great",
+    "name": "STRAND STREET GREAT"
+  },
+  {
+    "value": 40,
+    "label": "Jervis Street",
+    "name": "JERVIS STREET"
+  },
+  {
+    "value": 29,
+    "label": "Ormond Quay Upper",
+    "name": "ORMOND QUAY UPPER"
+  },
+  {
+    "value": 70,
+    "label": "Barrow Street",
+    "name": "BARROW STREET"
+  },
+  {
+    "value": 28,
+    "label": "Mountjoy Square West",
+    "name": "MOUNTJOY SQUARE WEST"
+  },
+  {
+    "value": 39,
+    "label": "Wilton Terrace",
+    "name": "WILTON TERRACE"
+  },
+  {
+    "value": 83,
+    "label": "Emmet Road",
+    "name": "EMMET ROAD"
+  },
+  {
+    "value": 92,
+    "label": "Heuston Bridge (North)",
+    "name": "HEUSTON BRIDGE (NORTH)"
+  },
+  {
+    "value": 21,
+    "label": "Leinster Street South",
+    "name": "LEINSTER STREET SOUTH"
+  },
+  {
+    "value": 88,
+    "label": "Blackhall Place",
+    "name": "BLACKHALL PLACE"
+  }
+]

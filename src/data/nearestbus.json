@@ -1,25 +1,23 @@
 [
   {
     "stationnumber": 42,
-    "distance": 272,
+    "distance": 229,
     "businfo": {
-      "stopid": "1714",
-      "displaystopid": "1714",
-      "shortname": "Stoneybatter",
-      "shortnamelocalized": "Bóthar na gCloch",
-      "fullname": "Stoneybatter",
+      "stopid": "1617",
+      "displaystopid": "1617",
+      "shortname": "Church Street",
+      "shortnamelocalized": "Bóthar an Teampaill",
+      "fullname": "Church Street",
       "fullnamelocalized": "",
-      "latitude": "53.35063611",
-      "longitude": "-6.281871944",
+      "latitude": "53.34917111",
+      "longitude": "-6.27482",
       "lastupdated": "07/03/2018 10:34:23",
       "operators": [
         {
           "name": "bac",
           "routes": [
-            "39",
-            "39A",
-            "70",
-            "37"
+            "83",
+            "83A"
           ]
         }
       ]
@@ -27,22 +25,24 @@
   },
   {
     "stationnumber": 30,
-    "distance": 22,
+    "distance": 10,
     "businfo": {
-      "stopid": "8",
-      "displaystopid": "8",
+      "stopid": "10",
+      "displaystopid": "10",
       "shortname": "Parnell Square",
       "shortnamelocalized": "Cearnóg Parnell",
       "fullname": "Parnell Square",
       "fullnamelocalized": "",
-      "latitude": "53.35328111",
-      "longitude": "-6.265155",
+      "latitude": "53.35338694",
+      "longitude": "-6.265383889",
       "lastupdated": "07/03/2018 10:34:23",
       "operators": [
         {
           "name": "bac",
           "routes": [
-            "16"
+            "1",
+            "11",
+            "44"
           ]
         }
       ]
@@ -50,36 +50,39 @@
   },
   {
     "stationnumber": 54,
-    "distance": 231,
+    "distance": 162,
     "businfo": {
-      "stopid": "1285",
-      "displaystopid": "1285",
-      "shortname": "Camden St",
+      "stopid": "1353",
+      "displaystopid": "1353",
+      "shortname": "Camden Street",
       "shortnamelocalized": "Sráid Camden",
-      "fullname": "Camden St",
+      "fullname": "Camden Street",
       "fullnamelocalized": "",
-      "latitude": "53.33440194",
-      "longitude": "-6.265153889",
+      "latitude": "53.33601",
+      "longitude": "-6.265415",
       "lastupdated": "07/03/2018 10:34:23",
       "operators": [
         {
           "name": "bac",
           "routes": [
-            "122",
-            "14",
-            "15A",
-            "15",
-            "140",
-            "9",
-            "83A",
-            "83",
-            "16",
-            "15D",
-            "15B",
+            "65B",
+            "65",
             "68A",
             "68",
-            "65B",
-            "65"
+            "16",
+            "16C",
+            "15D",
+            "15B",
+            "83",
+            "83A",
+            "9",
+            "122",
+            "14",
+            "140",
+            "142",
+            "15",
+            "14C",
+            "15A"
           ]
         }
       ]
@@ -87,1184 +90,7 @@
   },
   {
     "stationnumber": 56,
-    "distance": 23,
-    "businfo": {
-      "stopid": "411",
-      "displaystopid": "411",
-      "shortname": "Mount St",
-      "shortnamelocalized": "Sráid an Mhóta",
-      "fullname": "Mount St",
-      "fullnamelocalized": "",
-      "latitude": "53.33811306",
-      "longitude": "-6.241758889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "120",
-            "7",
-            "7A",
-            "4",
-            "27X"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 6,
-    "distance": 105,
-    "businfo": {
-      "stopid": "2310",
-      "displaystopid": "2310",
-      "shortname": "Werburgh Street",
-      "shortnamelocalized": "Sráid San Werburgh",
-      "fullname": "Werburgh Street",
-      "fullnamelocalized": "",
-      "latitude": "53.34244806",
-      "longitude": "-6.269795",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "27",
-            "56A",
-            "77A",
-            "151",
-            "150"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 18,
-    "distance": 36,
-    "businfo": {
-      "stopid": "1285",
-      "displaystopid": "1285",
-      "shortname": "Camden St",
-      "shortnamelocalized": "Sráid Camden",
-      "fullname": "Camden St",
-      "fullnamelocalized": "",
-      "latitude": "53.33440194",
-      "longitude": "-6.265153889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "122",
-            "14",
-            "15A",
-            "15",
-            "140",
-            "9",
-            "83A",
-            "83",
-            "16",
-            "15D",
-            "15B",
-            "68A",
-            "68",
-            "65B",
-            "65"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 32,
-    "distance": 86,
-    "businfo": {
-      "stopid": "100111",
-      "displaystopid": "100111",
-      "shortname": "Dublin (Westland Ro",
-      "shortnamelocalized": "",
-      "fullname": "Dublin (Westland Row Opp Rail Stn)",
-      "fullnamelocalized": "",
-      "latitude": "53.34373389",
-      "longitude": "-6.24956",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "BE",
-          "routes": [
-            "NX",
-            "111X",
-            "101X"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 52,
-    "distance": 241,
-    "businfo": {
-      "stopid": "790",
-      "displaystopid": "790",
-      "shortname": "St. Stephen's Green",
-      "shortnamelocalized": "Faiche Stiabhna",
-      "fullname": "St. Stephen's Green",
-      "fullnamelocalized": "",
-      "latitude": "53.33939194",
-      "longitude": "-6.258545",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "41X",
-            "32X"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 48,
-    "distance": 91,
-    "businfo": {
-      "stopid": "7216",
-      "displaystopid": "7216",
-      "shortname": "North Wall Quay",
-      "shortnamelocalized": "Cé an Phoirt Tdh",
-      "fullname": "North Wall Quay",
-      "fullnamelocalized": "",
-      "latitude": "53.34779",
-      "longitude": "-6.242868889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "15B",
-            "15D",
-            "757",
-            "747",
-            "15A"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 13,
-    "distance": 161,
-    "businfo": {
-      "stopid": "136151",
-      "displaystopid": "136151",
-      "shortname": "Dublin",
-      "shortnamelocalized": "Baile Átha Cliath",
-      "fullname": "Dublin (Lower Pembroke St)",
-      "fullnamelocalized": "",
-      "latitude": "53.33735333",
-      "longitude": "-6.251698611",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "BE",
-          "routes": [
-            "100X"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 43,
-    "distance": 261,
-    "businfo": {
-      "stopid": "1017",
-      "displaystopid": "1017",
-      "shortname": "Rathmines Road",
-      "shortnamelocalized": "Bóthar Ráth Maonais",
-      "fullname": "Rathmines Road",
-      "fullnamelocalized": "",
-      "latitude": "53.32936611",
-      "longitude": "-6.264316111",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "83A",
-            "83",
-            "14",
-            "15A",
-            "15",
-            "140",
-            "142",
-            "15B",
-            "15D",
-            "65B",
-            "65"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 81,
-    "distance": 107,
-    "businfo": {
-      "stopid": "4514",
-      "displaystopid": "4514",
-      "shortname": "St. James's Hospita",
-      "shortnamelocalized": "Ospidéal San Séamas",
-      "fullname": "St. James's Hospital",
-      "fullnamelocalized": "",
-      "latitude": "53.33996389",
-      "longitude": "-6.297195",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "123"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 31,
-    "distance": 174,
-    "businfo": {
-      "stopid": "2",
-      "displaystopid": "2",
-      "shortname": "Parnell Square",
-      "shortnamelocalized": "Cearnóg Parnell",
-      "fullname": "Parnell Square",
-      "fullnamelocalized": "",
-      "latitude": "53.35224111",
-      "longitude": "-6.263695",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "38D",
-            "38B",
-            "46A",
-            "46E",
-            "38",
-            "38A"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 98,
-    "distance": 129,
-    "businfo": {
-      "stopid": "406",
-      "displaystopid": "406",
-      "shortname": "Nassau Street",
-      "shortnamelocalized": "Sráid Nassau",
-      "fullname": "Nassau Street",
-      "fullnamelocalized": "",
-      "latitude": "53.34258111",
-      "longitude": "-6.256093056",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "46A",
-            "7B",
-            "7D",
-            "145",
-            "25",
-            "25A",
-            "25D",
-            "25B",
-            "26",
-            "67",
-            "66B",
-            "66",
-            "66A"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 14,
-    "distance": 49,
-    "businfo": {
-      "stopid": "7581",
-      "displaystopid": "7581",
-      "shortname": "Dame Street",
-      "shortnamelocalized": "Sráid an Dáma",
-      "fullname": "Dame Street",
-      "fullnamelocalized": "",
-      "latitude": "53.34416111",
-      "longitude": "-6.263345",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "140",
-            "14",
-            "15",
-            "15B",
-            "15A",
-            "15D"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 1,
-    "distance": 206,
-    "businfo": {
-      "stopid": "1282",
-      "displaystopid": "1282",
-      "shortname": "George's St",
-      "shortnamelocalized": "Sr Sheoirse",
-      "fullname": "George's St",
-      "fullnamelocalized": "",
-      "latitude": "53.34234389",
-      "longitude": "-6.264485",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "68A",
-            "68",
-            "16",
-            "9",
-            "122"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 23,
-    "distance": 56,
-    "businfo": {
-      "stopid": "135031",
-      "displaystopid": "135031",
-      "shortname": "Dublin",
-      "shortnamelocalized": "Baile Átha Cliath",
-      "fullname": "Dublin (Beresford Place)",
-      "fullnamelocalized": "",
-      "latitude": "53.348755",
-      "longitude": "-6.254941389",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "BE",
-          "routes": [
-            "NX",
-            "111X",
-            "101X",
-            "103X",
-            "103"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 68,
-    "distance": 234,
-    "businfo": {
-      "stopid": "353",
-      "displaystopid": "353",
-      "shortname": "Pearse Street",
-      "shortnamelocalized": "Sráid an Phiarsaigh",
-      "fullname": "Pearse Street",
-      "fullnamelocalized": "",
-      "latitude": "53.342615",
-      "longitude": "-6.239613889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "1",
-            "15A",
-            "47",
-            "77A",
-            "56A",
-            "15B",
-            "15D"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 74,
-    "distance": 100,
-    "businfo": {
-      "stopid": "1939",
-      "displaystopid": "1939",
-      "shortname": "Thomas Street",
-      "shortnamelocalized": "Sráid Thomáis",
-      "fullname": "Thomas Street",
-      "fullnamelocalized": "",
-      "latitude": "53.34299694",
-      "longitude": "-6.280656111",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "40",
-            "13",
-            "123"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 87,
-    "distance": 107,
-    "businfo": {
-      "stopid": "LUAS17",
-      "displaystopid": "LUAS Museum",
-      "shortname": "",
-      "shortnamelocalized": "",
-      "fullname": "LUAS Museum",
-      "fullnamelocalized": "",
-      "latitude": "53.34786667",
-      "longitude": "-6.286713889",
-      "lastupdated": "07/03/2018 10:34:27",
-      "operators": [
-        {
-          "name": "LUAS",
-          "routes": [
-            "Red"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 84,
-    "distance": 135,
-    "businfo": {
-      "stopid": "1369",
-      "displaystopid": "1369",
-      "shortname": "South Circular Road",
-      "shortnamelocalized": "An Cuarbhóthar Ths",
-      "fullname": "South Circular Road",
-      "fullnamelocalized": "",
-      "latitude": "53.33886694",
-      "longitude": "-6.302235",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "123",
-            "68",
-            "68A"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 90,
-    "distance": 277,
-    "businfo": {
-      "stopid": "395",
-      "displaystopid": "395",
-      "shortname": "Ringsend Road",
-      "shortnamelocalized": "Bóthar na Rinne",
-      "fullname": "Ringsend Road",
-      "fullnamelocalized": "",
-      "latitude": "53.34195694",
-      "longitude": "-6.235421944",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "1",
-            "15A",
-            "47",
-            "77A",
-            "15B",
-            "15D",
-            "27",
-            "56A"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 11,
-    "distance": 177,
-    "businfo": {
-      "stopid": "105721",
-      "displaystopid": "105721",
-      "shortname": "Dublin (Earlsfort T",
-      "shortnamelocalized": "",
-      "fullname": "Dublin (Earlsfort Terrace Eastbound)",
-      "fullnamelocalized": "",
-      "latitude": "53.33554333",
-      "longitude": "-6.257638889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "BE",
-          "routes": [
-            "126"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 17,
-    "distance": 168,
-    "businfo": {
-      "stopid": "4456",
-      "displaystopid": "4456",
-      "shortname": "Aungier Street",
-      "shortnamelocalized": "Sráid Aungier",
-      "fullname": "Aungier Street",
-      "fullnamelocalized": "",
-      "latitude": "53.33991194",
-      "longitude": "-6.265693056",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "9",
-            "83A",
-            "83",
-            "122",
-            "16",
-            "65",
-            "65B",
-            "68",
-            "68A"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 45,
-    "distance": 34,
-    "businfo": {
-      "stopid": "7402",
-      "displaystopid": "7402",
-      "shortname": "Gardiner Street",
-      "shortnamelocalized": "Sráid Ghairdinéir",
-      "fullname": "Gardiner Street",
-      "fullnamelocalized": "",
-      "latitude": "53.35137694",
-      "longitude": "-6.254771944",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "747"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 72,
-    "distance": 40,
-    "businfo": {
-      "stopid": "1999",
-      "displaystopid": "1999",
-      "shortname": "Thomas Street",
-      "shortnamelocalized": "Sráid Thomáis ",
-      "fullname": "Thomas Street",
-      "fullnamelocalized": "",
-      "latitude": "53.34312",
-      "longitude": "-6.276573889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "40",
-            "13",
-            "123"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 63,
-    "distance": 157,
-    "businfo": {
-      "stopid": "409",
-      "displaystopid": "409",
-      "shortname": "Merrion Sq",
-      "shortnamelocalized": "Cearnóg Mhuirfean",
-      "fullname": "Merrion Sq",
-      "fullnamelocalized": "",
-      "latitude": "53.34013611",
-      "longitude": "-6.247656111",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "27X",
-            "120",
-            "7",
-            "7A",
-            "4"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 91,
-    "distance": 258,
-    "businfo": {
-      "stopid": "392",
-      "displaystopid": "392",
-      "shortname": "Bridge Street",
-      "shortnamelocalized": "Sráid an Droichid",
-      "fullname": "Bridge Street",
-      "fullnamelocalized": "",
-      "latitude": "53.34174611",
-      "longitude": "-6.227426944",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "1",
-            "47"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 99,
-    "distance": 157,
-    "businfo": {
-      "stopid": "123531",
-      "displaystopid": "123531",
-      "shortname": "Dublin (Opp IFSC)",
-      "shortnamelocalized": "",
-      "fullname": "Dublin (Opp IFSC)",
-      "fullnamelocalized": "",
-      "latitude": "53.34791333",
-      "longitude": "-6.247148333",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "BE",
-          "routes": [
-            "100X"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 9,
-    "distance": 93,
-    "businfo": {
-      "stopid": "7578",
-      "displaystopid": "7578",
-      "shortname": "George's Street",
-      "shortnamelocalized": "Sr Sheoirse",
-      "fullname": "George's Street",
-      "fullnamelocalized": "",
-      "latitude": "53.34246",
-      "longitude": "-6.264601111",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "140",
-            "142",
-            "14",
-            "14C",
-            "15",
-            "15B",
-            "15A",
-            "15D"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 67,
-    "distance": 135,
-    "businfo": {
-      "stopid": "106421",
-      "displaystopid": "106421",
-      "shortname": "Dublin",
-      "shortnamelocalized": "Baile Átha Cliath",
-      "fullname": "Dublin (North Wall Quay 3Arena)",
-      "fullnamelocalized": "",
-      "latitude": "53.34685861",
-      "longitude": "-6.228829722",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "BE",
-          "routes": [
-            "100X",
-            "101X",
-            "109A",
-            "23",
-            "22"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 55,
-    "distance": 154,
-    "businfo": {
-      "stopid": "1015",
-      "displaystopid": "1015",
-      "shortname": "Adelaide Road",
-      "shortnamelocalized": "Bóthar Adelaide",
-      "fullname": "Adelaide Road",
-      "fullnamelocalized": "",
-      "latitude": "53.33272806",
-      "longitude": "-6.259941111",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "757",
-            "44",
-            "142",
-            "61"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 62,
-    "distance": 202,
-    "businfo": {
-      "stopid": "7216",
-      "displaystopid": "7216",
-      "shortname": "North Wall Quay",
-      "shortnamelocalized": "Cé an Phoirt Tdh",
-      "fullname": "North Wall Quay",
-      "fullnamelocalized": "",
-      "latitude": "53.34779",
-      "longitude": "-6.242868889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "15B",
-            "15D",
-            "757",
-            "747",
-            "15A"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 5,
-    "distance": 196,
-    "businfo": {
-      "stopid": "2812",
-      "displaystopid": "2812",
-      "shortname": "Charlemont Street",
-      "shortnamelocalized": "Sráid Charlemont",
-      "fullname": "Charlemont Street",
-      "fullnamelocalized": "",
-      "latitude": "53.33192611",
-      "longitude": "-6.262218056",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "44",
-            "61"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 97,
-    "distance": 133,
-    "businfo": {
-      "stopid": "2721",
-      "displaystopid": "2721",
-      "shortname": "Con Colbert Rd",
-      "shortnamelocalized": "Br Choinn Colbaird",
-      "fullname": "Con Colbert Rd",
-      "fullnamelocalized": "",
-      "latitude": "53.34327306",
-      "longitude": "-6.310488056",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "66X",
-            "67X",
-            "25B",
-            "25D",
-            "25A",
-            "25X",
-            "51D",
-            "79A"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 61,
-    "distance": 86,
-    "businfo": {
-      "stopid": "51",
-      "displaystopid": "51",
-      "shortname": "Dorset St",
-      "shortnamelocalized": "Sráid Dorset",
-      "fullname": "Dorset St",
-      "fullnamelocalized": "",
-      "latitude": "53.35781611",
-      "longitude": "-6.263266111",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "11",
-            "1",
-            "122",
-            "40B",
-            "40",
-            "41B",
-            "41C",
-            "41A",
-            "40D",
-            "41",
-            "44",
-            "13",
-            "33",
-            "16C",
-            "16"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 77,
-    "distance": 304,
-    "businfo": {
-      "stopid": "LUAS66",
-      "displaystopid": "LUAS Dominick",
-      "shortname": "",
-      "shortnamelocalized": "",
-      "fullname": "LUAS Dominick",
-      "fullnamelocalized": "",
-      "latitude": "53.3513492",
-      "longitude": "-6.26554234",
-      "lastupdated": "07/03/2018 10:34:27",
-      "operators": [
-        {
-          "name": "LUAS",
-          "routes": [
-            "Green"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 73,
-    "distance": 146,
-    "businfo": {
-      "stopid": "1999",
-      "displaystopid": "1999",
-      "shortname": "Thomas Street",
-      "shortnamelocalized": "Sráid Thomáis ",
-      "fullname": "Thomas Street",
-      "fullnamelocalized": "",
-      "latitude": "53.34312",
-      "longitude": "-6.276573889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "40",
-            "13",
-            "123"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 4,
-    "distance": 136,
-    "businfo": {
-      "stopid": "1478",
-      "displaystopid": "1478",
-      "shortname": "Inns Quay",
-      "shortnamelocalized": "Cé na nÓstaí",
-      "fullname": "Inns Quay",
-      "fullnamelocalized": "",
-      "latitude": "53.34564806",
-      "longitude": "-6.272935",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "51D",
-            "39",
-            "39A",
-            "39X",
-            "83",
-            "83A",
-            "70",
-            "145",
-            "67X",
-            "67",
-            "66",
-            "51X",
-            "66A",
-            "66X",
-            "66B",
-            "25D",
-            "25B",
-            "25A",
-            "25",
-            "25X",
-            "26",
-            "37"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 49,
-    "distance": 94,
-    "businfo": {
-      "stopid": "123511",
-      "displaystopid": "123511",
-      "shortname": "Dublin (Opp Convent",
-      "shortnamelocalized": "",
-      "fullname": "Dublin (Opp Convention Centre)",
-      "fullnamelocalized": "",
-      "latitude": "53.34753333",
-      "longitude": "-6.239678611",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "BE",
-          "routes": [
-            "100X",
-            "101X",
-            "109A"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 19,
-    "distance": 114,
-    "businfo": {
-      "stopid": "752",
-      "displaystopid": "752",
-      "shortname": "Baggot St",
-      "shortnamelocalized": "Sr Bhagóid",
-      "fullname": "Baggot St",
-      "fullnamelocalized": "",
-      "latitude": "53.33366889",
-      "longitude": "-6.24444",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "38",
-            "66X",
-            "67X",
-            "51X",
-            "51D",
-            "25X",
-            "38D",
-            "38B",
-            "39X",
-            "39A",
-            "39",
-            "38A",
-            "70",
-            "77X"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 7,
-    "distance": 112,
-    "businfo": {
-      "stopid": "1999",
-      "displaystopid": "1999",
-      "shortname": "Thomas Street",
-      "shortnamelocalized": "Sráid Thomáis ",
-      "fullname": "Thomas Street",
-      "fullnamelocalized": "",
-      "latitude": "53.34312",
-      "longitude": "-6.276573889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "40",
-            "13",
-            "123"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 60,
-    "distance": 78,
-    "businfo": {
-      "stopid": "142691",
-      "displaystopid": "142691",
-      "shortname": "Dublin (Lwr Dorset",
-      "shortnamelocalized": "",
-      "fullname": "Dublin (Lwr Dorset St DB Stop 15)",
-      "fullnamelocalized": "",
-      "latitude": "53.36018528",
-      "longitude": "-6.261046667",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "BE",
-          "routes": [
-            "109X",
-            "NX",
-            "103",
-            "111X"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 102,
-    "distance": 38,
-    "businfo": {
-      "stopid": "194",
-      "displaystopid": "194",
-      "shortname": "Western Way",
-      "shortnamelocalized": "An Bealach Siar",
-      "fullname": "Western Way",
-      "fullnamelocalized": "",
-      "latitude": "53.35503889",
-      "longitude": "-6.26997",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "9",
-            "4",
-            "140"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 38,
-    "distance": 42,
-    "businfo": {
-      "stopid": "4380",
-      "displaystopid": "4380",
-      "shortname": "Talbot Street",
-      "shortnamelocalized": "Sráid Thalbóid",
-      "fullname": "Talbot Street",
-      "fullnamelocalized": "",
-      "latitude": "53.350845",
-      "longitude": "-6.253531111",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "53"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 53,
-    "distance": 247,
-    "businfo": {
-      "stopid": "6074",
-      "displaystopid": "6074",
-      "shortname": "Earlsfort Tce",
-      "shortnamelocalized": "Ardn Phort an Iarla",
-      "fullname": "Earlsfort Tce",
-      "fullnamelocalized": "",
-      "latitude": "53.33589306",
-      "longitude": "-6.25752",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "61",
-            "44",
-            "757"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 58,
-    "distance": 163,
+    "distance": 22,
     "businfo": {
       "stopid": "491",
       "displaystopid": "491",
@@ -1291,22 +117,147 @@
     }
   },
   {
-    "stationnumber": 66,
-    "distance": 113,
+    "stationnumber": 6,
+    "distance": 65,
     "businfo": {
-      "stopid": "7611",
-      "displaystopid": "7611",
-      "shortname": "North Wall Quay",
-      "shortnamelocalized": "Ionad Comhdhála",
-      "fullname": "North Wall Quay",
+      "stopid": "2002",
+      "displaystopid": "2002",
+      "shortname": "Lord Edward St",
+      "shortnamelocalized": "Sr an Tiarna Éadbha",
+      "fullname": "Lord Edward St",
       "fullnamelocalized": "",
-      "latitude": "53.347215",
-      "longitude": "-6.236435",
+      "latitude": "53.343775",
+      "longitude": "-6.269413889",
       "lastupdated": "07/03/2018 10:34:23",
       "operators": [
         {
           "name": "bac",
           "routes": [
+            "747",
+            "77A",
+            "77X",
+            "40",
+            "49",
+            "13",
+            "123",
+            "68X",
+            "27"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 18,
+    "distance": 36,
+    "businfo": {
+      "stopid": "1352",
+      "displaystopid": "1352",
+      "shortname": "Camden Street",
+      "shortnamelocalized": "Sráid Camden",
+      "fullname": "Camden Street",
+      "fullnamelocalized": "",
+      "latitude": "53.334445",
+      "longitude": "-6.265386944",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "122",
+            "9",
+            "83A",
+            "83",
+            "16C",
+            "16",
+            "68",
+            "68A",
+            "65",
+            "65B"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 32,
+    "distance": 85,
+    "businfo": {
+      "stopid": "7587",
+      "displaystopid": "7587",
+      "shortname": "Pearse Street",
+      "shortnamelocalized": "Sráid an Phiarsaigh",
+      "fullname": "Pearse Street",
+      "fullnamelocalized": "",
+      "latitude": "53.34453611",
+      "longitude": "-6.251646111",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "116",
+            "118",
+            "145",
+            "70",
+            "7B",
+            "84X",
+            "7D",
+            "39X",
+            "39",
+            "39A",
+            "41X",
+            "37",
+            "32X",
+            "67X",
+            "66X",
+            "25X"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 52,
+    "distance": 57,
+    "businfo": {
+      "stopid": "LUAS24",
+      "displaystopid": "LUAS St. Stephen's Green",
+      "shortname": "",
+      "shortnamelocalized": "",
+      "fullname": "LUAS St. Stephen's Green",
+      "fullnamelocalized": "",
+      "latitude": "53.33907222",
+      "longitude": "-6.261333333",
+      "lastupdated": "07/03/2018 10:34:27",
+      "operators": [
+        {
+          "name": "LUAS",
+          "routes": [
+            "Green"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 48,
+    "distance": 70,
+    "businfo": {
+      "stopid": "7397",
+      "displaystopid": "7397",
+      "shortname": "North Wall Quay",
+      "shortnamelocalized": "Cé an Phoirt Tdh",
+      "fullname": "North Wall Quay",
+      "fullnamelocalized": "",
+      "latitude": "53.34757194",
+      "longitude": "-6.243238056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "142",
             "757",
             "747"
           ]
@@ -1315,41 +266,17 @@
     }
   },
   {
-    "stationnumber": 101,
-    "distance": 109,
+    "stationnumber": 13,
+    "distance": 135,
     "businfo": {
-      "stopid": "1614",
-      "displaystopid": "1614",
-      "shortname": "Constitution Hill",
-      "shortnamelocalized": "Cn an Bhunreachta",
-      "fullname": "Constitution Hill",
+      "stopid": "785",
+      "displaystopid": "785",
+      "shortname": "Pembroke St",
+      "shortnamelocalized": "Sr Pheambróg",
+      "fullname": "Pembroke St",
       "fullnamelocalized": "",
-      "latitude": "53.35125806",
-      "longitude": "-6.273745",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "83A",
-            "83"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 47,
-    "distance": 108,
-    "businfo": {
-      "stopid": "783",
-      "displaystopid": "783",
-      "shortname": "Baggot St",
-      "shortnamelocalized": "Sr Bhagóid",
-      "fullname": "Baggot St",
-      "fullnamelocalized": "",
-      "latitude": "53.33531194",
-      "longitude": "-6.246965",
+      "latitude": "53.33709694",
+      "longitude": "-6.251733889",
       "lastupdated": "07/03/2018 10:34:23",
       "operators": [
         {
@@ -1373,157 +300,56 @@
     }
   },
   {
-    "stationnumber": 8,
-    "distance": 60,
+    "stationnumber": 43,
+    "distance": 254,
     "businfo": {
-      "stopid": "123531",
-      "displaystopid": "123531",
-      "shortname": "Dublin (Opp IFSC)",
-      "shortnamelocalized": "",
-      "fullname": "Dublin (Opp IFSC)",
+      "stopid": "1072",
+      "displaystopid": "1072",
+      "shortname": "Richmond Street",
+      "shortnamelocalized": "Sráid Richmond",
+      "fullname": "Richmond Street",
       "fullnamelocalized": "",
-      "latitude": "53.34791333",
-      "longitude": "-6.247148333",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "BE",
-          "routes": [
-            "100X"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 27,
-    "distance": 130,
-    "businfo": {
-      "stopid": "793",
-      "displaystopid": "793",
-      "shortname": "Dawson Street",
-      "shortnamelocalized": "Sráid Dhásain",
-      "fullname": "Dawson Street",
-      "fullnamelocalized": "",
-      "latitude": "53.34016389",
-      "longitude": "-6.258661111",
+      "latitude": "53.33103611",
+      "longitude": "-6.264575",
       "lastupdated": "07/03/2018 10:34:23",
       "operators": [
         {
           "name": "bac",
           "routes": [
-            "11",
-            "38A",
-            "70",
-            "44",
-            "39",
-            "38D",
-            "38B",
-            "39A",
-            "39X",
-            "61",
-            "38",
-            "37"
+            "65B",
+            "65",
+            "15D",
+            "15B",
+            "83",
+            "83A",
+            "14",
+            "15A",
+            "15",
+            "14C",
+            "140",
+            "142"
           ]
         }
       ]
     }
   },
   {
-    "stationnumber": 16,
-    "distance": 134,
+    "stationnumber": 81,
+    "distance": 84,
     "businfo": {
-      "stopid": "135271",
-      "displaystopid": "135271",
-      "shortname": "Custom House Quay",
-      "shortnamelocalized": "Cé Theach an Chust.",
-      "fullname": "Dublin (Custom House Quay)",
+      "stopid": "4516",
+      "displaystopid": "4516",
+      "shortname": "St. James's Hospita",
+      "shortnamelocalized": "Ospidéal San Séamas",
+      "fullname": "St. James's Hospital",
       "fullnamelocalized": "",
-      "latitude": "53.34829333",
-      "longitude": "-6.253708611",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "BE",
-          "routes": [
-            "133",
-            "2",
-            "105X",
-            "100X",
-            "X2",
-            "X12"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 96,
-    "distance": 161,
-    "businfo": {
-      "stopid": "1944",
-      "displaystopid": "1944",
-      "shortname": "Old Kilmainham",
-      "shortnamelocalized": "Sean-Chill Mhaighne",
-      "fullname": "Old Kilmainham",
-      "fullnamelocalized": "",
-      "latitude": "53.34067111",
-      "longitude": "-6.303595",
+      "latitude": "53.339945",
+      "longitude": "-6.296855",
       "lastupdated": "07/03/2018 10:34:23",
       "operators": [
         {
           "name": "bac",
           "routes": [
-            "13",
-            "40"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 82,
-    "distance": 147,
-    "businfo": {
-      "stopid": "1994",
-      "displaystopid": "1994",
-      "shortname": "Mount Brown",
-      "shortnamelocalized": "Cnocán an Bhrúnaigh",
-      "fullname": "Mount Brown",
-      "fullnamelocalized": "",
-      "latitude": "53.34142111",
-      "longitude": "-6.299366111",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "13",
-            "40"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 76,
-    "distance": 154,
-    "businfo": {
-      "stopid": "1941",
-      "displaystopid": "1941",
-      "shortname": "James Street",
-      "shortnamelocalized": "Sráid San Séamas",
-      "fullname": "James Street",
-      "fullnamelocalized": "",
-      "latitude": "53.34334694",
-      "longitude": "-6.289163889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "40",
-            "13",
             "123"
           ]
         }
@@ -1531,91 +357,172 @@
     }
   },
   {
-    "stationnumber": 71,
-    "distance": 131,
+    "stationnumber": 31,
+    "distance": 54,
     "businfo": {
-      "stopid": "7579",
-      "displaystopid": "7579",
-      "shortname": "Redmond's Hill",
-      "shortnamelocalized": "Cnoc Réamainn",
-      "fullname": "Redmond's Hill",
+      "stopid": "LUAS66",
+      "displaystopid": "LUAS Dominick",
+      "shortname": "",
+      "shortnamelocalized": "",
+      "fullname": "LUAS Dominick",
       "fullnamelocalized": "",
-      "latitude": "53.33824306",
-      "longitude": "-6.265916111",
-      "lastupdated": "07/03/2018 10:34:23",
+      "latitude": "53.3513492",
+      "longitude": "-6.26554234",
+      "lastupdated": "07/03/2018 10:34:27",
       "operators": [
         {
-          "name": "bac",
+          "name": "LUAS",
           "routes": [
-            "15D",
-            "15A",
-            "15B",
-            "15",
-            "14",
-            "140"
+            "Green"
           ]
         }
       ]
     }
   },
   {
-    "stationnumber": 79,
-    "distance": 159,
+    "stationnumber": 98,
+    "distance": 104,
     "businfo": {
-      "stopid": "51",
-      "displaystopid": "51",
-      "shortname": "Dorset St",
-      "shortnamelocalized": "Sráid Dorset",
-      "fullname": "Dorset St",
+      "stopid": "LUAS59",
+      "displaystopid": "LUAS Dawson",
+      "shortname": "",
+      "shortnamelocalized": "",
+      "fullname": "LUAS Dawson",
       "fullnamelocalized": "",
-      "latitude": "53.35781611",
-      "longitude": "-6.263266111",
-      "lastupdated": "07/03/2018 10:34:23",
+      "latitude": "53.34216927",
+      "longitude": "-6.25796366",
+      "lastupdated": "07/03/2018 10:34:27",
       "operators": [
         {
-          "name": "bac",
+          "name": "LUAS",
           "routes": [
-            "11",
-            "1",
-            "122",
-            "40B",
-            "40",
-            "41B",
-            "41C",
-            "41A",
-            "40D",
-            "41",
-            "44",
-            "13",
-            "33",
-            "16C",
-            "16"
+            "Green"
           ]
         }
       ]
     }
   },
   {
-    "stationnumber": 69,
-    "distance": 70,
+    "stationnumber": 14,
+    "distance": 47,
     "businfo": {
-      "stopid": "396",
-      "displaystopid": "396",
-      "shortname": "Pearse Street",
-      "shortnamelocalized": "Sráid an Phiarsaigh",
-      "fullname": "Pearse Street",
+      "stopid": "1358",
+      "displaystopid": "1358",
+      "shortname": "Dame Street",
+      "shortnamelocalized": "Sráid an Dáma",
+      "fullname": "Dame Street",
       "fullnamelocalized": "",
-      "latitude": "53.34246611",
-      "longitude": "-6.239713056",
+      "latitude": "53.34430611",
+      "longitude": "-6.262861111",
       "lastupdated": "07/03/2018 10:34:23",
       "operators": [
         {
           "name": "bac",
           "routes": [
-            "56A",
             "27",
+            "68",
+            "68A",
+            "68X",
+            "69",
+            "65",
+            "65B",
+            "54A",
+            "56A",
+            "150",
+            "79A",
+            "69X",
+            "79",
+            "77X",
+            "77A",
+            "49",
+            "40"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 1,
+    "distance": 189,
+    "businfo": {
+      "stopid": "1283",
+      "displaystopid": "1283",
+      "shortname": "George's St",
+      "shortnamelocalized": "Sr Sheoirse",
+      "fullname": "George's St",
+      "fullnamelocalized": "",
+      "latitude": "53.34180611",
+      "longitude": "-6.264921111",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "14",
+            "140",
+            "15",
+            "15A",
+            "83A",
+            "83",
             "15D",
             "15B",
+            "65B",
+            "65"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 23,
+    "distance": 54,
+    "businfo": {
+      "stopid": "407",
+      "displaystopid": "407",
+      "shortname": "Custom House Quay",
+      "shortnamelocalized": "Cé Theach an Chusta",
+      "fullname": "Custom House Quay",
+      "fullnamelocalized": "",
+      "latitude": "53.34833306",
+      "longitude": "-6.253853056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "15B",
+            "15D",
+            "33D",
+            "33X",
+            "15A",
+            "151",
+            "142",
+            "41X"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 68,
+    "distance": 216,
+    "businfo": {
+      "stopid": "354",
+      "displaystopid": "354",
+      "shortname": "Ringsend Road",
+      "shortnamelocalized": "Bóthar na Rinne",
+      "fullname": "Ringsend Road",
+      "fullnamelocalized": "",
+      "latitude": "53.34222",
+      "longitude": "-6.236453056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "15D",
+            "15B",
+            "56A",
             "77A",
             "47",
             "15A",
@@ -1626,75 +533,1017 @@
     }
   },
   {
-    "stationnumber": 25,
-    "distance": 74,
+    "stationnumber": 74,
+    "distance": 84,
     "businfo": {
-      "stopid": "493",
-      "displaystopid": "493",
-      "shortname": "Merrion Sq",
-      "shortnamelocalized": "Cearnóg Mhuirfean",
-      "fullname": "Merrion Sq",
+      "stopid": "1998",
+      "displaystopid": "1998",
+      "shortname": "Thomas Street",
+      "shortnamelocalized": "Sráid Thomáis",
+      "fullname": "Thomas Street",
       "fullnamelocalized": "",
-      "latitude": "53.33988889",
-      "longitude": "-6.24736",
+      "latitude": "53.34313694",
+      "longitude": "-6.280488056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "123",
+            "13",
+            "40",
+            "68X"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 87,
+    "distance": 66,
+    "businfo": {
+      "stopid": "1476",
+      "displaystopid": "1476",
+      "shortname": "Wolfe Tone Quay",
+      "shortnamelocalized": "Cé Wolfe Tone",
+      "fullname": "Wolfe Tone Quay",
+      "fullnamelocalized": "",
+      "latitude": "53.34700306",
+      "longitude": "-6.284663889",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "26",
+            "25X",
+            "25",
+            "25A",
+            "25B",
+            "25D",
+            "66B",
+            "66X",
+            "66A",
+            "66",
+            "67",
+            "67X",
+            "69",
+            "145",
+            "747",
+            "79",
+            "79A",
+            "51D"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 84,
+    "distance": 79,
+    "businfo": {
+      "stopid": "1378",
+      "displaystopid": "1378",
+      "shortname": "South Circular Road",
+      "shortnamelocalized": "An Cuarbhóthar Ths",
+      "fullname": "South Circular Road",
+      "fullnamelocalized": "",
+      "latitude": "53.33884",
+      "longitude": "-6.301366111",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "123",
+            "68A",
+            "68"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 90,
+    "distance": 264,
+    "businfo": {
+      "stopid": "355",
+      "displaystopid": "355",
+      "shortname": "Ringsend Road",
+      "shortnamelocalized": "Bóthar na Rinne",
+      "fullname": "Ringsend Road",
+      "fullnamelocalized": "",
+      "latitude": "53.341795",
+      "longitude": "-6.233038889",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "1",
+            "47"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 11,
+    "distance": 172,
+    "businfo": {
+      "stopid": "1013",
+      "displaystopid": "1013",
+      "shortname": "Earlsfort Tce",
+      "shortnamelocalized": "Ardn Phort an Iarla",
+      "fullname": "Earlsfort Tce",
+      "fullnamelocalized": "",
+      "latitude": "53.33548",
+      "longitude": "-6.257536944",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "61",
+            "44",
+            "142"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 17,
+    "distance": 149,
+    "businfo": {
+      "stopid": "1355",
+      "displaystopid": "1355",
+      "shortname": "Aungier Street",
+      "shortnamelocalized": "Sráid Aungier",
+      "fullname": "Aungier Street",
+      "fullnamelocalized": "",
+      "latitude": "53.34009194",
+      "longitude": "-6.265835",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "16C",
+            "16",
+            "68",
+            "68A",
+            "65",
+            "65B",
+            "122",
+            "9",
+            "83A",
+            "83"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 45,
+    "distance": 31,
+    "businfo": {
+      "stopid": "1172",
+      "displaystopid": "1172",
+      "shortname": "Gardiner Street",
+      "shortnamelocalized": "Sráid Ghairdinéir",
+      "fullname": "Gardiner Street",
+      "fullnamelocalized": "",
+      "latitude": "53.35174",
+      "longitude": "-6.255243056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "41B",
+            "41C",
+            "41",
+            "747",
+            "33"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 72,
+    "distance": 31,
+    "businfo": {
+      "stopid": "1938",
+      "displaystopid": "1938",
+      "shortname": "Thomas Street",
+      "shortnamelocalized": "Sráid Thomáis",
+      "fullname": "Thomas Street",
+      "fullnamelocalized": "",
+      "latitude": "53.342975",
+      "longitude": "-6.276753889",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "123",
+            "13",
+            "40"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 63,
+    "distance": 154,
+    "businfo": {
+      "stopid": "111781",
+      "displaystopid": "111781",
+      "shortname": "Dublin (Merrion Sqr",
+      "shortnamelocalized": "",
+      "fullname": "Dublin (Merrion Sqr North Holles St)",
+      "fullnamelocalized": "",
+      "latitude": "53.34015444",
+      "longitude": "-6.247642778",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "BE",
+          "routes": [
+            "NX",
+            "111X",
+            "101X"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 91,
+    "distance": 116,
+    "businfo": {
+      "stopid": "355",
+      "displaystopid": "355",
+      "shortname": "Ringsend Road",
+      "shortnamelocalized": "Bóthar na Rinne",
+      "fullname": "Ringsend Road",
+      "fullnamelocalized": "",
+      "latitude": "53.341795",
+      "longitude": "-6.233038889",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "1",
+            "47"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 99,
+    "distance": 153,
+    "businfo": {
+      "stopid": "6252",
+      "displaystopid": "6252",
+      "shortname": "North Wall Quay",
+      "shortnamelocalized": "Cé an Phoirt Tdh",
+      "fullname": "North Wall Quay",
+      "fullnamelocalized": "",
+      "latitude": "53.34792",
+      "longitude": "-6.246996944",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "142",
+            "757",
+            "33X",
+            "33D"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 9,
+    "distance": 83,
+    "businfo": {
+      "stopid": "1357",
+      "displaystopid": "1357",
+      "shortname": "George's St",
+      "shortnamelocalized": "Sr Sheoirse",
+      "fullname": "George's St",
+      "fullnamelocalized": "",
+      "latitude": "53.34258611",
+      "longitude": "-6.264568056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "83",
+            "83A",
+            "9",
+            "122",
+            "65B",
+            "65",
+            "68A",
+            "68",
+            "16",
+            "16C"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 67,
+    "distance": 134,
+    "businfo": {
+      "stopid": "7623",
+      "displaystopid": "7623",
+      "shortname": "East Wall Rd",
+      "shortnamelocalized": "Br an Phoirt Thoir",
+      "fullname": "East Wall Rd",
+      "fullnamelocalized": "",
+      "latitude": "53.346855",
+      "longitude": "-6.228846111",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "151",
+            "142",
+            "41X",
+            "747",
+            "757",
+            "33D",
+            "33X"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 55,
+    "distance": 149,
+    "businfo": {
+      "stopid": "LUAS25",
+      "displaystopid": "LUAS Harcourt",
+      "shortname": "",
+      "shortnamelocalized": "",
+      "fullname": "LUAS Harcourt",
+      "fullnamelocalized": "",
+      "latitude": "53.33335833",
+      "longitude": "-6.26265",
+      "lastupdated": "07/03/2018 10:34:27",
+      "operators": [
+        {
+          "name": "LUAS",
+          "routes": [
+            "Green"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 62,
+    "distance": 174,
+    "businfo": {
+      "stopid": "7397",
+      "displaystopid": "7397",
+      "shortname": "North Wall Quay",
+      "shortnamelocalized": "Cé an Phoirt Tdh",
+      "fullname": "North Wall Quay",
+      "fullnamelocalized": "",
+      "latitude": "53.34757194",
+      "longitude": "-6.243238056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "142",
+            "757",
+            "747"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 5,
+    "distance": 100,
+    "businfo": {
+      "stopid": "LUAS26",
+      "displaystopid": "LUAS Charlemont",
+      "shortname": "",
+      "shortnamelocalized": "",
+      "fullname": "LUAS Charlemont",
+      "fullnamelocalized": "",
+      "latitude": "53.33066944",
+      "longitude": "-6.258683333",
+      "lastupdated": "07/03/2018 10:34:27",
+      "operators": [
+        {
+          "name": "LUAS",
+          "routes": [
+            "Green"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 97,
+    "distance": 3,
+    "businfo": {
+      "stopid": "2640",
+      "displaystopid": "2640",
+      "shortname": "Inchicore Road",
+      "shortnamelocalized": "Bóthar Inse Chór",
+      "fullname": "Inchicore Road",
+      "fullnamelocalized": "",
+      "latitude": "53.34208806",
+      "longitude": "-6.309996944",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "79",
+            "69"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 61,
+    "distance": 76,
+    "businfo": {
+      "stopid": "11",
+      "displaystopid": "11",
+      "shortname": "Dorset St",
+      "shortnamelocalized": "Sráid Dorset",
+      "fullname": "Dorset St",
+      "fullnamelocalized": "",
+      "latitude": "53.35709389",
+      "longitude": "-6.264366944",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "40D",
+            "40B",
+            "40",
+            "13"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 77,
+    "distance": 194,
+    "businfo": {
+      "stopid": "LUAS20",
+      "displaystopid": "LUAS Jervis",
+      "shortname": "",
+      "shortnamelocalized": "",
+      "fullname": "LUAS Jervis",
+      "fullnamelocalized": "",
+      "latitude": "53.34768611",
+      "longitude": "-6.265333333",
+      "lastupdated": "07/03/2018 10:34:27",
+      "operators": [
+        {
+          "name": "LUAS",
+          "routes": [
+            "Red"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 73,
+    "distance": 142,
+    "businfo": {
+      "stopid": "1938",
+      "displaystopid": "1938",
+      "shortname": "Thomas Street",
+      "shortnamelocalized": "Sráid Thomáis",
+      "fullname": "Thomas Street",
+      "fullnamelocalized": "",
+      "latitude": "53.342975",
+      "longitude": "-6.276753889",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "123",
+            "13",
+            "40"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 4,
+    "distance": 31,
+    "businfo": {
+      "stopid": "LUAS19",
+      "displaystopid": "LUAS Four Courts",
+      "shortname": "",
+      "shortnamelocalized": "",
+      "fullname": "LUAS Four Courts",
+      "fullnamelocalized": "",
+      "latitude": "53.34686389",
+      "longitude": "-6.273436111",
+      "lastupdated": "07/03/2018 10:34:27",
+      "operators": [
+        {
+          "name": "LUAS",
+          "routes": [
+            "Red"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 49,
+    "distance": 87,
+    "businfo": {
+      "stopid": "7398",
+      "displaystopid": "7398",
+      "shortname": "North Wall Quay",
+      "shortnamelocalized": "Cé an Phoirt Tdh",
+      "fullname": "North Wall Quay",
+      "fullnamelocalized": "",
+      "latitude": "53.34749889",
+      "longitude": "-6.239833056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "747",
+            "757",
+            "142",
+            "33X"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 19,
+    "distance": 52,
+    "businfo": {
+      "stopid": "7340",
+      "displaystopid": "7340",
+      "shortname": "Wilton Terrace",
+      "shortnamelocalized": "Ardán Wilton",
+      "fullname": "Wilton Terrace",
+      "fullnamelocalized": "",
+      "latitude": "53.33425611",
+      "longitude": "-6.246296944",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "37"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 7,
+    "distance": 99,
+    "businfo": {
+      "stopid": "2001",
+      "displaystopid": "2001",
+      "shortname": "High Street",
+      "shortnamelocalized": "An tSráid Ard",
+      "fullname": "High Street",
+      "fullnamelocalized": "",
+      "latitude": "53.34330694",
+      "longitude": "-6.273648889",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "123",
+            "13",
+            "40",
+            "747"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 60,
+    "distance": 50,
+    "businfo": {
+      "stopid": "49",
+      "displaystopid": "49",
+      "shortname": "Dorset St",
+      "shortnamelocalized": "Sráid Dorset",
+      "fullname": "Dorset St",
+      "fullnamelocalized": "",
+      "latitude": "53.359955",
+      "longitude": "-6.260865",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "16C",
+            "16",
+            "33",
+            "13",
+            "44",
+            "40",
+            "40D",
+            "41",
+            "41A",
+            "41C",
+            "41B",
+            "40B",
+            "1",
+            "11"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 102,
+    "distance": 16,
+    "businfo": {
+      "stopid": "191",
+      "displaystopid": "191",
+      "shortname": "Western Way",
+      "shortnamelocalized": "An Bealach Siar",
+      "fullname": "Western Way",
+      "fullnamelocalized": "",
+      "latitude": "53.35507",
+      "longitude": "-6.26937",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "140",
+            "4",
+            "9"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 38,
+    "distance": 14,
+    "businfo": {
+      "stopid": "620",
+      "displaystopid": "620",
+      "shortname": "Talbot Street",
+      "shortnamelocalized": "Sráid Thalbóid",
+      "fullname": "Talbot Street",
+      "fullnamelocalized": "",
+      "latitude": "53.350965",
+      "longitude": "-6.252733889",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "32",
+            "31B",
+            "31",
+            "31A",
+            "29A",
+            "27A",
+            "130",
+            "747"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 53,
+    "distance": 222,
+    "businfo": {
+      "stopid": "LUAS24",
+      "displaystopid": "LUAS St. Stephen's Green",
+      "shortname": "",
+      "shortnamelocalized": "",
+      "fullname": "LUAS St. Stephen's Green",
+      "fullnamelocalized": "",
+      "latitude": "53.33907222",
+      "longitude": "-6.261333333",
+      "lastupdated": "07/03/2018 10:34:27",
+      "operators": [
+        {
+          "name": "LUAS",
+          "routes": [
+            "Green"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 58,
+    "distance": 144,
+    "businfo": {
+      "stopid": "411",
+      "displaystopid": "411",
+      "shortname": "Mount St",
+      "shortnamelocalized": "Sráid an Mhóta",
+      "fullname": "Mount St",
+      "fullnamelocalized": "",
+      "latitude": "53.33811306",
+      "longitude": "-6.241758889",
       "lastupdated": "07/03/2018 10:34:23",
       "operators": [
         {
           "name": "bac",
           "routes": [
             "120",
-            "4",
-            "7D",
             "7",
             "7A",
-            "27X",
-            "26",
-            "25B",
-            "25D",
-            "25",
-            "25A",
-            "66",
-            "66B",
-            "66A",
-            "67"
+            "4",
+            "27X"
           ]
         }
       ]
     }
   },
   {
-    "stationnumber": 51,
-    "distance": 96,
+    "stationnumber": 66,
+    "distance": 110,
     "businfo": {
-      "stopid": "1354",
-      "displaystopid": "1354",
-      "shortname": "Aungier Street",
-      "shortnamelocalized": "Sráid Aungier",
-      "fullname": "Aungier Street",
+      "stopid": "2501",
+      "displaystopid": "2501",
+      "shortname": "North Wall Quay",
+      "shortnamelocalized": "Cé an Phoirt Tdh",
+      "fullname": "North Wall Quay",
       "fullnamelocalized": "",
-      "latitude": "53.33905",
-      "longitude": "-6.266066944",
+      "latitude": "53.34737306",
+      "longitude": "-6.236341944",
       "lastupdated": "07/03/2018 10:34:23",
       "operators": [
         {
           "name": "bac",
           "routes": [
-            "15A",
-            "14C",
-            "15",
+            "33D",
+            "33X",
             "142",
-            "140",
-            "14",
-            "15B",
-            "15D"
+            "151",
+            "41X",
+            "747",
+            "757"
           ]
         }
       ]
     }
   },
   {
-    "stationnumber": 37,
-    "distance": 267,
+    "stationnumber": 101,
+    "distance": 82,
+    "businfo": {
+      "stopid": "1618",
+      "displaystopid": "1618",
+      "shortname": "Church Street",
+      "shortnamelocalized": "Bóthar an Teampaill",
+      "fullname": "Church Street",
+      "fullnamelocalized": "",
+      "latitude": "53.350885",
+      "longitude": "-6.274246111",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "83A",
+            "83"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 47,
+    "distance": 84,
+    "businfo": {
+      "stopid": "751",
+      "displaystopid": "751",
+      "shortname": "Baggot St",
+      "shortnamelocalized": "Sr Bhagóid",
+      "fullname": "Baggot St",
+      "fullnamelocalized": "",
+      "latitude": "53.33532",
+      "longitude": "-6.246555",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "77X",
+            "70",
+            "38A",
+            "39",
+            "39A",
+            "39X",
+            "38B",
+            "38D",
+            "25X",
+            "51D",
+            "51X",
+            "67X",
+            "66X",
+            "38"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 8,
+    "distance": 58,
+    "businfo": {
+      "stopid": "101971",
+      "displaystopid": "101971",
+      "shortname": "Custom House Quay",
+      "shortnamelocalized": "Cé Theach an Chust.",
+      "fullname": "Custom House Quay (Hilton Garden Inn)",
+      "fullnamelocalized": "",
+      "latitude": "53.34800778",
+      "longitude": "-6.247196944",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "BE",
+          "routes": [
+            "109A",
+            "115A",
+            "126",
+            "115",
+            "101X",
+            "100X"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 27,
+    "distance": 99,
+    "businfo": {
+      "stopid": "LUAS59",
+      "displaystopid": "LUAS Dawson",
+      "shortname": "",
+      "shortnamelocalized": "",
+      "fullname": "LUAS Dawson",
+      "fullnamelocalized": "",
+      "latitude": "53.34216927",
+      "longitude": "-6.25796366",
+      "lastupdated": "07/03/2018 10:34:27",
+      "operators": [
+        {
+          "name": "LUAS",
+          "routes": [
+            "Green"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 16,
+    "distance": 15,
+    "businfo": {
+      "stopid": "135141",
+      "displaystopid": "135141",
+      "shortname": "Georges Quay",
+      "shortnamelocalized": "Cé Sheoirse",
+      "fullname": "Dublin (Georges Quay)",
+      "fullnamelocalized": "",
+      "latitude": "53.34737694",
+      "longitude": "-6.252222222",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "BE",
+          "routes": [
+            "124",
+            "126",
+            "130",
+            "133",
+            "100X",
+            "109A"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 96,
+    "distance": 108,
+    "businfo": {
+      "stopid": "1993",
+      "displaystopid": "1993",
+      "shortname": "Old Kilmainham",
+      "shortnamelocalized": "Sean-Chill Mhaighne",
+      "fullname": "Old Kilmainham",
+      "fullnamelocalized": "",
+      "latitude": "53.34085",
+      "longitude": "-6.304761944",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "40",
+            "13"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 82,
+    "distance": 82,
+    "businfo": {
+      "stopid": "1943",
+      "displaystopid": "1943",
+      "shortname": "Mount Brown",
+      "shortnamelocalized": "Cnocán an Bhrúnaigh",
+      "fullname": "Mount Brown",
+      "fullnamelocalized": "",
+      "latitude": "53.34137111",
+      "longitude": "-6.298328889",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "40",
+            "13"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 76,
+    "distance": 151,
+    "businfo": {
+      "stopid": "1996",
+      "displaystopid": "1996",
+      "shortname": "James Street",
+      "shortnamelocalized": "Sráid San Séamas",
+      "fullname": "James Street",
+      "fullnamelocalized": "",
+      "latitude": "53.34355889",
+      "longitude": "-6.288471111",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "123",
+            "13",
+            "40"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 71,
+    "distance": 128,
     "businfo": {
       "stopid": "1284",
       "displaystopid": "1284",
@@ -1724,8 +1573,996 @@
     }
   },
   {
+    "stationnumber": 79,
+    "distance": 140,
+    "businfo": {
+      "stopid": "11",
+      "displaystopid": "11",
+      "shortname": "Dorset St",
+      "shortnamelocalized": "Sráid Dorset",
+      "fullname": "Dorset St",
+      "fullnamelocalized": "",
+      "latitude": "53.35709389",
+      "longitude": "-6.264366944",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "40D",
+            "40B",
+            "40",
+            "13"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 69,
+    "distance": 61,
+    "businfo": {
+      "stopid": "353",
+      "displaystopid": "353",
+      "shortname": "Pearse Street",
+      "shortnamelocalized": "Sráid an Phiarsaigh",
+      "fullname": "Pearse Street",
+      "fullnamelocalized": "",
+      "latitude": "53.342615",
+      "longitude": "-6.239613889",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "1",
+            "15A",
+            "47",
+            "77A",
+            "56A",
+            "15B",
+            "15D"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 25,
+    "distance": 73,
+    "businfo": {
+      "stopid": "100411",
+      "displaystopid": "100411",
+      "shortname": "Merrion Square Nort",
+      "shortnamelocalized": "",
+      "fullname": "Merrion Square North (Opp Holles St)",
+      "fullnamelocalized": "",
+      "latitude": "53.339925",
+      "longitude": "-6.247271667",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "BE",
+          "routes": [
+            "111X",
+            "101X",
+            "NX"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 51,
+    "distance": 92,
+    "businfo": {
+      "stopid": "4456",
+      "displaystopid": "4456",
+      "shortname": "Aungier Street",
+      "shortnamelocalized": "Sráid Aungier",
+      "fullname": "Aungier Street",
+      "fullnamelocalized": "",
+      "latitude": "53.33991194",
+      "longitude": "-6.265693056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "9",
+            "83A",
+            "83",
+            "122",
+            "16",
+            "65",
+            "65B",
+            "68",
+            "68A"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 37,
+    "distance": 181,
+    "businfo": {
+      "stopid": "LUAS24",
+      "displaystopid": "LUAS St. Stephen's Green",
+      "shortname": "",
+      "shortnamelocalized": "",
+      "fullname": "LUAS St. Stephen's Green",
+      "fullnamelocalized": "",
+      "latitude": "53.33907222",
+      "longitude": "-6.261333333",
+      "lastupdated": "07/03/2018 10:34:27",
+      "operators": [
+        {
+          "name": "LUAS",
+          "routes": [
+            "Green"
+          ]
+        }
+      ]
+    }
+  },
+  {
     "stationnumber": 59,
     "distance": 195,
+    "businfo": {
+      "stopid": "134971",
+      "displaystopid": "134971",
+      "shortname": "Dublin",
+      "shortnamelocalized": "Baile Átha Cliath",
+      "fullname": "Dublin (Gardiner Street)",
+      "fullnamelocalized": "",
+      "latitude": "53.35635333",
+      "longitude": "-6.258748889",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "BE",
+          "routes": [
+            "101",
+            "103"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 95,
+    "distance": 201,
+    "businfo": {
+      "stopid": "2638",
+      "displaystopid": "2638",
+      "shortname": "St. John's Road",
+      "shortnamelocalized": "Bóthar Eoin Thiar",
+      "fullname": "St. John's Road",
+      "fullnamelocalized": "",
+      "latitude": "53.34570111",
+      "longitude": "-6.296973889",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "79A",
+            "79",
+            "51D"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 94,
+    "distance": 130,
+    "businfo": {
+      "stopid": "1449",
+      "displaystopid": "1449",
+      "shortname": "Conyngham Road",
+      "shortnamelocalized": "Bóthar Conyngham",
+      "fullname": "Conyngham Road",
+      "fullnamelocalized": "",
+      "latitude": "53.34815194",
+      "longitude": "-6.297883889",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "66B",
+            "66A",
+            "66",
+            "67",
+            "69",
+            "26",
+            "25"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 36,
+    "distance": 20,
+    "businfo": {
+      "stopid": "844",
+      "displaystopid": "844",
+      "shortname": "St. Stephen's Green",
+      "shortnamelocalized": "Faiche Stiabhna",
+      "fullname": "St. Stephen's Green",
+      "fullnamelocalized": "",
+      "latitude": "53.33764194",
+      "longitude": "-6.25599",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "84X"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 93,
+    "distance": 100,
+    "businfo": {
+      "stopid": "2638",
+      "displaystopid": "2638",
+      "shortname": "St. John's Road",
+      "shortnamelocalized": "Bóthar Eoin Thiar",
+      "fullname": "St. John's Road",
+      "fullnamelocalized": "",
+      "latitude": "53.34570111",
+      "longitude": "-6.296973889",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "79A",
+            "79",
+            "51D"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 22,
+    "distance": 96,
+    "businfo": {
+      "stopid": "7564",
+      "displaystopid": "7564",
+      "shortname": "Poolbeg Street",
+      "shortnamelocalized": "Sr an Phoill Bhig",
+      "fullname": "Poolbeg Street",
+      "fullnamelocalized": "",
+      "latitude": "53.34678694",
+      "longitude": "-6.254578056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "65B",
+            "65",
+            "47"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 12,
+    "distance": 45,
+    "businfo": {
+      "stopid": "817",
+      "displaystopid": "817",
+      "shortname": "Berkeley Road",
+      "shortnamelocalized": "Bóthar Berkeley",
+      "fullname": "Berkeley Road",
+      "fullnamelocalized": "",
+      "latitude": "53.35963694",
+      "longitude": "-6.269603056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "120",
+            "46A",
+            "38B",
+            "38A",
+            "38D",
+            "38"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 34,
+    "distance": 85,
+    "businfo": {
+      "stopid": "1072",
+      "displaystopid": "1072",
+      "shortname": "Richmond Street",
+      "shortnamelocalized": "Sráid Richmond",
+      "fullname": "Richmond Street",
+      "fullnamelocalized": "",
+      "latitude": "53.33103611",
+      "longitude": "-6.264575",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "65B",
+            "65",
+            "15D",
+            "15B",
+            "83",
+            "83A",
+            "14",
+            "15A",
+            "15",
+            "14C",
+            "140",
+            "142"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 78,
+    "distance": 53,
+    "businfo": {
+      "stopid": "54",
+      "displaystopid": "54",
+      "shortname": "North Circular Road",
+      "shortnamelocalized": "An Cuarbhóthar Tdh",
+      "fullname": "North Circular Road",
+      "fullnamelocalized": "",
+      "latitude": "53.36014889",
+      "longitude": "-6.265556944",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "122"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 2,
+    "distance": 37,
+    "businfo": {
+      "stopid": "192",
+      "displaystopid": "192",
+      "shortname": "Mountjoy Street",
+      "shortnamelocalized": "Sráid Mhuinseo",
+      "fullname": "Mountjoy Street",
+      "fullnamelocalized": "",
+      "latitude": "53.35643889",
+      "longitude": "-6.268063056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "38D",
+            "38B",
+            "40",
+            "46A",
+            "120",
+            "38A",
+            "38"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 75,
+    "distance": 72,
+    "businfo": {
+      "stopid": "1996",
+      "displaystopid": "1996",
+      "shortname": "James Street",
+      "shortnamelocalized": "Sráid San Séamas",
+      "fullname": "James Street",
+      "fullnamelocalized": "",
+      "latitude": "53.34355889",
+      "longitude": "-6.288471111",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "123",
+            "13",
+            "40"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 26,
+    "distance": 34,
+    "businfo": {
+      "stopid": "2905",
+      "displaystopid": "2905",
+      "shortname": "Merrion Sq West",
+      "shortnamelocalized": "Cg Mhuirfean Thiar",
+      "fullname": "Merrion Sq West",
+      "fullnamelocalized": "",
+      "latitude": "53.34006694",
+      "longitude": "-6.25192",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "757"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 65,
+    "distance": 78,
+    "businfo": {
+      "stopid": "123511",
+      "displaystopid": "123511",
+      "shortname": "Dublin (Opp Convent",
+      "shortnamelocalized": "",
+      "fullname": "Dublin (Opp Convention Centre)",
+      "fullnamelocalized": "",
+      "latitude": "53.34753333",
+      "longitude": "-6.239678611",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "BE",
+          "routes": [
+            "100X",
+            "101X",
+            "109A"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 15,
+    "distance": 131,
+    "businfo": {
+      "stopid": "52",
+      "displaystopid": "52",
+      "shortname": "Dorset St",
+      "shortnamelocalized": "Sráid Dorset",
+      "fullname": "Dorset St",
+      "fullnamelocalized": "",
+      "latitude": "53.356645",
+      "longitude": "-6.264533889",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "16C",
+            "16",
+            "33",
+            "13",
+            "44",
+            "41",
+            "40D",
+            "41A",
+            "41C",
+            "41B",
+            "40",
+            "40B",
+            "122",
+            "1",
+            "11"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 86,
+    "distance": 36,
+    "businfo": {
+      "stopid": "1474",
+      "displaystopid": "1474",
+      "shortname": "Parkgate St",
+      "shortnamelocalized": "Sr Gheata na Páirce",
+      "fullname": "Parkgate St",
+      "fullnamelocalized": "",
+      "latitude": "53.34794389",
+      "longitude": "-6.292341111",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "69",
+            "67",
+            "66",
+            "66A",
+            "66B",
+            "25",
+            "26"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 35,
+    "distance": 70,
+    "businfo": {
+      "stopid": "LUAS18",
+      "displaystopid": "LUAS Smithfield",
+      "shortname": "",
+      "shortnamelocalized": "",
+      "fullname": "LUAS Smithfield",
+      "fullnamelocalized": "",
+      "latitude": "53.34713333",
+      "longitude": "-6.277727778",
+      "lastupdated": "07/03/2018 10:34:27",
+      "operators": [
+        {
+          "name": "LUAS",
+          "routes": [
+            "Red"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 10,
+    "distance": 78,
+    "businfo": {
+      "stopid": "2912",
+      "displaystopid": "2912",
+      "shortname": "Parliament St",
+      "shortnamelocalized": "Sr na Parlaiminte",
+      "fullname": "Parliament St",
+      "fullnamelocalized": "",
+      "latitude": "53.34462806",
+      "longitude": "-6.267353056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "79",
+            "79A",
+            "69"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 100,
+    "distance": 38,
+    "businfo": {
+      "stopid": "4319",
+      "displaystopid": "4319",
+      "shortname": "Heuston Station",
+      "shortnamelocalized": "Stáisiún Heuston",
+      "fullname": "Heuston Station",
+      "fullnamelocalized": "",
+      "latitude": "53.34676306",
+      "longitude": "-6.292013056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "747"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 24,
+    "distance": 17,
+    "businfo": {
+      "stopid": "286",
+      "displaystopid": "286",
+      "shortname": "Cathal Brugha St",
+      "shortnamelocalized": "Sr Chathail Brugha",
+      "fullname": "Cathal Brugha St",
+      "fullnamelocalized": "",
+      "latitude": "53.35199806",
+      "longitude": "-6.260531111",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "747"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 64,
+    "distance": 167,
+    "businfo": {
+      "stopid": "399",
+      "displaystopid": "399",
+      "shortname": "Pearse Street",
+      "shortnamelocalized": "Sráid an Phiarsaigh",
+      "fullname": "Pearse Street",
+      "fullnamelocalized": "",
+      "latitude": "53.34385194",
+      "longitude": "-6.248258056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "1",
+            "15A",
+            "47",
+            "77A",
+            "15B",
+            "15D",
+            "27",
+            "56A"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 85,
+    "distance": 69,
+    "businfo": {
+      "stopid": "1377",
+      "displaystopid": "1377",
+      "shortname": "South Circular Road",
+      "shortnamelocalized": "An Cuarbhóthar Ths",
+      "fullname": "South Circular Road",
+      "fullnamelocalized": "",
+      "latitude": "53.33918194",
+      "longitude": "-6.30473",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "68",
+            "68A",
+            "123"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 33,
+    "distance": 34,
+    "businfo": {
+      "stopid": "LUAS63",
+      "displaystopid": "LUAS O'Connell - GPO",
+      "shortname": "",
+      "shortnamelocalized": "",
+      "fullname": "LUAS O'Connell - GPO",
+      "fullnamelocalized": "",
+      "latitude": "53.34884509",
+      "longitude": "-6.25988168",
+      "lastupdated": "07/03/2018 10:34:27",
+      "operators": [
+        {
+          "name": "LUAS",
+          "routes": [
+            "Green"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 44,
+    "distance": 38,
+    "businfo": {
+      "stopid": "1175",
+      "displaystopid": "1175",
+      "shortname": "Gardiner St",
+      "shortnamelocalized": "Sr Ghairdinéir",
+      "fullname": "Gardiner St",
+      "fullnamelocalized": "",
+      "latitude": "53.35858889",
+      "longitude": "-6.261158056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "33",
+            "41",
+            "41C",
+            "41B"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 89,
+    "distance": 203,
+    "businfo": {
+      "stopid": "784",
+      "displaystopid": "784",
+      "shortname": "Baggot St",
+      "shortnamelocalized": "Sr Bhagóid",
+      "fullname": "Baggot St",
+      "fullnamelocalized": "",
+      "latitude": "53.33641389",
+      "longitude": "-6.248618056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "37",
+            "38",
+            "66X",
+            "67X",
+            "25X",
+            "70",
+            "38A",
+            "39A",
+            "38B",
+            "38D",
+            "39"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 57,
+    "distance": 91,
+    "businfo": {
+      "stopid": "410",
+      "displaystopid": "410",
+      "shortname": "Mount St",
+      "shortnamelocalized": "Sráid an Mhóta",
+      "fullname": "Mount St",
+      "fullnamelocalized": "",
+      "latitude": "53.338815",
+      "longitude": "-6.243878056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "4",
+            "7A",
+            "7",
+            "120"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 80,
+    "distance": 70,
+    "businfo": {
+      "stopid": "LUAS15",
+      "displaystopid": "LUAS James's",
+      "shortname": "",
+      "shortnamelocalized": "",
+      "fullname": "LUAS James's",
+      "fullnamelocalized": "",
+      "latitude": "53.34194167",
+      "longitude": "-6.293361111",
+      "lastupdated": "07/03/2018 10:34:27",
+      "operators": [
+        {
+          "name": "LUAS",
+          "routes": [
+            "Red"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 41,
+    "distance": 133,
+    "businfo": {
+      "stopid": "1015",
+      "displaystopid": "1015",
+      "shortname": "Adelaide Road",
+      "shortnamelocalized": "Bóthar Adelaide",
+      "fullname": "Adelaide Road",
+      "fullnamelocalized": "",
+      "latitude": "53.33272806",
+      "longitude": "-6.259941111",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "757",
+            "44",
+            "142",
+            "61"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 3,
+    "distance": 259,
+    "businfo": {
+      "stopid": "1614",
+      "displaystopid": "1614",
+      "shortname": "Constitution Hill",
+      "shortnamelocalized": "Cn an Bhunreachta",
+      "fullname": "Constitution Hill",
+      "fullnamelocalized": "",
+      "latitude": "53.35125806",
+      "longitude": "-6.273745",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "83A",
+            "83"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 46,
+    "distance": 101,
+    "businfo": {
+      "stopid": "LUAS20",
+      "displaystopid": "LUAS Jervis",
+      "shortname": "",
+      "shortnamelocalized": "",
+      "fullname": "LUAS Jervis",
+      "fullnamelocalized": "",
+      "latitude": "53.34768611",
+      "longitude": "-6.265333333",
+      "lastupdated": "07/03/2018 10:34:27",
+      "operators": [
+        {
+          "name": "LUAS",
+          "routes": [
+            "Red"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 40,
+    "distance": 111,
+    "businfo": {
+      "stopid": "LUAS20",
+      "displaystopid": "LUAS Jervis",
+      "shortname": "",
+      "shortnamelocalized": "",
+      "fullname": "LUAS Jervis",
+      "fullnamelocalized": "",
+      "latitude": "53.34768611",
+      "longitude": "-6.265333333",
+      "lastupdated": "07/03/2018 10:34:27",
+      "operators": [
+        {
+          "name": "LUAS",
+          "routes": [
+            "Red"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 29,
+    "distance": 84,
+    "businfo": {
+      "stopid": "1479",
+      "displaystopid": "1479",
+      "shortname": "Ormond Quay",
+      "shortnamelocalized": "Cé Urumhan",
+      "fullname": "Ormond Quay",
+      "fullnamelocalized": "",
+      "latitude": "53.34591306",
+      "longitude": "-6.269233056",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "37",
+            "26",
+            "25X",
+            "25",
+            "25A",
+            "25B",
+            "25D",
+            "66B",
+            "66X",
+            "66A",
+            "51X",
+            "66",
+            "67",
+            "67X",
+            "145",
+            "151",
+            "70",
+            "83A",
+            "83",
+            "39A",
+            "39",
+            "51D"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 70,
+    "distance": 62,
+    "businfo": {
+      "stopid": "395",
+      "displaystopid": "395",
+      "shortname": "Ringsend Road",
+      "shortnamelocalized": "Bóthar na Rinne",
+      "fullname": "Ringsend Road",
+      "fullnamelocalized": "",
+      "latitude": "53.34195694",
+      "longitude": "-6.235421944",
+      "lastupdated": "07/03/2018 10:34:23",
+      "operators": [
+        {
+          "name": "bac",
+          "routes": [
+            "1",
+            "15A",
+            "47",
+            "77A",
+            "15B",
+            "15D",
+            "27",
+            "56A"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "stationnumber": 28,
+    "distance": 7,
     "businfo": {
       "stopid": "1174",
       "displaystopid": "1174",
@@ -1752,909 +2589,24 @@
     }
   },
   {
-    "stationnumber": 95,
-    "distance": 245,
-    "businfo": {
-      "stopid": "1942",
-      "displaystopid": "1942",
-      "shortname": "James Street",
-      "shortnamelocalized": "Sráid San Séamas",
-      "fullname": "James Street",
-      "fullnamelocalized": "",
-      "latitude": "53.34225194",
-      "longitude": "-6.294611111",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "13",
-            "40"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 94,
-    "distance": 153,
-    "businfo": {
-      "stopid": "2638",
-      "displaystopid": "2638",
-      "shortname": "St. John's Road",
-      "shortnamelocalized": "Bóthar Eoin Thiar",
-      "fullname": "St. John's Road",
-      "fullnamelocalized": "",
-      "latitude": "53.34570111",
-      "longitude": "-6.296973889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "79A",
-            "79",
-            "51D"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 36,
-    "distance": 68,
-    "businfo": {
-      "stopid": "842",
-      "displaystopid": "842",
-      "shortname": "St. Stephen's Green",
-      "shortnamelocalized": "Faiche Stiabhna",
-      "fullname": "St. Stephen's Green",
-      "fullnamelocalized": "",
-      "latitude": "53.33724",
-      "longitude": "-6.256318889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "46A",
-            "41X",
-            "7D",
-            "7B",
-            "757",
-            "11",
-            "145",
-            "32X"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 93,
-    "distance": 155,
-    "businfo": {
-      "stopid": "HSTON",
-      "displaystopid": "Dublin Heuston Station",
-      "shortname": "",
-      "shortnamelocalized": "",
-      "fullname": "",
-      "fullnamelocalized": "",
-      "latitude": "53.34642974",
-      "longitude": "-6.294607473",
-      "lastupdated": "26/06/2013 08:18:57",
-      "operators": [
-        {
-          "name": "ir",
-          "routes": [
-            "Commuter",
-            "Intercity"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 22,
-    "distance": 102,
-    "businfo": {
-      "stopid": "340",
-      "displaystopid": "340",
-      "shortname": "Townsend St",
-      "shortnamelocalized": "Sr Chnoc na Lobhar",
-      "fullname": "Townsend St",
-      "fullnamelocalized": "",
-      "latitude": "53.34597",
-      "longitude": "-6.25614",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "15A",
-            "1",
-            "77A",
-            "47",
-            "44",
-            "15D",
-            "15B",
-            "61",
-            "56A"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 12,
-    "distance": 49,
-    "businfo": {
-      "stopid": "104601",
-      "displaystopid": "104601",
-      "shortname": "Phibsboro",
-      "shortnamelocalized": "Baile Phib",
-      "fullname": "Phibsboro (Berkley Rd)",
-      "fullnamelocalized": "",
-      "latitude": "53.35968306",
-      "longitude": "-6.269658889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "BE",
-          "routes": [
-            "109B",
-            "109X",
-            "109",
-            "111"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 34,
-    "distance": 99,
-    "businfo": {
-      "stopid": "1016",
-      "displaystopid": "1016",
-      "shortname": "Richmond Street",
-      "shortnamelocalized": "Sráid Richmond",
-      "fullname": "Richmond Street",
-      "fullnamelocalized": "",
-      "latitude": "53.33113",
-      "longitude": "-6.264413056",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "65",
-            "65B",
-            "15D",
-            "15B",
-            "142",
-            "140",
-            "15",
-            "15A",
-            "14",
-            "83",
-            "83A"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 78,
-    "distance": 58,
-    "businfo": {
-      "stopid": "83",
-      "displaystopid": "83",
-      "shortname": "North Circular Road",
-      "shortnamelocalized": "An Cuarbhóthar Tdh",
-      "fullname": "North Circular Road",
-      "fullnamelocalized": "",
-      "latitude": "53.36027389",
-      "longitude": "-6.26554",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "122"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 2,
-    "distance": 153,
-    "businfo": {
-      "stopid": "819",
-      "displaystopid": "819",
-      "shortname": "Blessington Street",
-      "shortnamelocalized": "Sráid Bhaile Coimín",
-      "fullname": "Blessington Street",
-      "fullnamelocalized": "",
-      "latitude": "53.35629806",
-      "longitude": "-6.265978056",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "120",
-            "140",
-            "46A",
-            "38B",
-            "38A",
-            "38D",
-            "4",
-            "40",
-            "9",
-            "38"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 75,
-    "distance": 112,
-    "businfo": {
-      "stopid": "1940",
-      "displaystopid": "1940",
-      "shortname": "James Street",
-      "shortnamelocalized": "Sráid San Séamas",
-      "fullname": "James Street",
-      "fullnamelocalized": "",
-      "latitude": "53.34353806",
-      "longitude": "-6.285726111",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "123",
-            "13",
-            "40"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 26,
-    "distance": 49,
-    "businfo": {
-      "stopid": "2811",
-      "displaystopid": "2811",
-      "shortname": "Merrion Street",
-      "shortnamelocalized": "Sráid Mhuirfean",
-      "fullname": "Merrion Street",
-      "fullnamelocalized": "",
-      "latitude": "53.339355",
-      "longitude": "-6.252253056",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "61",
-            "51D",
-            "44",
-            "757"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 65,
-    "distance": 87,
-    "businfo": {
-      "stopid": "7398",
-      "displaystopid": "7398",
-      "shortname": "North Wall Quay",
-      "shortnamelocalized": "Cé an Phoirt Tdh",
-      "fullname": "North Wall Quay",
-      "fullnamelocalized": "",
-      "latitude": "53.34749889",
-      "longitude": "-6.239833056",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "747",
-            "757",
-            "142",
-            "33X"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 15,
-    "distance": 137,
-    "businfo": {
-      "stopid": "4726",
-      "displaystopid": "4726",
-      "shortname": "Parnell Square",
-      "shortnamelocalized": "Cearnóg Parnell",
-      "fullname": "Parnell Square",
-      "fullnamelocalized": "",
-      "latitude": "53.35425806",
-      "longitude": "-6.264076111",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "46E",
-            "747"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 86,
-    "distance": 71,
-    "businfo": {
-      "stopid": "7078",
-      "displaystopid": "7078",
-      "shortname": "Parkgate St",
-      "shortnamelocalized": "Sr Gheata na Páirce",
-      "fullname": "Parkgate St",
-      "fullnamelocalized": "",
-      "latitude": "53.347905",
-      "longitude": "-6.292866111",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "67",
-            "66A",
-            "66",
-            "66B",
-            "25",
-            "26",
-            "69"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 35,
-    "distance": 151,
-    "businfo": {
-      "stopid": "7453",
-      "displaystopid": "7453",
-      "shortname": "Arran Quay",
-      "shortnamelocalized": "Cé Árann",
-      "fullname": "Arran Quay",
-      "fullnamelocalized": "",
-      "latitude": "53.34633806",
-      "longitude": "-6.278378056",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "51D",
-            "51X",
-            "66",
-            "66B",
-            "66X",
-            "66A",
-            "67X",
-            "67",
-            "25B",
-            "26",
-            "25X",
-            "25A",
-            "25D",
-            "25",
-            "37",
-            "145",
-            "79",
-            "79A",
-            "747",
-            "70",
-            "69",
-            "39A",
-            "39"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 10,
-    "distance": 86,
-    "businfo": {
-      "stopid": "1934",
-      "displaystopid": "1934",
-      "shortname": "Dame Street",
-      "shortnamelocalized": "Sráid an Dáma",
-      "fullname": "Dame Street",
-      "fullnamelocalized": "",
-      "latitude": "53.34412306",
-      "longitude": "-6.26552",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "49",
-            "77A",
-            "123",
-            "150",
-            "151",
-            "27",
-            "56A",
-            "54A"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 100,
-    "distance": 53,
-    "businfo": {
-      "stopid": "LUAS16",
-      "displaystopid": "LUAS Heuston",
-      "shortname": "",
-      "shortnamelocalized": "",
-      "fullname": "LUAS Heuston",
-      "fullnamelocalized": "",
-      "latitude": "53.34664722",
-      "longitude": "-6.291808333",
-      "lastupdated": "07/03/2018 10:34:27",
-      "operators": [
-        {
-          "name": "LUAS",
-          "routes": [
-            "Red"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 24,
-    "distance": 36,
-    "businfo": {
-      "stopid": "4725",
-      "displaystopid": "4725",
-      "shortname": "O'Connell St",
-      "shortnamelocalized": "Sr Uí Chonaill",
-      "fullname": "O'Connell St",
-      "fullnamelocalized": "",
-      "latitude": "53.35211111",
-      "longitude": "-6.261071944",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "7A",
-            "7D",
-            "40B",
-            "40D",
-            "4",
-            "7",
-            "120"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 64,
-    "distance": 181,
-    "businfo": {
-      "stopid": "350",
-      "displaystopid": "350",
-      "shortname": "Townsend Street",
-      "shortnamelocalized": "Sráid Chnoc Na Lobh",
-      "fullname": "Townsend Street",
-      "fullnamelocalized": "",
-      "latitude": "53.34564694",
-      "longitude": "-6.24977",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "61",
-            "56A",
-            "77A",
-            "77X",
-            "44",
-            "47",
-            "1"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 85,
-    "distance": 98,
-    "businfo": {
-      "stopid": "1370",
-      "displaystopid": "1370",
-      "shortname": "South Circular Road",
-      "shortnamelocalized": "An Cuarbhóthar Ths",
-      "fullname": "South Circular Road",
-      "fullnamelocalized": "",
-      "latitude": "53.33919111",
-      "longitude": "-6.305241944",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "68A",
-            "68",
-            "123"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 33,
-    "distance": 70,
-    "businfo": {
-      "stopid": "271",
-      "displaystopid": "271",
-      "shortname": "O'Connell St",
-      "shortnamelocalized": "Sr Uí Chonaill",
-      "fullname": "O'Connell St",
-      "fullnamelocalized": "",
-      "latitude": "53.34858389",
-      "longitude": "-6.259538889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "44",
-            "747",
-            "1",
-            "11",
-            "122"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 44,
-    "distance": 139,
-    "businfo": {
-      "stopid": "14",
-      "displaystopid": "14",
-      "shortname": "Dorset St",
-      "shortnamelocalized": "Sráid Dorset",
-      "fullname": "Dorset St",
-      "fullnamelocalized": "",
-      "latitude": "53.35853694",
-      "longitude": "-6.262723889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "16",
-            "44",
-            "40B",
-            "40D",
-            "40",
-            "1",
-            "11",
-            "122",
-            "13"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 89,
-    "distance": 207,
-    "businfo": {
-      "stopid": "135321",
-      "displaystopid": "135321",
-      "shortname": "Baggot St. Lower",
-      "shortnamelocalized": "Sr Bhagóid Íocht.",
-      "fullname": "Dublin (Baggot St. Lower)",
-      "fullnamelocalized": "",
-      "latitude": "53.33644222",
-      "longitude": "-6.248579722",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "BE",
-          "routes": [
-            "100X"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 57,
-    "distance": 117,
-    "businfo": {
-      "stopid": "492",
-      "displaystopid": "492",
-      "shortname": "Grattan St",
-      "shortnamelocalized": "Sráid Grattan",
-      "fullname": "Grattan St",
-      "fullnamelocalized": "",
-      "latitude": "53.338585",
-      "longitude": "-6.243593889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "7A",
-            "7",
-            "7D",
-            "4",
-            "120"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 80,
-    "distance": 89,
-    "businfo": {
-      "stopid": "4515",
-      "displaystopid": "4515",
-      "shortname": "St. James's Hospita",
-      "shortnamelocalized": "Ospidéal San Séamas",
-      "fullname": "St. James's Hospital",
-      "fullnamelocalized": "",
-      "latitude": "53.3407",
-      "longitude": "-6.293716944",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "123"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 41,
-    "distance": 238,
-    "businfo": {
-      "stopid": "LUAS26",
-      "displaystopid": "LUAS Charlemont",
-      "shortname": "",
-      "shortnamelocalized": "",
-      "fullname": "LUAS Charlemont",
-      "fullnamelocalized": "",
-      "latitude": "53.33066944",
-      "longitude": "-6.258683333",
-      "lastupdated": "07/03/2018 10:34:27",
-      "operators": [
-        {
-          "name": "LUAS",
-          "routes": [
-            "Green"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 3,
-    "distance": 288,
-    "businfo": {
-      "stopid": "LUAS66",
-      "displaystopid": "LUAS Dominick",
-      "shortname": "",
-      "shortnamelocalized": "",
-      "fullname": "LUAS Dominick",
-      "fullnamelocalized": "",
-      "latitude": "53.3513492",
-      "longitude": "-6.26554234",
-      "lastupdated": "07/03/2018 10:34:27",
-      "operators": [
-        {
-          "name": "LUAS",
-          "routes": [
-            "Green"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 46,
-    "distance": 129,
-    "businfo": {
-      "stopid": "7622",
-      "displaystopid": "7622",
-      "shortname": "Bachelors Walk",
-      "shortnamelocalized": "Siúlán Bhaitsiléir",
-      "fullname": "Bachelors Walk",
-      "fullnamelocalized": "",
-      "latitude": "53.346885",
-      "longitude": "-6.262281111",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "145",
-            "151"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 40,
-    "distance": 316,
-    "businfo": {
-      "stopid": "312",
-      "displaystopid": "312",
-      "shortname": "Wellington Quay",
-      "shortnamelocalized": "Cé Wellington",
-      "fullname": "Wellington Quay",
-      "fullnamelocalized": "",
-      "latitude": "53.34547",
-      "longitude": "-6.266191944",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "66",
-            "66A",
-            "67",
-            "66B",
-            "66X",
-            "67X",
-            "25X",
-            "26",
-            "25B",
-            "25D",
-            "25",
-            "25A"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 29,
-    "distance": 137,
-    "businfo": {
-      "stopid": "312",
-      "displaystopid": "312",
-      "shortname": "Wellington Quay",
-      "shortnamelocalized": "Cé Wellington",
-      "fullname": "Wellington Quay",
-      "fullnamelocalized": "",
-      "latitude": "53.34547",
-      "longitude": "-6.266191944",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "66",
-            "66A",
-            "67",
-            "66B",
-            "66X",
-            "67X",
-            "25X",
-            "26",
-            "25B",
-            "25D",
-            "25",
-            "25A"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 70,
-    "distance": 65,
-    "businfo": {
-      "stopid": "354",
-      "displaystopid": "354",
-      "shortname": "Ringsend Road",
-      "shortnamelocalized": "Bóthar na Rinne",
-      "fullname": "Ringsend Road",
-      "fullnamelocalized": "",
-      "latitude": "53.34222",
-      "longitude": "-6.236453056",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "bac",
-          "routes": [
-            "15D",
-            "15B",
-            "56A",
-            "77A",
-            "47",
-            "15A",
-            "1"
-          ]
-        }
-      ]
-    }
-  },
-  {
-    "stationnumber": 28,
-    "distance": 12,
-    "businfo": {
-      "stopid": "134971",
-      "displaystopid": "134971",
-      "shortname": "Dublin",
-      "shortnamelocalized": "Baile Átha Cliath",
-      "fullname": "Dublin (Gardiner Street)",
-      "fullnamelocalized": "",
-      "latitude": "53.35635333",
-      "longitude": "-6.258748889",
-      "lastupdated": "07/03/2018 10:34:23",
-      "operators": [
-        {
-          "name": "BE",
-          "routes": [
-            "101",
-            "103"
-          ]
-        }
-      ]
-    }
-  },
-  {
     "stationnumber": 39,
-    "distance": 95,
+    "distance": 94,
     "businfo": {
-      "stopid": "847",
-      "displaystopid": "847",
-      "shortname": "Leeson Street",
-      "shortnamelocalized": "Sráid Líosain",
-      "fullname": "Leeson Street",
+      "stopid": "136561",
+      "displaystopid": "136561",
+      "shortname": "Dublin (Leeson St U",
+      "shortnamelocalized": "",
+      "fullname": "Dublin (Leeson St Upr (Jct Mespil Rd)",
       "fullnamelocalized": "",
-      "latitude": "53.33157389",
-      "longitude": "-6.252245",
+      "latitude": "53.33158333",
+      "longitude": "-6.252266667",
       "lastupdated": "07/03/2018 10:34:23",
       "operators": [
         {
-          "name": "bac",
+          "name": "BE",
           "routes": [
-            "7D",
-            "7B",
-            "41X",
-            "46A",
-            "11",
-            "145"
+            "2",
+            "X2"
           ]
         }
       ]
@@ -2662,23 +2614,24 @@
   },
   {
     "stationnumber": 83,
-    "distance": 100,
+    "distance": 60,
     "businfo": {
-      "stopid": "1945",
-      "displaystopid": "1945",
+      "stopid": "1992",
+      "displaystopid": "1992",
       "shortname": "Emmet Road",
       "shortnamelocalized": "Bóthar Emmet",
       "fullname": "Emmet Road",
       "fullnamelocalized": "",
-      "latitude": "53.34055",
-      "longitude": "-6.309663056",
+      "latitude": "53.34065611",
+      "longitude": "-6.309091944",
       "lastupdated": "07/03/2018 10:34:23",
       "operators": [
         {
           "name": "bac",
           "routes": [
+            "13",
             "40",
-            "13"
+            "68"
           ]
         }
       ]
@@ -2686,28 +2639,28 @@
   },
   {
     "stationnumber": 92,
-    "distance": 31,
+    "distance": 17,
     "businfo": {
-      "stopid": "7078",
-      "displaystopid": "7078",
+      "stopid": "1474",
+      "displaystopid": "1474",
       "shortname": "Parkgate St",
       "shortnamelocalized": "Sr Gheata na Páirce",
       "fullname": "Parkgate St",
       "fullnamelocalized": "",
-      "latitude": "53.347905",
-      "longitude": "-6.292866111",
+      "latitude": "53.34794389",
+      "longitude": "-6.292341111",
       "lastupdated": "07/03/2018 10:34:23",
       "operators": [
         {
           "name": "bac",
           "routes": [
+            "69",
             "67",
-            "66A",
             "66",
+            "66A",
             "66B",
             "25",
-            "26",
-            "69"
+            "26"
           ]
         }
       ]
@@ -2715,24 +2668,26 @@
   },
   {
     "stationnumber": 21,
-    "distance": 81,
+    "distance": 73,
     "businfo": {
-      "stopid": "405",
-      "displaystopid": "405",
-      "shortname": "Nassau Street",
-      "shortnamelocalized": "Sráid Nassau",
-      "fullname": "Nassau Street",
+      "stopid": "7585",
+      "displaystopid": "7585",
+      "shortname": "Leinster Street Sou",
+      "shortnamelocalized": "Sráid Laighean Thea",
+      "fullname": "Leinster Street South",
       "fullnamelocalized": "",
-      "latitude": "53.34247694",
-      "longitude": "-6.255596111",
+      "latitude": "53.34201694",
+      "longitude": "-6.253423889",
       "lastupdated": "07/03/2018 10:34:23",
       "operators": [
         {
           "name": "bac",
           "routes": [
-            "7",
-            "7A",
-            "4"
+            "41X",
+            "25X",
+            "66X",
+            "67X",
+            "32X"
           ]
         }
       ]
@@ -2740,26 +2695,26 @@
   },
   {
     "stationnumber": 88,
-    "distance": 126,
+    "distance": 64,
     "businfo": {
-      "stopid": "1715",
-      "displaystopid": "1715",
+      "stopid": "1647",
+      "displaystopid": "1647",
       "shortname": "Blackhall Place",
       "shortnamelocalized": "Plás Blackhall",
       "fullname": "Blackhall Place",
       "fullnamelocalized": "",
-      "latitude": "53.34771111",
-      "longitude": "-6.282178056",
+      "latitude": "53.34834694",
+      "longitude": "-6.282236944",
       "lastupdated": "07/03/2018 10:34:23",
       "operators": [
         {
           "name": "bac",
           "routes": [
-            "37",
-            "70",
-            "39A",
+            "39X",
             "39",
-            "39X"
+            "39A",
+            "70",
+            "37"
           ]
         }
       ]
