@@ -4,23 +4,51 @@ export function fetchData() {
 }
 
 export function searchBike(event) {
-    const magnitude = event.target.bikes.value
     var busData = require('../data/nearestbus.json');
     var luasData = require('../data/nearestluas.json');
     var result = {};
-    var nearestbusobject = busData.filter(function( obj ) {
-                                  return obj.stationnumber == magnitude;
+    if(event.target.bikes){
+        const stationnumber = event.target.bikes.value
+        result.selectedstation = stationnumber;
+        var nearestbusobject = busData.filter(function( obj ) {
+                                  return obj.stationnumber == stationnumber;
                                 });
-    var nearestluasobject = luasData.filter(function( obj ) {
-                                  return obj.stationnumber == magnitude;
+        result.businfo = nearestbusobject;
+        var nearestluasobject = luasData.filter(function( obj ) {
+                                  return obj.stationnumber == stationnumber;
                                 });
-    result.selectedstation = magnitude;
-    result.businfo = nearestbusobject;
-    result.luasinfo = nearestluasobject;
+        result.luasinfo = nearestluasobject;
+    }
+    if(event.target.bus){
+        const stationnumber = event.target.bus.value
+        result.selectedstation = stationnumber;
+        var nearestbusobject = busData.filter(function( obj ) {
+                                  return obj.stationnumber == stationnumber;
+                                });
+        result.businfo = nearestbusobject;
+    }
+    if(event.target.luas){
+        const stationnumber = event.target.luas.value
+        result.selectedstation = stationnumber;
+        var nearestluasobject = luasData.filter(function( obj ) {
+                                  return obj.stationnumber == stationnumber;
+                                });
+        result.luasinfo = nearestluasobject;
+    }
   return result;
 }
 
 export function bikeInfo() {
   return fetch(`https://api.myjson.com/bins/o2asr`)
+    .then((res) => res.json())
+}
+
+export function busInfo() {
+  return fetch(`https://api.myjson.com/bins/ynmf7`)
+    .then((res) => res.json())
+}
+
+export function luasInfo() {
+  return fetch(`https://api.myjson.com/bins/188p9f`)
     .then((res) => res.json())
 }
