@@ -2,7 +2,6 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom'
 import { fetchData } from '../Services/BikeService'
 import { searchBike } from '../Services/BikeService'
-import { BusData } from '../Services/BusService'
 import { GoogleApiWrapper } from 'google-maps-react'
 import MapRendering from './MapRendering'
 import MapForm from './MapForm'
@@ -14,9 +13,7 @@ class MapContainer extends Component {
   }
   componentDidMount = () => {
     fetchData().then((json) => {
-        var businfo = require('../data/nearestbus.json');
-        var luasinfo =require('../data/nearestluas.json');
-        window.store = {stations: json, busData: businfo, luasData: luasinfo}
+        window.store = {stations: json, busData: undefined, luasData: undefined}
         this.setState({overallData: window.store})
     });
   }
@@ -25,9 +22,23 @@ class MapContainer extends Component {
     window.searchresult = searchBike(event)
     fetchData()
       .then((json) => {
-        var selectedbikeobject = json.filter(function( obj ) {
+        var selectedbikeobject =[];
+        if(window.searchresult.selectedstation.length){
+            window.searchresult.selectedstation.forEach(function(item){
+              json.filter(function( obj ) {
+                                      if(obj.number === item){
+                                          selectedbikeobject.push(obj)
+                                          return true;
+                                      }
+                                      return false;
+              });
+            });
+        } else {
+            selectedbikeobject = json.filter(function( obj ) {
                                   return obj.number == window.searchresult.selectedstation;
                                 });
+        }
+        
         window.searchbike = {stations: selectedbikeobject, busData: window.searchresult.businfo, luasData: window.searchresult.luasinfo}
         this.setState({overallData: window.searchbike})
       })

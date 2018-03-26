@@ -56,13 +56,13 @@ class MapForm extends Component {
     this.setState({selectluasValue:value });
   }
   getSelectValue(val) {
-    return (this.state.selectValue == '') ? val : this.state.selectValue;
+    return (this.state.selectValue === '') ? val : this.state.selectValue;
   }
   getSelectBusValue(val) {
-    return (this.state.selectBusValue == '') ? val : this.state.selectBusValue;
+    return (this.state.selectBusValue === '') ? val : this.state.selectBusValue;
   }
     getSelectluasValue(val) {
-    return (this.state.selectluasValue == '') ? val : this.state.selectluasValue;
+    return (this.state.selectluasValue === '') ? val : this.state.selectluasValue;
   }
 
 

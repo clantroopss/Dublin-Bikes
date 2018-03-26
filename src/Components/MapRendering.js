@@ -76,7 +76,7 @@ export default class MapRendering extends Component {
             });
               if(this.props.stations.busData && this.props.stations.busData.length === 1) {
                     var nearestbusobject = this.props.stations.busData.filter(function( obj ) {
-                            return obj.stationnumber == station.number;
+                            return obj.stationnumber === station.number;
                     });
                     if(nearestbusobject[0] != null){
                       const busmarker = new google.maps.Marker({
@@ -102,7 +102,7 @@ export default class MapRendering extends Component {
               }
               if(this.props.stations.luasData && this.props.stations.luasData.length === 1) {
                     var nearestluasobject = this.props.stations.luasData.filter(function( obj ) {
-                            return obj.stationnumber == station.number;
+                            return obj.stationnumber === station.number;
                     });
                   if(nearestluasobject[0] != null) {
                       const luasmarker = new google.maps.Marker({

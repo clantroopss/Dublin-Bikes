@@ -1,402 +1,192 @@
 [
-  {
-    "value": 42,
-    "label": "Smithfield"
-  },
-  {
-    "value": 30,
-    "label": "Jervis"
-  },
-  {
-    "value": 54,
-    "label": "Harcourt"
-  },
-  {
-    "value": 56,
-    "label": "Spencer Dock"
-  },
-  {
-    "value": 6,
-    "label": "Four Courts"
-  },
-  {
-    "value": 18,
-    "label": "Harcourt"
-  },
-  {
-    "value": 32,
-    "label": "George's Dock"
-  },
-  {
-    "value": 52,
-    "label": "St. Stephen's Green"
-  },
-  {
-    "value": 48,
-    "label": "Mayor Square - NCI"
-  },
-  {
-    "value": 13,
-    "label": "St. Stephen's Green"
-  },
-  {
-    "value": 43,
-    "label": "Harcourt"
-  },
-  {
-    "value": 81,
-    "label": "Rialto"
-  },
-  {
-    "value": 31,
-    "label": "Jervis"
-  },
-  {
-    "value": 98,
-    "label": "St. Stephen's Green"
-  },
-  {
-    "value": 14,
-    "label": "Jervis"
-  },
-  {
-    "value": 1,
-    "label": "St. Stephen's Green"
-  },
-  {
-    "value": 23,
-    "label": "Abbey Street"
-  },
-  {
-    "value": 68,
-    "label": "Spencer Dock"
-  },
-  {
-    "value": 74,
-    "label": "Smithfield"
-  },
-  {
-    "value": 87,
-    "label": "Museum"
-  },
-  {
-    "value": 84,
-    "label": "Rialto"
-  },
-  {
-    "value": 90,
-    "label": "The Point"
-  },
-  {
-    "value": 11,
-    "label": "Harcourt"
-  },
-  {
-    "value": 17,
-    "label": "St. Stephen's Green"
-  },
-  {
-    "value": 45,
-    "label": "Busáras"
-  },
-  {
-    "value": 72,
-    "label": "Smithfield"
-  },
-  {
-    "value": 63,
-    "label": "Mayor Square - NCI"
-  },
-  {
-    "value": 91,
-    "label": "The Point"
-  },
-  {
-    "value": 99,
-    "label": "George's Dock"
-  },
-  {
-    "value": 9,
-    "label": "St. Stephen's Green"
-  },
-  {
-    "value": 67,
-    "label": "The Point"
-  },
-  {
-    "value": 55,
-    "label": "Harcourt"
-  },
-  {
-    "value": 62,
-    "label": "Mayor Square - NCI"
-  },
-  {
-    "value": 5,
-    "label": "Charlemont"
-  },
-  {
-    "value": 97,
-    "label": "Suir Road"
-  },
-  {
-    "value": 61,
-    "label": "Abbey Street"
-  },
-  {
-    "value": 77,
-    "label": "Jervis"
-  },
-  {
-    "value": 73,
-    "label": "Four Courts"
-  },
-  {
-    "value": 4,
-    "label": "Four Courts"
-  },
-  {
-    "value": 49,
-    "label": "Mayor Square - NCI"
-  },
-  {
-    "value": 19,
-    "label": "Charlemont"
-  },
-  {
-    "value": 7,
-    "label": "Four Courts"
-  },
-  {
-    "value": 60,
-    "label": "Connolly"
-  },
-  {
-    "value": 102,
-    "label": "Jervis"
-  },
-  {
-    "value": 38,
-    "label": "Busáras"
-  },
-  {
-    "value": 53,
-    "label": "St. Stephen's Green"
-  },
-  {
-    "value": 58,
-    "label": "Spencer Dock"
-  },
-  {
-    "value": 66,
-    "label": "Spencer Dock"
-  },
-  {
-    "value": 101,
-    "label": "Four Courts"
-  },
-  {
-    "value": 47,
-    "label": "Charlemont"
-  },
-  {
-    "value": 8,
-    "label": "George's Dock"
-  },
-  {
-    "value": 27,
-    "label": "St. Stephen's Green"
-  },
-  {
-    "value": 16,
-    "label": "Busáras"
-  },
-  {
-    "value": 96,
-    "label": "Suir Road"
-  },
-  {
-    "value": 82,
-    "label": "James's"
-  },
-  {
-    "value": 76,
-    "label": "James's"
-  },
-  {
-    "value": 71,
-    "label": "St. Stephen's Green"
-  },
-  {
-    "value": 79,
-    "label": "Jervis"
-  },
-  {
-    "value": 69,
-    "label": "Spencer Dock"
-  },
-  {
-    "value": 25,
-    "label": "St. Stephen's Green"
-  },
-  {
-    "value": 51,
-    "label": "St. Stephen's Green"
-  },
-  {
-    "value": 37,
-    "label": "St. Stephen's Green"
-  },
-  {
-    "value": 59,
-    "label": "Abbey Street"
-  },
-  {
-    "value": 95,
-    "label": "James's"
-  },
-  {
-    "value": 94,
-    "label": "Heuston"
-  },
-  {
-    "value": 36,
-    "label": "St. Stephen's Green"
-  },
-  {
-    "value": 93,
-    "label": "Heuston"
-  },
-  {
-    "value": 22,
-    "label": "Abbey Street"
-  },
-  {
-    "value": 12,
-    "label": "Jervis"
-  },
-  {
-    "value": 34,
-    "label": "Harcourt"
-  },
-  {
-    "value": 78,
-    "label": "Abbey Street"
-  },
-  {
-    "value": 2,
-    "label": "Jervis"
-  },
-  {
-    "value": 75,
-    "label": "James's"
-  },
-  {
-    "value": 26,
-    "label": "St. Stephen's Green"
-  },
-  {
-    "value": 65,
-    "label": "Spencer Dock"
-  },
-  {
-    "value": 15,
-    "label": "Jervis"
-  },
-  {
-    "value": 86,
-    "label": "Heuston"
-  },
-  {
-    "value": 35,
-    "label": "Smithfield"
-  },
-  {
-    "value": 10,
-    "label": "Jervis"
-  },
-  {
-    "value": 100,
-    "label": "Heuston"
-  },
-  {
-    "value": 24,
-    "label": "Abbey Street"
-  },
-  {
-    "value": 64,
-    "label": "George's Dock"
-  },
-  {
-    "value": 85,
-    "label": "Suir Road"
-  },
-  {
-    "value": 33,
-    "label": "Abbey Street"
-  },
-  {
-    "value": 44,
-    "label": "Connolly"
-  },
-  {
-    "value": 89,
-    "label": "Charlemont"
-  },
-  {
-    "value": 57,
-    "label": "Mayor Square - NCI"
-  },
-  {
-    "value": 80,
-    "label": "James's"
-  },
-  {
-    "value": 41,
-    "label": "Charlemont"
-  },
-  {
-    "value": 3,
-    "label": "Jervis"
-  },
-  {
-    "value": 46,
-    "label": "Jervis"
-  },
-  {
-    "value": 40,
-    "label": "Jervis"
-  },
-  {
-    "value": 29,
-    "label": "Jervis"
-  },
-  {
-    "value": 70,
-    "label": "Spencer Dock"
-  },
-  {
-    "value": 28,
-    "label": "Connolly"
-  },
-  {
-    "value": 39,
-    "label": "Charlemont"
-  },
-  {
-    "value": 83,
-    "label": "Suir Road"
-  },
-  {
-    "value": 92,
-    "label": "Heuston"
-  },
-  {
-    "value": 21,
-    "label": "St. Stephen's Green"
-  },
-  {
-    "value": 88,
-    "label": "Smithfield"
-  }
+   {
+      "label":"Smithfield",
+      "value":[
+         42,
+         74,
+         72,
+         35,
+         88
+      ]
+   },
+   {
+      "label":"Jervis",
+      "value":[
+         30,
+         31,
+         14,
+         77,
+         102,
+         79,
+         12,
+         2,
+         15,
+         10,
+         3,
+         46,
+         40,
+         29
+      ]
+   },
+   {
+      "label":"Harcourt",
+      "value":[
+         54,
+         18,
+         43,
+         11,
+         55,
+         34
+      ]
+   },
+   {
+      "label":"Spencer Dock",
+      "value":[
+         56,
+         68,
+         58,
+         66,
+         69,
+         65,
+         70
+      ]
+   },
+   {
+      "label":"Four Courts",
+      "value":[
+         6,
+         73,
+         4,
+         7,
+         101
+      ]
+   },
+   {
+      "label":"George's Dock",
+      "value":[
+         32,
+         99,
+         8,
+         64
+      ]
+   },
+   {
+      "label":"St. Stephen's Green",
+      "value":[
+         52,
+         13,
+         98,
+         1,
+         17,
+         9,
+         53,
+         27,
+         71,
+         25,
+         51,
+         37,
+         36,
+         26,
+         21
+      ]
+   },
+   {
+      "label":"Mayor Square - NCI",
+      "value":[
+         48,
+         63,
+         62,
+         49,
+         57
+      ]
+   },
+   {
+      "label":"Rialto",
+      "value":[
+         81,
+         84
+      ]
+   },
+   {
+      "label":"Abbey Street",
+      "value":[
+         23,
+         61,
+         59,
+         22,
+         78,
+         24,
+         33
+      ]
+   },
+   {
+      "label":"Museum",
+      "value":[
+         87
+      ]
+   },
+   {
+      "label":"The Point",
+      "value":[
+         90,
+         91,
+         67
+      ]
+   },
+   {
+      "label":"Busáras",
+      "value":[
+         45,
+         38,
+         16
+      ]
+   },
+   {
+      "label":"Charlemont",
+      "value":[
+         5,
+         19,
+         47,
+         89,
+         41,
+         39
+      ]
+   },
+   {
+      "label":"Suir Road",
+      "value":[
+         97,
+         96,
+         85,
+         83
+      ]
+   },
+   {
+      "label":"Connolly",
+      "value":[
+         60,
+         44,
+         28
+      ]
+   },
+   {
+      "label":"James's",
+      "value":[
+         82,
+         76,
+         95,
+         75,
+         80
+      ]
+   },
+   {
+      "label":"Heuston",
+      "value":[
+         94,
+         93,
+         86,
+         100,
+         92
+      ]
+   }
 ]

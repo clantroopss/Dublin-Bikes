@@ -1,402 +1,447 @@
 [
   {
-    "value": 42,
-    "label": "Church Street"
+    "label": "Church Street",
+    "value": [
+      42,
+      101
+    ]
   },
   {
-    "value": 30,
-    "label": "Parnell Square"
+    "label": "Parnell Square",
+    "value": [
+      30
+    ]
   },
   {
-    "value": 54,
-    "label": "Camden Street"
+    "label": "Camden Street",
+    "value": [
+      54,
+      18
+    ]
   },
   {
-    "value": 56,
-    "label": "Mount St"
+    "label": "Mount St",
+    "value": [
+      56,
+      58,
+      57
+    ]
   },
   {
-    "value": 6,
-    "label": "Lord Edward St"
+    "label": "Lord Edward St",
+    "value": [
+      6
+    ]
   },
   {
-    "value": 18,
-    "label": "Camden Street"
+    "label": "Pearse Street",
+    "value": [
+      32,
+      69,
+      64
+    ]
   },
   {
-    "value": 32,
-    "label": "Pearse Street"
+    "label": "LUAS St. Stephen's Green",
+    "value": [
+      52,
+      53,
+      37
+    ]
   },
   {
-    "value": 52,
-    "label": "LUAS St. Stephen's Green"
+    "label": "North Wall Quay",
+    "value": [
+      48,
+      99,
+      62,
+      49,
+      66
+    ]
   },
   {
-    "value": 48,
-    "label": "North Wall Quay"
+    "label": "Pembroke St",
+    "value": [
+      13
+    ]
   },
   {
-    "value": 13,
-    "label": "Pembroke St"
+    "label": "Richmond Street",
+    "value": [
+      43,
+      34
+    ]
   },
   {
-    "value": 43,
-    "label": "Richmond Street"
+    "label": "St. James's Hospital",
+    "value": [
+      81
+    ]
   },
   {
-    "value": 81,
-    "label": "St. James's Hospital"
+    "label": "LUAS Dominick",
+    "value": [
+      31
+    ]
   },
   {
-    "value": 31,
-    "label": "LUAS Dominick"
+    "label": "LUAS Dawson",
+    "value": [
+      98,
+      27
+    ]
   },
   {
-    "value": 98,
-    "label": "LUAS Dawson"
+    "label": "Dame Street",
+    "value": [
+      14
+    ]
   },
   {
-    "value": 14,
-    "label": "Dame Street"
+    "label": "George's St",
+    "value": [
+      1,
+      9
+    ]
   },
   {
-    "value": 1,
-    "label": "George's St"
+    "label": "Custom House Quay",
+    "value": [
+      23
+    ]
   },
   {
-    "value": 23,
-    "label": "Custom House Quay"
+    "label": "Ringsend Road",
+    "value": [
+      68,
+      90,
+      91,
+      70
+    ]
   },
   {
-    "value": 68,
-    "label": "Ringsend Road"
+    "label": "Thomas Street",
+    "value": [
+      74,
+      72,
+      73
+    ]
   },
   {
-    "value": 74,
-    "label": "Thomas Street"
+    "label": "Wolfe Tone Quay",
+    "value": [
+      87
+    ]
   },
   {
-    "value": 87,
-    "label": "Wolfe Tone Quay"
+    "label": "South Circular Road",
+    "value": [
+      84,
+      85
+    ]
   },
   {
-    "value": 84,
-    "label": "South Circular Road"
+    "label": "Earlsfort Tce",
+    "value": [
+      11
+    ]
   },
   {
-    "value": 90,
-    "label": "Ringsend Road"
+    "label": "Aungier Street",
+    "value": [
+      17,
+      51
+    ]
   },
   {
-    "value": 11,
-    "label": "Earlsfort Tce"
+    "label": "Gardiner Street",
+    "value": [
+      45
+    ]
   },
   {
-    "value": 17,
-    "label": "Aungier Street"
+    "label": "Dublin (Merrion Sqr North Holles St)",
+    "value": [
+      63
+    ]
   },
   {
-    "value": 45,
-    "label": "Gardiner Street"
+    "label": "East Wall Rd",
+    "value": [
+      67
+    ]
   },
   {
-    "value": 72,
-    "label": "Thomas Street"
+    "label": "LUAS Harcourt",
+    "value": [
+      55
+    ]
   },
   {
-    "value": 63,
-    "label": "Dublin (Merrion Sqr North Holles St)"
+    "label": "LUAS Charlemont",
+    "value": [
+      5
+    ]
   },
   {
-    "value": 91,
-    "label": "Ringsend Road"
+    "label": "Inchicore Road",
+    "value": [
+      97
+    ]
   },
   {
-    "value": 99,
-    "label": "North Wall Quay"
+    "label": "Dorset St",
+    "value": [
+      61,
+      60,
+      79,
+      15
+    ]
   },
   {
-    "value": 9,
-    "label": "George's St"
+    "label": "LUAS Jervis",
+    "value": [
+      77,
+      46,
+      40
+    ]
   },
   {
-    "value": 67,
-    "label": "East Wall Rd"
+    "label": "LUAS Four Courts",
+    "value": [
+      4
+    ]
   },
   {
-    "value": 55,
-    "label": "LUAS Harcourt"
+    "label": "Wilton Terrace",
+    "value": [
+      19
+    ]
   },
   {
-    "value": 62,
-    "label": "North Wall Quay"
+    "label": "High Street",
+    "value": [
+      7
+    ]
   },
   {
-    "value": 5,
-    "label": "LUAS Charlemont"
+    "label": "Western Way",
+    "value": [
+      102
+    ]
   },
   {
-    "value": 97,
-    "label": "Inchicore Road"
+    "label": "Talbot Street",
+    "value": [
+      38
+    ]
   },
   {
-    "value": 61,
-    "label": "Dorset St"
+    "label": "Baggot St",
+    "value": [
+      47,
+      89
+    ]
   },
   {
-    "value": 77,
-    "label": "LUAS Jervis"
+    "label": "Custom House Quay (Hilton Garden Inn)",
+    "value": [
+      8
+    ]
   },
   {
-    "value": 73,
-    "label": "Thomas Street"
+    "label": "Dublin (Georges Quay)",
+    "value": [
+      16
+    ]
   },
   {
-    "value": 4,
-    "label": "LUAS Four Courts"
+    "label": "Old Kilmainham",
+    "value": [
+      96
+    ]
   },
   {
-    "value": 49,
-    "label": "North Wall Quay"
+    "label": "Mount Brown",
+    "value": [
+      82
+    ]
   },
   {
-    "value": 19,
-    "label": "Wilton Terrace"
+    "label": "James Street",
+    "value": [
+      76,
+      75
+    ]
   },
   {
-    "value": 7,
-    "label": "High Street"
+    "label": "Redmond's Hill",
+    "value": [
+      71
+    ]
   },
   {
-    "value": 60,
-    "label": "Dorset St"
+    "label": "Merrion Square North (Opp Holles St)",
+    "value": [
+      25
+    ]
   },
   {
-    "value": 102,
-    "label": "Western Way"
+    "label": "Dublin (Gardiner Street)",
+    "value": [
+      59
+    ]
   },
   {
-    "value": 38,
-    "label": "Talbot Street"
+    "label": "St. John's Road",
+    "value": [
+      95,
+      93
+    ]
   },
   {
-    "value": 53,
-    "label": "LUAS St. Stephen's Green"
+    "label": "Conyngham Road",
+    "value": [
+      94
+    ]
   },
   {
-    "value": 58,
-    "label": "Mount St"
+    "label": "St. Stephen's Green",
+    "value": [
+      36
+    ]
   },
   {
-    "value": 66,
-    "label": "North Wall Quay"
+    "label": "Poolbeg Street",
+    "value": [
+      22
+    ]
   },
   {
-    "value": 101,
-    "label": "Church Street"
+    "label": "Berkeley Road",
+    "value": [
+      12
+    ]
   },
   {
-    "value": 47,
-    "label": "Baggot St"
+    "label": "North Circular Road",
+    "value": [
+      78
+    ]
   },
   {
-    "value": 8,
-    "label": "Custom House Quay (Hilton Garden Inn)"
+    "label": "Mountjoy Street",
+    "value": [
+      2
+    ]
   },
   {
-    "value": 27,
-    "label": "LUAS Dawson"
+    "label": "Merrion Sq West",
+    "value": [
+      26
+    ]
   },
   {
-    "value": 16,
-    "label": "Dublin (Georges Quay)"
+    "label": "Dublin (Opp Convention Centre)",
+    "value": [
+      65
+    ]
   },
   {
-    "value": 96,
-    "label": "Old Kilmainham"
+    "label": "Parkgate St",
+    "value": [
+      86,
+      92
+    ]
   },
   {
-    "value": 82,
-    "label": "Mount Brown"
+    "label": "LUAS Smithfield",
+    "value": [
+      35
+    ]
   },
   {
-    "value": 76,
-    "label": "James Street"
+    "label": "Parliament St",
+    "value": [
+      10
+    ]
   },
   {
-    "value": 71,
-    "label": "Redmond's Hill"
+    "label": "Heuston Station",
+    "value": [
+      100
+    ]
   },
   {
-    "value": 79,
-    "label": "Dorset St"
+    "label": "Cathal Brugha St",
+    "value": [
+      24
+    ]
   },
   {
-    "value": 69,
-    "label": "Pearse Street"
+    "label": "LUAS O'Connell - GPO",
+    "value": [
+      33
+    ]
   },
   {
-    "value": 25,
-    "label": "Merrion Square North (Opp Holles St)"
+    "label": "Gardiner St",
+    "value": [
+      44
+    ]
   },
   {
-    "value": 51,
-    "label": "Aungier Street"
+    "label": "LUAS James's",
+    "value": [
+      80
+    ]
   },
   {
-    "value": 37,
-    "label": "LUAS St. Stephen's Green"
+    "label": "Adelaide Road",
+    "value": [
+      41
+    ]
   },
   {
-    "value": 59,
-    "label": "Dublin (Gardiner Street)"
+    "label": "Constitution Hill",
+    "value": [
+      3
+    ]
   },
   {
-    "value": 95,
-    "label": "St. John's Road"
+    "label": "Ormond Quay",
+    "value": [
+      29
+    ]
   },
   {
-    "value": 94,
-    "label": "Conyngham Road"
+    "label": "Mountjoy Square",
+    "value": [
+      28
+    ]
   },
   {
-    "value": 36,
-    "label": "St. Stephen's Green"
+    "label": "Dublin (Leeson St Upr (Jct Mespil Rd)",
+    "value": [
+      39
+    ]
   },
   {
-    "value": 93,
-    "label": "St. John's Road"
+    "label": "Emmet Road",
+    "value": [
+      83
+    ]
   },
   {
-    "value": 22,
-    "label": "Poolbeg Street"
+    "label": "Leinster Street South",
+    "value": [
+      21
+    ]
   },
   {
-    "value": 12,
-    "label": "Berkeley Road"
-  },
-  {
-    "value": 34,
-    "label": "Richmond Street"
-  },
-  {
-    "value": 78,
-    "label": "North Circular Road"
-  },
-  {
-    "value": 2,
-    "label": "Mountjoy Street"
-  },
-  {
-    "value": 75,
-    "label": "James Street"
-  },
-  {
-    "value": 26,
-    "label": "Merrion Sq West"
-  },
-  {
-    "value": 65,
-    "label": "Dublin (Opp Convention Centre)"
-  },
-  {
-    "value": 15,
-    "label": "Dorset St"
-  },
-  {
-    "value": 86,
-    "label": "Parkgate St"
-  },
-  {
-    "value": 35,
-    "label": "LUAS Smithfield"
-  },
-  {
-    "value": 10,
-    "label": "Parliament St"
-  },
-  {
-    "value": 100,
-    "label": "Heuston Station"
-  },
-  {
-    "value": 24,
-    "label": "Cathal Brugha St"
-  },
-  {
-    "value": 64,
-    "label": "Pearse Street"
-  },
-  {
-    "value": 85,
-    "label": "South Circular Road"
-  },
-  {
-    "value": 33,
-    "label": "LUAS O'Connell - GPO"
-  },
-  {
-    "value": 44,
-    "label": "Gardiner St"
-  },
-  {
-    "value": 89,
-    "label": "Baggot St"
-  },
-  {
-    "value": 57,
-    "label": "Mount St"
-  },
-  {
-    "value": 80,
-    "label": "LUAS James's"
-  },
-  {
-    "value": 41,
-    "label": "Adelaide Road"
-  },
-  {
-    "value": 3,
-    "label": "Constitution Hill"
-  },
-  {
-    "value": 46,
-    "label": "LUAS Jervis"
-  },
-  {
-    "value": 40,
-    "label": "LUAS Jervis"
-  },
-  {
-    "value": 29,
-    "label": "Ormond Quay"
-  },
-  {
-    "value": 70,
-    "label": "Ringsend Road"
-  },
-  {
-    "value": 28,
-    "label": "Mountjoy Square"
-  },
-  {
-    "value": 39,
-    "label": "Dublin (Leeson St Upr (Jct Mespil Rd)"
-  },
-  {
-    "value": 83,
-    "label": "Emmet Road"
-  },
-  {
-    "value": 92,
-    "label": "Parkgate St"
-  },
-  {
-    "value": 21,
-    "label": "Leinster Street South"
-  },
-  {
-    "value": 88,
-    "label": "Blackhall Place"
+    "label": "Blackhall Place",
+    "value": [
+      88
+    ]
   }
 ]

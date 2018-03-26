@@ -6,32 +6,34 @@ export function fetchData() {
 export function searchBike(event) {
     var busData = require('../data/nearestbus.json');
     var luasData = require('../data/nearestluas.json');
+    var nearestbusobject = undefined;
+    var nearestluasobject = undefined;
     var result = {};
     if(event.target.bikes){
-        const stationnumber = event.target.bikes.value
+        const stationnumber = JSON.parse(event.target.bikes.value);
         result.selectedstation = stationnumber;
-        var nearestbusobject = busData.filter(function( obj ) {
-                                  return obj.stationnumber == stationnumber;
+        nearestbusobject = busData.filter(function( obj ) {
+                                  return obj.stationnumber === stationnumber;
                                 });
         result.businfo = nearestbusobject;
-        var nearestluasobject = luasData.filter(function( obj ) {
-                                  return obj.stationnumber == stationnumber;
+        nearestluasobject = luasData.filter(function( obj ) {
+                                  return obj.stationnumber === stationnumber;
                                 });
         result.luasinfo = nearestluasobject;
     }
     if(event.target.bus){
-        const stationnumber = event.target.bus.value
+        const stationnumber = JSON.parse(event.target.bus.value);
         result.selectedstation = stationnumber;
-        var nearestbusobject = busData.filter(function( obj ) {
-                                  return obj.stationnumber == stationnumber;
+        nearestbusobject = busData.filter(function( obj ) {
+                                  return obj.stationnumber === stationnumber[0];
                                 });
         result.businfo = nearestbusobject;
     }
     if(event.target.luas){
-        const stationnumber = event.target.luas.value
+        const stationnumber = JSON.parse(event.target.luas.value);
         result.selectedstation = stationnumber;
-        var nearestluasobject = luasData.filter(function( obj ) {
-                                  return obj.stationnumber == stationnumber;
+        nearestluasobject = luasData.filter(function( obj ) {
+                                  return obj.stationnumber === stationnumber[0];
                                 });
         result.luasinfo = nearestluasobject;
     }
@@ -44,11 +46,10 @@ export function bikeInfo() {
 }
 
 export function busInfo() {
-  return fetch(`https://api.myjson.com/bins/ynmf7`)
+  return fetch(`https://api.myjson.com/bins/7vfun`)
     .then((res) => res.json())
 }
-
 export function luasInfo() {
-  return fetch(`https://api.myjson.com/bins/188p9f`)
+  return fetch(`https://api.myjson.com/bins/11ebqn`)
     .then((res) => res.json())
 }
