@@ -24,42 +24,8 @@ export default class MapRendering extends Component {
       })
       this.map = new maps.Map(node, mapConfig);
       var heatmapData = [];
-//      var nearsetbus = [];
-//      var nearestluas = [];
-//      var bikeinformation =[];
-      /*if(this.props.busData === ''){
-        var busData = require('../data/nearestbus.json');
-      } else {
-        var busData = this.props.busData;
-      }
-      if(this.props.luasData === '') {
-        var luasData = require('../data/nearestluas.json');
-      } else {
-        var luasData = this.props.luasData;
-      }*/
-        //code to calculate nearset bus stop
-        /*var busData = require('../data/busstops.json');
-        var geolib = require('geolib');
-        var result = geolib.findNearest({latitude: station.position.lat, longitude: station.position.lng}, busData.results)
-          
-          nearsetbus.push({ stationnumber: station.number ,distance: result.distance, busData: busData.results[result.key]});*/
-          //code for nearest bustop calculation
-          /*var luasStaticData = require('../data/luas-stops.json');
-          var geolib = require('geolib');
-          var luasarray = Object.keys(luasStaticData.features).reduce(function(result, key) {
-            var item = {};
-            item.latitude = luasStaticData.features[key].geometry.coordinates[1];
-            item.longitude = luasStaticData.features[key].geometry.coordinates[0];
-            item.name = luasStaticData.features[key].properties.Name;
-            result.push(item)
-            return result;
-        }, []);
-          var result = geolib.findNearest({latitude: station.position.lat, longitude: station.position.lng}, luasarray)
-          
-          nearestluas.push({ stationnumber: station.number ,distance: result.distance, luasData: luasarray[result.key]});*/
         if (this.props.stations.stations) {
           this.props.stations.stations.map( (station) => {
-              /*bikeinformation.push({number: station.number, address: station.address, name: station.name});*/
             heatmapData.push({
               location: new google.maps.LatLng(station.position.lat, station.position.lng),
               weight: station.available_bike_stands
