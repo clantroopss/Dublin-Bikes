@@ -1,6 +1,6 @@
 body {
   background-color: #FFCC00;
-  padding: 20px;
+  padding: 1%;
   margin: 0;
 }
 
@@ -99,6 +99,6 @@ h1, h3, p, label, input {
 }
 
 .tableStyle {
-    height: 400px;
+    height: 210px;
     overflow-y: scroll;
 }

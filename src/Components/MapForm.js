@@ -222,7 +222,7 @@ componentDidUpdate(prevProps) {
             </div>
         </div>
         <br/>
-        <input type="submit" className="myButton"/>
+        <input type="submit" className="myButton" value="Search"/>
         {content4}
         {content5}
         {content6}

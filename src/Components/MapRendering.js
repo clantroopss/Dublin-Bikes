@@ -137,7 +137,7 @@ export default class MapRendering extends Component {
   }
   render() {
     const style = {
-      height: '85vh'
+      height: '65vh'
     }
     return (
         <div ref="map" style={style}>
