@@ -53,11 +53,20 @@ export default class MapRendering extends Component {
                         url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAADYElEQVRYR+2XeUgUURzHv++Nu+5sxUYh2UGYRUSE2zIhdOJWfxQGUf1RQXSRBhFFlwRdhFF0GEXQaSdUf3VAVCRUipRG2amum6WuEtslXTqzO7PzXsyYFrmNu2H0zw48Zobf9Xnf95uZNwT/+SD/uT4SAFEV4I+yvUwPFnCtOUNgqvDXy8SBSIjqrMnWwDjPFXMCd37P1QmA3x8r6kliQAj5Uv668O+BDJCfiK1Ooa4vWYXwr+bOAI9nLES48Sy0D91W30ikvkwG4WSRPaf+nCXAm/IlW1u+vduepDdbAiRRDYMdQdOnSUmFxu2W/u8besNFWraOXH4v3xKg8MrRq0XB4TMVTbdMyDjD5iF7QTiwI5AH0sUD9f6rgim2h1d3bsyf1S0ARpIl/U6CEoaTb3O6XK4EQEKBf6LA0tRCswkLg7nd14QXrxdceBAcMJ8xxTKpjbdgQ/pxMA7sD+RC5T0t/RuabZggPD2fl1ewwPpN+HTGWsh1BYh86nJW8Tior5PBI1jjyGk4EDuAmAYQEZB9HTFXyhyobrRFrT12hIbJ7tBPmzgUAAeUOsQBkL0Ocv0+3ms8yKhjAAj0il0Q5ENm4k3nXLj7okdUgOmSjC3zPps2nrIAZMQe81ovXw+95lKsCvwA6J8Pkja7LUHjEwj12QAFGANawwScm3NrO3NAoEAvkYP8+Lzx9PMgA71t8f7b0MuWxQmQNAZEOgVQAVrRNtgcJwwxsOKwC+V+EaS90i9aTB2tYPfiNgWYOAdUOmjSaTfWgH+8Fh+A0YQslAomOyH0rAexG/MFKl7Z8SIQ/cvnHqLCk652IOnKIHCZQnA1Qa1xADbWdRM2Pb98E/zLNDAtnia39o0QsFYKjdpuDZu0cJrlU1BR8UjhHI7uq/4zk6LIoYkTJ4mWACUlJXMJIZnFxcUrAdgZYzBGZmbmGafT+a09mFJqrgnnRgt2PkpLS1cbJmMY8V6v9yAh5FlWVtZpS4B2oyRJRje5jHtN04yR5vP5ArEqI0lSB1g4HEZlZWXUDfAf/ws8Hk8zpbSPUVBVVWMW/auqqt7GCuDxeCKUUnNHrSgKq66ujrq7/iOA2+3eFYlENhBCqKZp5X6/f1ysxQ2/jIyMI7qum1slVVWLa2trp0aLT/wZJRT4Do616jDlHb7WAAAAAElFTkSuQmCC"
                       }
                     });
-                    const busDatawindow = new google.maps.InfoWindow({
-                      content: `<h3>${nearestbusobject[0].businfo.fullname}</h3>
-                      <h4>Distance: ${geolib.convertUnit("km", nearestbusobject[0].distance)} KM</h4>
-                      <h4>BusStation ID: ${nearestbusobject[0].businfo.stopid}</h4>`
-                    });
+                    var buswindow ="";
+                    if (this.props.stations.stations.length === 1){
+                         buswindow = new google.maps.InfoWindow({
+                          content: `<h3>${nearestbusobject[0].businfo.fullname}</h3>
+                          <h4>Distance: ${geolib.convertUnit("m", nearestbusobject[0].distance)} Meters</h4>
+                          <h4>BusStation ID: ${nearestbusobject[0].businfo.stopid}</h4>`
+                        });
+                    } else {
+                        buswindow = new google.maps.InfoWindow({
+                          content: `<h3>${nearestbusobject[0].businfo.fullname}</h3>
+                          <h4>BusStation ID: ${nearestbusobject[0].businfo.stopid}</h4>`
+                        });
+                    }
+                    const busDatawindow = buswindow;
                     busmarker.addListener('mouseover', function() {
                       busDatawindow.open(this.map, busmarker);
                     });
@@ -79,10 +88,18 @@ export default class MapRendering extends Component {
                         url: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAEIklEQVRYR8WWbUxbVRjH/+fc0sJQBx126uy2WF0guA1NjdCV5raiyJStShgxi2bxDafxg4oazRJdblyiUxMdNr4g0y37MDfHFpTQdaXdtGXL6pcyxoBIdDFEBxvjZZRy6TmmEEgmhd72xux8u+c8z//53ee8PA/BDR7kBsdHSgBWqzVXp9WeZYzlJAKnlHIQst3r9R5W+mMpAVRUVOii0egeQog+YQDOOWXsQ4/fH/pfAJSKpmKnKAM2m80IxuxcEHRKxBljXBOLdZ4MBtuT2ScFKLSIb8sFZe8MrH18KY1NzuhxnliXzMhxKmDJQK+sD/3Yrp8cKPf7/RMLgSwKUFJSkv9PUVWoz/5G9qyAkYxC7NwLFo3M07y02gpP7oa5+bw/T+OOozt2hwPet9ICMBeXvtb79NefDt+aP+1POEPR2HlUszAoofM0O0YIDtxZc938usYtv4RbD9nSAii22nZ0bXFJw7cVQiNHMJv4zPFB0Oj4PM1IrhEcBIQQTGkyp9fNDc5w6Pix9aoAjNkCSq8EIY+PJjtT0+uCJgP92uVoXlkF87cqAbqf3CM5I+1ofLdWUfBZox9+Po6Xug0wud9Xl4ELznqp8oob+z6oSwng0E9u1HYZYDqxUyXApnqp8moaAM1u1J43wNSmFuCxeqlyxI19u1LMQBygwwDTSZUA3RX1klM+hcb3XklpC462tuHZ33Jh8u8Mh06ouQWPuiSz5i9UrYwCnCmC0AgCzvT047tl23BfU41KgEdc0vCyQtw81AMy9xIk5xhbehcYzYC5yakSoMwlDesLZ+63fA2xjLlXOTlF/CE65gyHvGq2wDEDYI/4kc/74NOV4oJwT8LgWjaB6sFvwCDgcN5zkKkO5ma1AKJL4oTik4IePP/UZrz+0V58wZ7ApHZ+U+QYbkLDtiLIsowX9nfhVO5mmFvUAthc0khOAZ651oCN96/C9+FJtGRWJszAiqmLeFHbghjj+FLehEsZK2BuVQHwYMmGuq6yxt0jt6wBYVPIudqJIf2CdWUaKmu8H5wImMhaPv19b0vVr+d8R+LVMGETsWg/YLFYiv5eszXYV/hylqIT9x+jnKEOGH1v1ne0u19NqxrGndZZHv547O7K7YOrypfEs6BkxEty9ugf3NC5P3zTxMXSQCCwYBlN2pLFA4qiWByJMisoV5QJxjkXCO89HQgcTAacFMBut68HY0FQ6vD5fGeSCc6uP+RwDIBzyevzfb6Yz6IAoijmCZSe5cA5QshBwvlqJQCc8xgojbFYbJeGkHKPz+dN+QyIoqgRKHVz4HadTlc8GY1+RoC1SgAATDFgK2WsDpTWMOCBtra23xP5LpgBh8NhIoCbCkKFx+PpVRj4OrPq6mrt0OXLzZyQI16v96uUANIJmI5P0kOYjmgqPv8CVWW3MDgrIWAAAAAASUVORK5CYII="
                       }
                     });
-                    const luasDatawindow = new google.maps.InfoWindow({
-                      content: `<h3>${nearestluasobject[0].luasinfo.name}</h3>
-                      <h4>Distance: ${geolib.convertUnit("km", nearestluasobject[0].distance)} KM</h4>`
-                    });
+                    var luaswindow ="";
+                    if (this.props.stations.stations.length === 1){
+                        luaswindow = new google.maps.InfoWindow({
+                          content: `<h3>${nearestluasobject[0].luasinfo.name}</h3>
+                          <h4>Distance: ${geolib.convertUnit("m", nearestluasobject[0].distance)} Meters</h4>`
+                        });
+                    } else {
+                        luaswindow = new google.maps.InfoWindow({
+                          content: `<h3>${nearestluasobject[0].luasinfo.name}</h3>`
+                        });
+                    }
+                    const luasDatawindow = luaswindow;
                     luasmarker.addListener('mouseover', function() {
                       luasDatawindow.open(this.map, luasmarker);
                     });
@@ -108,7 +125,7 @@ export default class MapRendering extends Component {
             marker.addListener('mouseout', function() {
               infowindow.close(this.map, marker);
             });
-
+            return true;
           })
         }
       const heatmap = new google.maps.visualization.HeatmapLayer({

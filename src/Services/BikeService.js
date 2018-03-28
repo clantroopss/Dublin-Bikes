@@ -20,6 +20,9 @@ export function searchBike(event) {
                                   return obj.stationnumber === stationnumber;
                                 });
         result.luasinfo = nearestluasobject;
+        result.bike = true;
+    } else{
+        result.bike = false;
     }
     if(event.target.bus){
         const stationnumber = JSON.parse(event.target.bus.value);
@@ -28,6 +31,9 @@ export function searchBike(event) {
                                   return obj.stationnumber === stationnumber[0];
                                 });
         result.businfo = nearestbusobject;
+        result.bus = true;
+    } else {
+        result.bus = false;
     }
     if(event.target.luas){
         const stationnumber = JSON.parse(event.target.luas.value);
@@ -36,6 +42,9 @@ export function searchBike(event) {
                                   return obj.stationnumber === stationnumber[0];
                                 });
         result.luasinfo = nearestluasobject;
+        result.luas = true;
+    } else {
+        result.luas = false;
     }
   return result;
 }

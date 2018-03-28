@@ -8,22 +8,42 @@ import MapForm from './MapForm'
 
 class MapContainer extends Component {
 
-  state = {
-    overallData: {}
+    constructor() {
+  	super();
+    
+    this.state = { overallData: {}};
+    this.onRouteChanged = this.onRouteChanged.bind(this);
   }
+  
+componentDidUpdate(prevProps) {
+    if (this.props.location !== prevProps.location) {
+      this.onRouteChanged();
+    }
+  }
+
+  onRouteChanged() {
+    console.log("ROUTE CHANGED");
+    fetchData().then((json) => {
+        window.store = {stations: json, busData: undefined, luasData: undefined}
+        this.setState({overallData: window.store})
+    });
+  }
+
   componentDidMount = () => {
     fetchData().then((json) => {
         window.store = {stations: json, busData: undefined, luasData: undefined}
         this.setState({overallData: window.store})
     });
   }
-      
+  componentWillReceiveProps(nextProps){
+     //call your api and update state with new props
+  }
   onFilter = (event) => {
-    window.searchresult = searchBike(event)
+    window.searchresult = searchBike(event);
     fetchData()
       .then((json) => {
         var selectedbikeobject =[];
-        if(window.searchresult.selectedstation.length){
+        if(window.searchresult.selectedstation && window.searchresult.selectedstation.length){
             window.searchresult.selectedstation.forEach(function(item){
               json.filter(function( obj ) {
                                       if(obj.number === item){
@@ -35,11 +55,11 @@ class MapContainer extends Component {
             });
         } else {
             selectedbikeobject = json.filter(function( obj ) {
-                                  return obj.number == window.searchresult.selectedstation;
+                                  return obj.number === window.searchresult.selectedstation;
                                 });
         }
         
-        window.searchbike = {stations: selectedbikeobject, busData: window.searchresult.businfo, luasData: window.searchresult.luasinfo}
+        window.searchbike = {stations: selectedbikeobject, busData: window.searchresult.businfo, luasData: window.searchresult.luasinfo, bike: window.searchresult.bike, bus: window.searchresult.bus,luas: window.searchresult.luas}
         this.setState({overallData: window.searchbike})
       })
   }
@@ -48,7 +68,7 @@ class MapContainer extends Component {
     return (
         <div className="MapContainer">
         <div className="wrapper">
-          <MapForm onFilter={this.onFilter} />
+          <MapForm onFilter={this.onFilter}  overallData ={this.state.overallData} parentMethod = {this.onRouteChanged}/>
           <Route path="/" render={(props) => <MapRendering google={this.props.google} stations={this.state.overallData} {...props}/>}/>
         </div>
         <br/>

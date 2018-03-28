@@ -97,3 +97,8 @@ h1, h3, p, label, input {
   position:relative;
   top:1px;
 }
+
+.tableStyle {
+    height: 400px;
+    overflow-y: scroll;
+}
