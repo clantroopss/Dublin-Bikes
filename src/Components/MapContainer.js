@@ -12,6 +12,7 @@ class MapContainer extends Component {
   state = {
     overallData: {}
   }
+
   componentDidMount = () => {
     fetchData().then((json) => {
         var businfo = require('../data/nearestbus.json');

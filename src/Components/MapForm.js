@@ -8,7 +8,6 @@ require('react-select/dist/react-select.min.css');
 class MapForm extends Component {
  constructor() {
   	super();
-    
     this.state = { checked: false, selectedOption: 'option1' };
     this.handleChange = this.handleChange.bind(this);
     this.handleOptionChange = this.handleOptionChange.bind(this);
