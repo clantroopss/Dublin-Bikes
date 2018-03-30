@@ -19,14 +19,15 @@ class App extends Component {
         <div>
           <h1>SUSTAINABLE CITY MANAGEMENT</h1>
           <ul className="header">
-            <li><NavLink exact  to="/" class="active">DB Load Equalizer</NavLink></li>
-            <li><NavLink to="/dbusage" class="active">DB Usage</NavLink></li>
-            <li><NavLink to="/newstationinstallations" class="active">New Station Installation</NavLink></li>
+
+            <li><NavLink exact  to="/"><a aria-current="true" href="#/stuff" class="active">Dublin Bikes Load Equalizer</a></NavLink></li>
+            <li><NavLink to="/dbusage"><a aria-current="true" href="#/stuff" class="active">Dunlin Bikes Usage</a></NavLink></li>
+            <li><NavLink to="/dbprediction"><a aria-current="true" href="#/stuff" class="active">Dublin Bikes Usage Prediction</a></NavLink></li>
           </ul>
           <div className="App">
             <Route exact path="/" component={MapContainer}/>
             <Route path="/dbusage" component={DBusage}/>
-            <Route path="/newstationinstallations" component={NewStationInstallation}/>
+            <Route path="/dbprediction" component={NewStationInstallation}/>
           </div>
         </div>
      </HashRouter>

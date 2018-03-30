@@ -30,11 +30,6 @@ export default class VizDataExtract extends Component {
             this.setState({averageData: json})
         });
     }
-    
-    componentDidUpdate = () =>
-    {
-        this.pre
-    }
 
     render() {
         var alldata = this.state.allData;
