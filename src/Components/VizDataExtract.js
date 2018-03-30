@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
 import { fetchCassandraData } from '../Services/CassandraService';
-import LineChart from 'react-linechart';
 import 'react-linechart/dist/styles.css';
 import * as d3 from 'd3'
 import {BarChart} from 'react-easy-chart';
