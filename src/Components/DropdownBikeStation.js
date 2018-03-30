@@ -9,7 +9,7 @@ require('react-select/dist/react-select.min.css');
 class DropdownBikeStation extends Component {
     constructor() {
         super();
-        this.state = { selectedOption: 'option1', selectValue: undefined };
+        this.state = { selectedOption: 'option1', selectValue: undefined, fromDate: undefined, toDate: undefined};
         this.handleOptionChange = this.handleOptionChange.bind(this);
     }
 
@@ -28,7 +28,7 @@ class DropdownBikeStation extends Component {
 
     handleSubmit = (event) => {
         event.preventDefault()
-        this.props.stationFilter(event)
+        this.setState({ fromDate:event.target.from.value , toDate: event.target.to.value})
     }
 
     getInitialState = () => {
@@ -40,9 +40,34 @@ class DropdownBikeStation extends Component {
     onSelectChange = (value) => {
         this.setState({ selectValue:value });
     }
-
+    onFromChange = (event) => {
+        this.setState({ fromDate:event.target.value });
+    }
+    onToChange = (event) => {
+        this.setState({ toDate:event.target.value });
+    } 
     getSelectValue(val) {
         return (this.state.selectValue == '') ? val : this.state.selectValue;
+    }
+    getFromValue(val) {
+        if(val === ''){
+            var todayTime = new Date();
+            var month = todayTime.getMonth() + 1;
+            var day = todayTime.getDate();
+            var year = todayTime.getFullYear();
+            val = month + "/" + day + "/" + year;
+        }
+        return (this.state.fromDate === undefined) ? val : this.state.fromDate;
+    }
+    getToValue(val) {
+        if(val === ''){
+            var todayTime = new Date();
+            var month = todayTime.getMonth() + 1;
+            var day = todayTime.getDate();
+            var year = todayTime.getFullYear();
+            val = month + "/" + day + "/" + year;
+        }
+        return (this.state.toDate === undefined) ? val : this.state.toDate;
     }
 
     render() {
@@ -57,18 +82,21 @@ class DropdownBikeStation extends Component {
                   value={this.getSelectValue('test')}
                   onChange={this.onSelectChange} />
                 <br/>
+                <label className="filter-column">Date Range:</label><br/>
+                <input type="date" name="from" value={this.getFromValue('')} onChange={this.onFromChange} /><br/>
+                <input type="date" name="to" value={this.getToValue('')} onChange={this.onToChange} /><br/>
               </div>
           : null;
         
         const vizdataextract = this.state.selectValue !== undefined ?
-              <VizDataExtract stations = {this.state.selectValue.value} /> : null;
+              <VizDataExtract stations = {this.state.selectValue.value} fromDate = {this.state.fromDate} toDate = {this.state.toDate} /> : null;
 
         return(
           <div>
             <h3>Select Bike Station:</h3>
             <form onSubmit={this.handleSubmit}>
               { content1 }
-            <input type="submit" className="myButton"/>
+            <input type="submit" className="myButton" value="Bike Usage"/>
             {vizdataextract}
           </form>
           </div>

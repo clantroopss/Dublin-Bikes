@@ -13,6 +13,8 @@ export default class VizDataExtract extends Component {
             averageData : [],
             avg : 'test',
             station : undefined,
+            fromDate: undefined,
+            toDate: undefined
             };
     }
     
@@ -22,18 +24,21 @@ export default class VizDataExtract extends Component {
     }
     
     componentDidUpdate(prevProps) {
-        if (this.state.station !== prevProps.stations) {
-            this.onRouteChanged(prevProps.stations);
-            this.state.station = prevProps.stations;
+        if(prevProps.stations && prevProps.fromDate && prevProps.toDate){
+            if (this.state.station !== prevProps.stations || this.state.fromDate !== prevProps.fromDate || this.state.toDate !== prevProps.toDate) {
+                this.state.station = prevProps.stations;
+                this.state.fromDate = prevProps.fromDate;
+                this.state.toDate = prevProps.toDate
+                this.onRouteChanged(this.state.station, this.state.fromDate, this.state.toDate);
+            }
         }
     }
     
-    onRouteChanged(prevStation) {
-        console.log("ROUTE CHANGED");
-        fetchCassandraData(prevStation).then((json) => {
+    onRouteChanged(stationNumber, fromDate, toDate) {
+        fetchCassandraData(stationNumber, fromDate, toDate).then((json) => {
             this.setState({allData: json})
         });
-        AverageService(prevStation).then((json) => {
+        AverageService(stationNumber, fromDate, toDate).then((json) => {
             this.setState({averageData: json})
         });
     }
