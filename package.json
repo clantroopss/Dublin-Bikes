@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^3.3.7",
+    "d3": "^5.0.0",
     "geolib": "^2.0.24",
     "google-maps-react": "^1.1.0",
     "jquery": "^3.3.1",
@@ -12,6 +13,10 @@
     "react-bootstrap-table-next": "^0.1.5",
     "react-dom": "^15.6.1",
     "react-responsive-navbar": "^1.0.11",
+    "react-d3": "^0.4.0",
+    "react-dom": "^15.6.1",
+    "react-dropdown": "^1.4.0",
+    "react-easy-chart": "^1.0.0",
     "react-router-dom": "^4.2.2",
     "react-scripts": "1.0.13",
     "react-select": "^1.2.1"
