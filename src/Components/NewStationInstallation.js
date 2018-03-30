@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { fetchPredictions } from '../Services/PredictionService';
+import DropdownBikeStation from './DropdownBikeStation'
  
 class NewStationInstallation extends Component {
 constructor(props){
@@ -17,16 +18,14 @@ constructor(props){
     }
 
     render() {
-        var alldata = this.state.allData;
-        console.log(alldata)        
+        console.log(this.state.stationNumber)
+        
         return (
             <div>
-                <div className="App">
-
-                </div>				
-            </div>
-        );
-    }
+            <DropdownBikeStation stationFilter={this.stationFilter} />
+</div>
+);
+}
 }
  
 export default NewStationInstallation;

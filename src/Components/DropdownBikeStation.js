@@ -63,11 +63,6 @@ class DropdownBikeStation extends Component {
       <div>
         <h3>Select Bike Station:</h3>
         <form onSubmit={this.handleSubmit}>
-          <div>
-          <label>
-            Select Bike station:
-          </label>
-        </div>
           { content1 }
         <input type="submit" className="myButton"/>
       </form>
