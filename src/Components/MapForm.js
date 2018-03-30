@@ -14,7 +14,6 @@ require('react-bootstrap-table-next/dist/react-bootstrap-table2.min.css');
 class MapForm extends Component {
  constructor() {
   	super();
-    
     this.state = { checked: false, selectedOption: 'option1' };
     this.handleChange = this.handleChange.bind(this);
     this.handleOptionChange = this.handleOptionChange.bind(this);
