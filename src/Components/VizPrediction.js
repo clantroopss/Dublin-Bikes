@@ -35,16 +35,17 @@ export default class VizDataExtract extends Component {
         var average = this.state.averageData;
         var X_data = [];
         var Y_data = [];
+        var avg = [];
 
         if(average.dbikesdata){
             average.dbikesdata.map((dbikesdata) => { 
-                this.setState({avg:dbikesdata.avg_available_bikes})
+               avg.push({avg:dbikesdata.avg_available_bikes})
             })}
         
         if(alldata.dbikesdata){
             alldata.dbikesdata.map((dbikesdata) => { 
                 X_data.push({x: this.getParsedDate(dbikesdata.last_update), y: dbikesdata.available_bikes});
-                Y_data.push({x: this.getParsedDate(dbikesdata.last_update), y: this.state.avg});
+                Y_data.push({x: this.getParsedDate(dbikesdata.last_update), y: avg});
             })
         }
         return (

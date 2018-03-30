@@ -10,9 +10,9 @@ export default class VizDataExtract extends Component {
         this.state = 
             {
             allData : [],
-            points_array : [],
             averageData : [],
-            avg : 'test'
+            avg : 'test',
+            station : undefined,
             };
     }
     
@@ -20,12 +20,20 @@ export default class VizDataExtract extends Component {
         date = String(date).split('.');
         return date[0];
     }
-
-    componentDidMount = () => {
-        fetchCassandraData().then((json) => {
+    
+    componentDidUpdate(prevProps) {
+        if (this.state.station !== prevProps.stations) {
+            this.onRouteChanged(prevProps.stations);
+            this.state.station = prevProps.stations;
+        }
+    }
+    
+    onRouteChanged(prevStation) {
+        console.log("ROUTE CHANGED");
+        fetchCassandraData(prevStation).then((json) => {
             this.setState({allData: json})
         });
-        AverageService().then((json) => {
+        AverageService(prevStation).then((json) => {
             this.setState({averageData: json})
         });
     }
@@ -35,22 +43,8 @@ export default class VizDataExtract extends Component {
         var average = this.state.averageData;
         var X_data = [];
         var Y_data = [];
-
-        if(average.dbikesdata){
-            average.dbikesdata.map((dbikesdata) => { 
-                this.setState({avg:dbikesdata.avg_available_bikes})
-            })}
-        
-        if(alldata.dbikesdata){
-            alldata.dbikesdata.map((dbikesdata) => { 
-                X_data.push({x: this.getParsedDate(dbikesdata.last_update), y: dbikesdata.available_bikes});
-                Y_data.push({x: this.getParsedDate(dbikesdata.last_update), y: this.state.avg});
-            })
-        }
-        return (
-            <div>
-                <div className="App">
-                    <BarChart
+        var avg= undefined;
+        const graph = this.state.station !== undefined ? <BarChart
                         axisLabels={{x: 'Time', y: 'Available Bikes'}}
                         axes
                         datePattern="%Y-%m-%d %H:%M:%S"
@@ -64,7 +58,21 @@ export default class VizDataExtract extends Component {
                         yTickNumber={5}
                         barWidth={2}
                         yDomainRange={[0, 50]}
-                    />
+                    /> : null;
+        if(average.dbikesdata && average.dbikesdata[0]){
+             avg = average.dbikesdata[0].avg_available_bikes;
+           }
+        
+        if(alldata.dbikesdata){
+            alldata.dbikesdata.map((dbikesdata) => { 
+                X_data.push({x: this.getParsedDate(dbikesdata.last_update), y: dbikesdata.available_bikes});
+                Y_data.push({x: this.getParsedDate(dbikesdata.last_update), y: avg});
+            })
+        }
+        return (
+            <div>
+                <div className="App">
+                    {graph}
                 </div>				
             </div>
         );

@@ -6,7 +6,7 @@ import { Route } from 'react-router-dom'
 class DBusage extends Component {
     constructor(props) {
         super(props);
-        this.state = {stationNumber: 1};
+        this.state = {stationNumber: undefined};
         }
     
     
@@ -22,8 +22,6 @@ class DBusage extends Component {
         return (
             <div>
             <DropdownBikeStation stationFilter={this.stationFilter} />
-            <VizDataExtract handleClick={this.handleClick}
-            stations={this.state.stationNumber}/>
 
 </div>
 );
