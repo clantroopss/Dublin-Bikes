@@ -121,6 +121,9 @@ componentDidUpdate(prevProps) {
         }, {
            dataField: 'available_bike_stands',
           text: 'Available Bikes' 
+        }, {
+           dataField: 'prediction',
+          text: 'Next 1 hour Prediction' 
         }];
       const bikecolumns = [{
           dataField: 'stationName',
@@ -135,7 +138,10 @@ componentDidUpdate(prevProps) {
           bikestats.push({stationName: 'Bus:   ' + this.state.overallData.busData[0].businfo.fullname, distance: this.state.overallData.busData[0].distance});
           bikestats.push({stationName: 'Luas:   ' +this.state.overallData.luasData[0].luasinfo.name, distance: this.state.overallData.luasData[0].distance});
           const BikeCaptionElement = () => <h3 style={{ borderRadius: '0.25em', textAlign: 'center', color: 'black', border: '1px solid black', padding: '0.5em' }}>{this.state.overallData.stations[0].name} </h3>;
-          biketable = <div className="tableStyle"><BootstrapTable keyField='id' data={ bikestats } columns={ bikecolumns } caption={<BikeCaptionElement />} /></div>
+          biketable = <div className="tableStyle"><BootstrapTable keyField='id' data={ bikestats } columns={ bikecolumns } caption={<BikeCaptionElement />} />
+            <p> Available Bikes: {this.state.overallData.stations[0].available_bikes} </p>
+            <p> Next 1 hour prediction: {this.state.overallData.stations[0].prediction}</p>
+            </div>
         /*var bikenearbusstop = geolib.orderByDistance(this.state.overallData.busData[0].businfo, this.state.overallData.stations);
         bikenearbusstop.map((obj) => {
           obj.stationName = this.state.overallData.stations[obj.key].name;
@@ -159,6 +165,7 @@ componentDidUpdate(prevProps) {
         bikenearbusstop.map((obj) => {
           obj.stationName = this.state.overallData.stations[obj.key].name;
           obj.available_bike_stands = this.state.overallData.stations[obj.key].available_bikes;
+          obj.prediction = this.state.overallData.stations[obj.key].prediction;
           return true;
         })
         
@@ -178,6 +185,7 @@ componentDidUpdate(prevProps) {
         bikebasedondistance.map((obj) => {
           obj.stationName = this.state.overallData.stations[obj.key].name;
           obj.available_bike_stands = this.state.overallData.stations[obj.key].available_bikes;
+          obj.prediction = this.state.overallData.stations[obj.key].prediction;
           return true;
         })
         const LuasCaptionElement = () => <h3 style={{ borderRadius: '0.25em', textAlign: 'center', color: 'black', border: '1px solid black', padding: '0.5em' }}>Nearest bike stations to Luas stop: {this.state.overallData.luasData[0].luasinfo.name} </h3>;

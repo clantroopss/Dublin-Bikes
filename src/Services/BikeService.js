@@ -55,6 +55,7 @@ export function bikeInfo() {
 }
 
 export function busInfo() {
+/*Tempered json to test prediction for multiple prediciton result display https://api.myjson.com/bins/mtph3 Original https://api.myjson.com/bins/7vfun*/
   return fetch(`https://api.myjson.com/bins/7vfun`)
     .then((res) => res.json())
 }

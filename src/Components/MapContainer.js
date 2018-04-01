@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import { Route } from 'react-router-dom'
 import { fetchData } from '../Services/BikeService'
 import { searchBike } from '../Services/BikeService'
+import {fetchPredictions} from '../Services/PredictionService';
 import { GoogleApiWrapper } from 'google-maps-react'
 import MapRendering from './MapRendering'
 import MapForm from './MapForm'
@@ -43,24 +44,62 @@ componentDidUpdate(prevProps) {
     fetchData()
       .then((json) => {
         var selectedbikeobject =[];
-        if(window.searchresult.selectedstation && window.searchresult.selectedstation.length){
-            window.searchresult.selectedstation.forEach(function(item){
-              json.filter(function( obj ) {
-                                      if(obj.number === item){
-                                          selectedbikeobject.push(obj)
-                                          return true;
-                                      }
-                                      return false;
-              });
-            });
-        } else {
-            selectedbikeobject = json.filter(function( obj ) {
-                                  return obj.number === window.searchresult.selectedstation;
-                                });
-        }
+            if(window.searchresult.selectedstation && window.searchresult.selectedstation.length){
+                
+                window.searchresult.selectedstation.forEach(function(item){
+                  json.filter(function( obj ) {
+                                          if(obj.number === item){
+                                              selectedbikeobject.push(obj)
+                                              return true;
+                                          }
+                                          return false;
+                  });
+                });
+            } else {
+                selectedbikeobject = json.filter(function( obj ) {
+                                      return obj.number === window.searchresult.selectedstation;
+                                    });
+            }
+            window.searchbike = {stations: selectedbikeobject, busData: window.searchresult.businfo, luasData: window.searchresult.luasinfo, bike: window.searchresult.bike, bus: window.searchresult.bus,luas: window.searchresult.luas}
+            if(window.predictionAll) {
+                var prefetchedpred = fetchPredictions(window.searchresult.selectedstation);
+                window.searchbike.stations.filter(function (array) {
+                            return prefetchedpred.some(function (filter) {
+                                if(array.number === filter.number){
+                                    array.prediction = filter.score;
+                                }
+                                return array.number === filter.number;
+                            });
+                        }); 
+                this.setState({overallData: window.searchbike})
+            } else {
+                fetchPredictions(window.searchresult.selectedstation).then((json) => {
+                    if (json){
+                        window.searchbike.stations.filter(function (array) {
+                            return json.some(function (filter) {
+                                if(array.number === filter.number){
+                                    array.prediction = filter.score;
+                                }
+                                return array.number === filter.number;
+                            });
+                        }); 
+                    }
+                    this.setState({overallData: window.searchbike})
+                });
+            }
+            
+             
+            
+            //this.setState({overallData: window.searchbike})
+        /*fetchPredictions(stationNumber).then((json) => {
+            var pred = undefined;
+            if (json && json[0]){
+              pred = json[0]  
+            }
+            
+            this.setState({predicted: json})
+        });*/
         
-        window.searchbike = {stations: selectedbikeobject, busData: window.searchresult.businfo, luasData: window.searchresult.luasinfo, bike: window.searchresult.bike, bus: window.searchresult.bus,luas: window.searchresult.luas}
-        this.setState({overallData: window.searchbike})
       })
   }
  

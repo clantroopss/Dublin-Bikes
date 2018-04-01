@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import ReactDOM from 'react-dom';
 import { fetchCassandraData } from '../Services/CassandraService';
 import {BarChart} from 'react-easy-chart';
 import {AverageService} from '../Services/AverageService';
@@ -26,9 +25,10 @@ export default class VizDataExtract extends Component {
     componentDidUpdate(prevProps) {
         if(prevProps.stations && prevProps.fromDate && prevProps.toDate){
             if (this.state.station !== prevProps.stations || this.state.fromDate !== prevProps.fromDate || this.state.toDate !== prevProps.toDate) {
+                //this.setState({station: prevProps.stations, fromDate: prevProps.fromDate, toDate: prevProps.toDate})
                 this.state.station = prevProps.stations;
                 this.state.fromDate = prevProps.fromDate;
-                this.state.toDate = prevProps.toDate
+                this.state.toDate = prevProps.toDate;
                 this.onRouteChanged(this.state.station, this.state.fromDate, this.state.toDate);
             }
         }
@@ -72,6 +72,7 @@ export default class VizDataExtract extends Component {
             alldata.dbikesdata.map((dbikesdata) => { 
                 X_data.push({x: this.getParsedDate(dbikesdata.last_update), y: dbikesdata.available_bikes});
                 Y_data.push({x: this.getParsedDate(dbikesdata.last_update), y: avg});
+                return true;
             })
         }
         return (

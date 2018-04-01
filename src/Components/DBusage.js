@@ -1,7 +1,5 @@
 import React, { Component } from "react";
-import VizDataExtract from './VizDataExtract';
 import DropdownBikeStation from './DropdownBikeStation'
-import { Route } from 'react-router-dom'
 class DBusage extends Component {
     constructor(props) {
         super(props);
