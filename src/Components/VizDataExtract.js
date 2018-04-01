@@ -52,7 +52,9 @@ export default class VizDataExtract extends Component {
         const graph = this.state.station !== undefined ? <BarChart
                         axisLabels={{x: 'Time', y: 'Available Bikes'}}
                         axes
+                        legend
                         datePattern="%Y-%m-%d %H:%M:%S"
+                        tickTimeDisplayFormat={'%d %b %I %p'}
                         height={250}
                         width={1200}
                         xType={'time'}
@@ -62,7 +64,7 @@ export default class VizDataExtract extends Component {
                         margin={{top: 20, right: 0, bottom: 30, left: 100}}
                         yTickNumber={5}
                         barWidth={2}
-                        yDomainRange={[0, 50]}
+                        yDomainRange={[0, 40]}
                     /> : null;
         if(average.dbikesdata && average.dbikesdata[0]){
              avg = average.dbikesdata[0].avg_available_bikes;

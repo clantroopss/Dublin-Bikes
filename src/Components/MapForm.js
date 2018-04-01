@@ -107,7 +107,7 @@ componentDidUpdate(prevProps) {
               onChange={this.onSelectLuasChange} />
       : null;
       var dropdownstyle = {
-              width: '30%',
+              width: '90%',
               display: "inline-table",
               padding: '1%'
         };
@@ -199,12 +199,12 @@ componentDidUpdate(prevProps) {
       const content6 = biketable;
     return(
       <div>
-        <h3> Search nearest Bus & Luas stops</h3>
+        <h4> Search Bike Stations and Nearest Bus & Luas Stops</h4><br/>
         <form onSubmit={this.handleSubmit}>
           <div className="radio">
           <label>
             <input type="radio" value="option1" checked={this.state.selectedOption === 'option1'} onChange={this.handleOptionChange} />
-            Bike station
+            Select Bike Station <br/>
           </label>
           <div style ={dropdownstyle}>
                 { content1 }
@@ -213,7 +213,7 @@ componentDidUpdate(prevProps) {
         <div className="radio">
           <label>
             <input type="radio" value="option2" checked={this.state.selectedOption === 'option2'} onChange={this.handleOptionChange} />
-            Bus stops
+            Select Bus Stop <br/>
           </label>
           <div style ={dropdownstyle}>
             { content2 }
@@ -222,7 +222,7 @@ componentDidUpdate(prevProps) {
         <div className="radio">
           <label>
             <input type="radio" value="option3" checked={this.state.selectedOption === 'option3'} onChange={this.handleOptionChange} />
-            luas stops
+            Select Luas Stop <br/>
           </label>
             <div style ={dropdownstyle}>
           { content3 }

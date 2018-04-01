@@ -82,15 +82,18 @@ class DropdownBikeStation extends Component {
             };
         const content1 = this.state.selectedOption === 'option1'
             ? <div style ={dropdownstyle}><br />
+              <h5>Select Bike Station:</h5>
               <Select
                   name="bikes"
                   options={this.state.bikeinfo}
                   value={this.getSelectValue('test')}
                   onChange={this.onSelectChange} />
                 <br/>
-                <label className="filter-column">Date Range:</label><br/>
+              <div>
+                <h5>Date Range:</h5>
                 <input type="date" name="from" value={this.getFromValue('')} onChange={this.onFromChange} min={this.state.min} max={this.state.max} /><br/>
                 <input type="date" name="to" value={this.getToValue('')} onChange={this.onToChange} min={this.state.min} max={this.state.max}/><br/>
+                </div>
               </div>
           : null;
         
@@ -99,12 +102,13 @@ class DropdownBikeStation extends Component {
 
         return(
           <div>
-            <h3>Select Bike Station:</h3>
             <form onSubmit={this.handleSubmit}>
               { content1 }
+            <br/>
             <input type="submit" className="myButton" value="Bike Usage"/>
-            {vizdataextract}
+            
           </form>
+        {vizdataextract}
           </div>
         )
     }

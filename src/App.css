@@ -7,6 +7,21 @@ body {
 h1, h2, p, ul, li {
   font-family: sans-serif;
 }
+
+h1{
+   text-align:center;
+}
+
+ul.header{
+    height: 50px;
+}
+
+.logo
+{
+    margin-left: 450px !important;
+    font-style: oblique;
+}
+
 ul.header li {
   display: inline;
   list-style-type: none;
@@ -20,8 +35,9 @@ ul.header li a {
   color: #FFF;
   font-weight: bold;
   text-decoration: none;
-  padding: 20px;
+  padding: 8px;
   display: inline-block;
+  height: 50px;
 }
 .App {
   background-color: #FFF;
@@ -39,9 +55,14 @@ ul.header li a {
 }
 .wrapper {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-gap: 0px;
-  grid-auto-rows: minmax(100px, auto);
+  grid-template-columns: 475px auto;
+  grid-gap: 2px;
+}
+
+.wrapper1{
+    display: grid;
+    grid-template-columns: auto 100px 300px 100px 500px;
+    grid-gap: 2px;
 }
 
 .filter-column {
@@ -96,6 +117,10 @@ h1, h3, p, label, input {
 .myButton:active {
   position:relative;
   top:1px;
+}
+
+.myClass{
+    width: 50%;
 }
 
 .tableStyle {

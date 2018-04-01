@@ -17,12 +17,11 @@ class App extends Component {
     return (
     <HashRouter>
         <div>
-          <h1>SUSTAINABLE CITY MANAGEMENT</h1>
           <ul className="header">
-
             <li><NavLink exact  to="/"><a aria-current="true" href="#/stuff" class="active">Dublin Bikes Load Equalizer</a></NavLink></li>
-            <li><NavLink to="/dbusage"><a aria-current="true" href="#/stuff" class="active">Dunlin Bikes Usage</a></NavLink></li>
+            <li><NavLink to="/dbusage"><a aria-current="true" href="#/stuff" class="active">Dublin Bikes Usage</a></NavLink></li>
             <li><NavLink to="/dbprediction"><a aria-current="true" href="#/stuff" class="active">Dublin Bikes Usage Prediction</a></NavLink></li>
+            <li className="logo"><a aria-current="true" href="#" class="active">Sustainable City Management</a></li>
           </ul>
           <div className="App">
             <Route exact path="/" component={MapContainer}/>
