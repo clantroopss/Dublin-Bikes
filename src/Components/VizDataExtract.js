@@ -22,8 +22,6 @@ export default class VizDataExtract extends Component {
             showToolTip: false,
             windowWidth: initialWidth - 100
             };
-        window.showToolTip = false;
-        this.createTooltip =this.createTooltip.bind(this);
     }
     
     getParsedDate(date){
