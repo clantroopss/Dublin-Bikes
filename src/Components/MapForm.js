@@ -36,7 +36,7 @@ class MapForm extends Component {
     const sgMail = require('@sendgrid/mail');
     sgMail.setApiKey("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");
     
-    var content = "Please transfer bike to station " + window.attentionRequired.name + "Current available number of bikes at station is :" + window.attentionRequired.available_bikes + " & According to prediction for Next 1 hour available bikes would be : " +window.attentionRequired.prediction;
+    var content = "Please transfer bike to station " + window.attentionRequired.name + " Current available number of bikes at station is :" + window.attentionRequired.available_bikes + " & According to prediction for Next 1 hour available bikes would be : " +window.attentionRequired.prediction;
     this.setState({mailContent : content});
     const msg = {
       to: 'merb@tcd.ie; royn@tcd.ie;mehtar@tcd.ie; kesavana@tcd.ie; hazarika@tcd.ie',
@@ -282,7 +282,7 @@ componentDidUpdate(prevProps) {
                     >
                       <Modal.Header closeButton>
                         <Modal.Title id="contained-modal-title">
-                          Contained Modal
+                         Transfer Request
                         </Modal.Title>
                       </Modal.Header>
                       <Modal.Body>
