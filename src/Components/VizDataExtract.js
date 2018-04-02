@@ -1,11 +1,16 @@
 import React, { Component } from 'react';
 import { fetchCassandraData } from '../Services/CassandraService';
-import {BarChart} from 'react-easy-chart';
+import {ToolTip, BarChart} from 'react-easy-chart';
 import {AverageService} from '../Services/AverageService';
+import Grid from 'react-bootstrap/lib/Grid';
+import Row from 'react-bootstrap/lib/Row';
+import Col from 'react-bootstrap/lib/Col';
+
 
 export default class VizDataExtract extends Component {
     constructor(props){
         super(props);
+        const initialWidth = window.innerWidth > 0 ? window.innerWidth : 500;
         this.state = 
             {
             allData : [],
@@ -13,15 +18,21 @@ export default class VizDataExtract extends Component {
             avg : 'test',
             station : undefined,
             fromDate: undefined,
-            toDate: undefined
+            toDate: undefined,
+            showToolTip: false,
+            windowWidth: initialWidth - 100
             };
+        window.showToolTip = false;
+        this.createTooltip =this.createTooltip.bind(this);
     }
     
     getParsedDate(date){
         date = String(date).split('.');
         return date[0];
     }
-    
+    componentDidMount() {
+        window.addEventListener('resize', this.handleResize.bind(this));
+    }
     componentDidUpdate(prevProps) {
         if(prevProps.stations && prevProps.fromDate && prevProps.toDate){
             if (this.state.station !== prevProps.stations || this.state.fromDate !== prevProps.fromDate || this.state.toDate !== prevProps.toDate) {
@@ -33,7 +44,12 @@ export default class VizDataExtract extends Component {
             }
         }
     }
-    
+    componentWillUnmount = () => {
+        window.removeEventListener('resize', this.handleResize);
+    }
+    handleResize = () => {
+        this.setState({windowWidth: window.innerWidth - 100});
+    }
     onRouteChanged(stationNumber, fromDate, toDate) {
         fetchCassandraData(stationNumber, fromDate, toDate).then((json) => {
             this.setState({allData: json})
@@ -49,14 +65,16 @@ export default class VizDataExtract extends Component {
         var X_data = [];
         var Y_data = [];
         var avg= undefined;
-        const graph = this.state.station !== undefined ? <BarChart
+        var result = undefined;
+        if(this.state.windowWidth < 600){
+            result = this.state.station !== undefined ? <BarChart
                         axisLabels={{x: 'Time', y: 'Available Bikes'}}
                         axes
                         legend
-                        datePattern="%Y-%m-%d %H:%M:%S"
-                        tickTimeDisplayFormat={'%d %b %I %p'}
-                        height={250}
-                        width={1200}
+                        datePattern= "%Y-%m-%d %H:%M:%S"
+                        tickTimeDisplayFormat={'%I'}
+                        width={this.state.windowWidth}
+                        height={this.state.windowWidth / 2}
                         xType={'time'}
                         lineData={Y_data}
                         y2Type="linear"
@@ -66,6 +84,26 @@ export default class VizDataExtract extends Component {
                         barWidth={2}
                         yDomainRange={[0, 40]}
                     /> : null;
+        } else {
+            result = this.state.station !== undefined ? <BarChart
+                        axisLabels={{x: 'Time', y: 'Available Bikes'}}
+                        axes
+                        legend
+                        datePattern= "%Y-%m-%d %H:%M:%S"
+                        tickTimeDisplayFormat={'%d %b %I %p'}
+                        width={1200}
+                        height={450}
+                        xType={'time'}
+                        lineData={Y_data}
+                        y2Type="linear"
+                        data={X_data}
+                        margin={{top: 20, right: 0, bottom: 30, left: 100}}
+                        yTickNumber={5}
+                        barWidth={2}
+                        yDomainRange={[0, 40]}
+                    /> : null;
+        }
+        const graph = result;
         if(average.dbikesdata && average.dbikesdata[0]){
              avg = average.dbikesdata[0].avg_available_bikes;
            }
@@ -78,11 +116,13 @@ export default class VizDataExtract extends Component {
             })
         }
         return (
-            <div>
-                <div className="App">
+            <Grid>
+                <Row>
+                    <Col xs={12} md={12}>
                     {graph}
-                </div>				
-            </div>
+                    </Col>
+                </Row>
+            </Grid>
         );
     }
 }

@@ -20,10 +20,7 @@ class DBusage extends Component {
         console.log(this.state.stationNumber)
         
         return (
-            <div>
             <DropdownBikeStation stationFilter={this.stationFilter} />
-
-</div>
 );
 }
 }

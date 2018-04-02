@@ -3,6 +3,9 @@ import { fetchPredictionsDay } from '../Services/PredictionService';
 import Select from 'react-select';
 import { bikeInfo } from '../Services/BikeService';
 import {LineChart} from 'react-easy-chart';
+import Grid from 'react-bootstrap/lib/Grid';
+import Row from 'react-bootstrap/lib/Row';
+import Col from 'react-bootstrap/lib/Col';
 import 'bootstrap/dist/css/bootstrap.css';
 import '../App.css';
 require('react-select/dist/react-select.min.css');
@@ -12,9 +15,12 @@ require('react-select/dist/react-select.min.css');
 class NewStationInstallation extends Component {
 constructor(props){
         super(props);
+        const initialWidth = window.innerWidth > 0 ? window.innerWidth : 500;
         this.state = 
             {
-               predAllStation : undefined 
+               predAllStation : undefined,
+               showToolTip: false,
+               windowWidth: initialWidth - 100
             };
     }
     getSelectValue(val) {
@@ -41,8 +47,14 @@ constructor(props){
           .then((json) => {
             this.setState({ bikeinfo: json} )
         })
+        window.addEventListener('resize', this.handleResize.bind(this));
     }
-        
+    componentWillUnmount = () => {
+        window.removeEventListener('resize', this.handleResize);
+    }
+    handleResize = () => {
+        this.setState({windowWidth: window.innerWidth - 100});
+    }  
     render() {
         var predallstations = this.state.predAllStation;
         var X_data = [];
@@ -52,10 +64,22 @@ constructor(props){
                 return true;
             })
         }
-        const graph = this.state.predAllStation !== undefined ? <LineChart
+        var result = undefined;
+        if(this.state.windowWidth < 600){
+            result = this.state.predAllStation !== undefined ? <Row><Col xs={12} md={12}><LineChart
                                                                     axes
-                                                                    datePattern="%H"
-                                                                    xType={'time'}
+                                                                    axisLabels={{x: 'Time', y: 'Predicted Available Bikes'}}
+                                                                    grid
+                                                                    verticalGrid
+                                                                    dataPoints
+                                                                    width={this.state.windowWidth}
+                                                                    height={this.state.windowWidth / 2}
+                                                                    yDomainRange={[0, 40]}
+                                                                    data={[X_data]}/></Col></Row> : null;
+            
+        } else {
+            result = this.state.predAllStation !== undefined ? <Row><Col xs={12} md={12}><LineChart
+                                                                    axes
                                                                     axisLabels={{x: 'Time', y: 'Predicted Available Bikes'}}
                                                                     grid
                                                                     verticalGrid
@@ -63,23 +87,30 @@ constructor(props){
                                                                     height={250}
                                                                     width={1200}
                                                                     yDomainRange={[0, 40]}
-                                                                    data={[X_data]}/> : null;
-                                                                    
+                                                                    data={[X_data]}/></Col></Row> : null;
+        }
         
+                                                                    
+        const graph = result;
         return (
-            <div>
-            <h5>Select Bike Station To View Predictions from Next Week:</h5>
-                <form className="myClass" onSubmit={this.handleSubmit}>
-                    <Select
-                      name="bikes"
-                      options={this.state.bikeinfo}
-                      value={this.getSelectValue('test')}
-                      onChange={this.onSelectChange} />
-                    <br/>
-                    <input type="submit" className="myButton" value="Predict"/>
-                </form>
-                {graph}
-            </div>
+            <Grid>
+                <Row><Col xs={12} md={12}>
+                    <form onSubmit={this.handleSubmit}>
+                        <Row>
+                                <Col xs={12} md={4}><b>Select Bike Station to view todays prediction</b></Col>
+                                <Col xs={12} md={5}>
+                                    <Select
+                                      name="bikes"
+                                      options={this.state.bikeinfo}
+                                      value={this.getSelectValue('test')}
+                                      onChange={this.onSelectChange} />
+                                </Col>
+                                <Col xs={12} md={3}><input type="submit" className="myButton" value="Predict"/></Col>
+                        </Row>
+                        {graph}
+                    </form></Col>
+                </Row>
+            </Grid>
         );
     }
 }

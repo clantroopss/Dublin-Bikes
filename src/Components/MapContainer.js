@@ -6,6 +6,9 @@ import {fetchPredictions} from '../Services/PredictionService';
 import { GoogleApiWrapper } from 'google-maps-react'
 import MapRendering from './MapRendering'
 import MapForm from './MapForm'
+import Grid from 'react-bootstrap/lib/Grid';
+import Row from 'react-bootstrap/lib/Row';
+import Col from 'react-bootstrap/lib/Col';
 
 class MapContainer extends Component {
 
@@ -87,31 +90,18 @@ componentDidUpdate(prevProps) {
                     this.setState({overallData: window.searchbike})
                 });
             }
-            
-             
-            
-            //this.setState({overallData: window.searchbike})
-        /*fetchPredictions(stationNumber).then((json) => {
-            var pred = undefined;
-            if (json && json[0]){
-              pred = json[0]  
-            }
-            
-            this.setState({predicted: json})
-        });*/
-        
       })
   }
  
   render() {
     return (
-        <div className="MapContainer">
-        <div className="wrapper">
-          <MapForm onFilter={this.onFilter}  overallData ={this.state.overallData} parentMethod = {this.onRouteChanged}/>
-          <Route path="/" render={(props) => <MapRendering google={this.props.google} stations={this.state.overallData} {...props}/>}/>
-        </div>
-        <br/>
-        </div>
+        <Grid>
+            <Row>
+                <Col xs={12} md={4}><MapForm onFilter={this.onFilter}  overallData ={this.state.overallData} parentMethod = {this.onRouteChanged}/></Col>
+                <Col xs={12} md={8}><Route path="/" render={(props) => <MapRendering google={this.props.google} stations={this.state.overallData} {...props}/>}/></Col>
+            </Row>
+            
+        </Grid>
     );
   }
 }
