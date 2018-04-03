@@ -34,7 +34,7 @@ class MapForm extends Component {
       // using SendGrid's v3 Node.js Library
     // https://github.com/sendgrid/sendgrid-nodejs
     const sgMail = require('@sendgrid/mail');
-    sgMail.setApiKey("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");
+    sgMail.setApiKey("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");
     
     var content = "Please transfer bike to station " + window.attentionRequired.name + " Current available number of bikes at station is :" + window.attentionRequired.available_bikes + " & According to prediction for Next 1 hour available bikes would be : " +window.attentionRequired.prediction;
     this.setState({mailContent : content});

@@ -117,7 +117,7 @@ export default class VizDataExtract extends Component {
         return (
             <Grid>
                 <Row>
-                    <Col xs={12} md={12} style={marginleft}>
+                    <Col xs={12} md={12}>
                     {graph}
                     </Col>
                 </Row>
