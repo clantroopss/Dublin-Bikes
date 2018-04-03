@@ -74,7 +74,7 @@ constructor(props){
                                                                     dataPoints
                                                                     width={this.state.windowWidth}
                                                                     height={this.state.windowWidth}
-                                                                    yDomainRange={[0, 40]}
+                                                                    yDomainRange={[0, 30]}
                                                                     data={[X_data]}/></Col></Row> : null;
             
         } else {
@@ -86,7 +86,7 @@ constructor(props){
                                                                     dataPoints
                                                                     height={250}
                                                                     width={1200}
-                                                                    yDomainRange={[0, 40]}
+                                                                    yDomainRange={[0, 30]}
                                                                     data={[X_data]}/></Col></Row> : null;
         }
         
