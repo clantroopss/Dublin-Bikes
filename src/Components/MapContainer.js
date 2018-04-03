@@ -94,11 +94,22 @@ componentDidUpdate(prevProps) {
   }
  
   render() {
+      var imagecss ={
+         height: "43px",
+         float: "right"
+     }
     return (
         <Grid>
             <Row>
                 <Col xs={12} md={4}><MapForm onFilter={this.onFilter}  overallData ={this.state.overallData} parentMethod = {this.onRouteChanged}/></Col>
-                <Col xs={12} md={8}><Route path="/" render={(props) => <MapRendering google={this.props.google} stations={this.state.overallData} {...props}/>}/></Col>
+                <Col xs={12} md={8}>
+                    <Row>
+                        <img src="https://preview.ibb.co/id2iex/Capture.png" alt="Capture" border="0" style={imagecss} />
+                    </Row>
+                    <Row>
+                        <Route path="/" render={(props) => <MapRendering google={this.props.google} stations={this.state.overallData} {...props}/>}/>
+                    </Row>
+                </Col>
             </Row>
             
         </Grid>

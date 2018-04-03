@@ -46,7 +46,7 @@ export default class VizDataExtract extends Component {
         window.removeEventListener('resize', this.handleResize);
     }
     handleResize = () => {
-        this.setState({windowWidth: window.innerWidth - 100});
+        this.setState({windowWidth: window.innerWidth});
     }
     onRouteChanged(stationNumber, fromDate, toDate) {
         fetchCassandraData(stationNumber, fromDate, toDate).then((json) => {
@@ -71,13 +71,12 @@ export default class VizDataExtract extends Component {
                         legend
                         datePattern= "%Y-%m-%d %H:%M:%S"
                         tickTimeDisplayFormat={'%I'}
-                        width={this.state.windowWidth}
-                        height={this.state.windowWidth / 2}
+                        width={this.state.windowWidth + 65}
+                        height={this.state.windowWidth - 100}
                         xType={'time'}
                         lineData={Y_data}
                         y2Type="linear"
                         data={X_data}
-                        margin={{top: 20, right: 0, bottom: 30, left: 100}}
                         yTickNumber={5}
                         barWidth={2}
                         yDomainRange={[0, 40]}
@@ -95,7 +94,6 @@ export default class VizDataExtract extends Component {
                         lineData={Y_data}
                         y2Type="linear"
                         data={X_data}
-                        margin={{top: 20, right: 0, bottom: 30, left: 100}}
                         yTickNumber={5}
                         barWidth={2}
                         yDomainRange={[0, 40]}
@@ -113,10 +111,13 @@ export default class VizDataExtract extends Component {
                 return true;
             })
         }
+        var marginleft ={
+            "margin-left": "-15%"
+        }
         return (
             <Grid>
                 <Row>
-                    <Col xs={12} md={12}>
+                    <Col xs={12} md={12} style={marginleft}>
                     {graph}
                     </Col>
                 </Row>

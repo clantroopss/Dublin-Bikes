@@ -73,7 +73,7 @@ constructor(props){
                                                                     verticalGrid
                                                                     dataPoints
                                                                     width={this.state.windowWidth}
-                                                                    height={this.state.windowWidth / 2}
+                                                                    height={this.state.windowWidth}
                                                                     yDomainRange={[0, 40]}
                                                                     data={[X_data]}/></Col></Row> : null;
             
@@ -92,20 +92,23 @@ constructor(props){
         
                                                                     
         const graph = result;
+        var padding ={
+            padding: "7px"
+        };
         return (
             <Grid>
                 <Row><Col xs={12} md={12}>
                     <form onSubmit={this.handleSubmit}>
                         <Row>
-                                <Col xs={12} md={4}><b>Select Bike Station to view todays prediction</b></Col>
-                                <Col xs={12} md={5}>
+                                <Col style={padding} xs={12} md={4} ><b>Select Bike Station to view todays prediction</b></Col>
+                                <Col style={padding} xs={12} md={5}>
                                     <Select
                                       name="bikes"
                                       options={this.state.bikeinfo}
                                       value={this.getSelectValue('test')}
                                       onChange={this.onSelectChange} />
                                 </Col>
-                                <Col xs={12} md={3}><input type="submit" className="myButton" value="Predict"/></Col>
+                                <Col style={padding} xs={12} md={3}><input type="submit" className="myButton" value="Predict"/></Col>
                         </Row>
                         {graph}
                     </form></Col>

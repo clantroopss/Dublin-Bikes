@@ -84,9 +84,15 @@ class DropdownBikeStation extends Component {
               width : "75%",
               height: "34px"
         };
+        var padding ={
+            padding: "7px"
+        };
+        var paddingleft ={
+            "padding-left": "17px"
+        };
         const content1 = this.state.selectedOption === 'option1'
             ?   <Row>
-                    <Col xs={12} md={3}>
+                    <Col xs={12} md={3} style={padding}>
                         <Row>
                             <Col xs={12} md={3}><b>Stations</b></Col>
                             <Col xs={12} md={9}>
@@ -98,23 +104,23 @@ class DropdownBikeStation extends Component {
                             </Col>
                         </Row>
                     </Col>
-                    <Col xs={6} md={3}>
+                    <Col xs={12} md={3} style={padding}>
                         <Row>
                             <Col xs={12} md={3}><b>From</b></Col>
-                            <Col xs={12} md={9}>
+                            <Col xs={12} md={9} style={paddingleft}>
                                 <input type="date" name="from" value={this.getFromValue('')} onChange={this.onFromChange} min={this.state.min} max={this.state.max} style ={inputstyle} />
                             </Col>
                         </Row>
                     </Col>
-                    <Col xs={6} md={3}>
+                    <Col xs={12} md={3} style={padding}>
                         <Row>
                             <Col xs={12} md={3}><b>To</b></Col>
-                            <Col xs={12} md={9}>
+                            <Col xs={12} md={9} style={paddingleft}>
                                 <input type="date" name="to" value={this.getToValue('')} onChange={this.onToChange} min={this.state.min} max={this.state.max} style ={inputstyle}/>
                             </Col>
                         </Row>
                     </Col>
-                    <Col xs={6} md={3}>
+                    <Col xs={12} md={3} style={padding}>
                         <input type="submit" className="myButton" value="Bike Usage"/>
                     </Col>
                 </Row> : null;
