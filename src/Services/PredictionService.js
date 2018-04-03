@@ -48,9 +48,11 @@ export function fetchPredictionsDay(stationNumber) {
   var d = new Date();
   var weekday = ["Sun","Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
   var day = weekday[d.getDay()];
+  var hour = d.getHours() + 1;
   window.predictionday = {
       number : stationNumber,
-      day: day
+      day: day,
+      hour: hour
   }
   if(window.predictionDayEntireObject){
       var result = [];
@@ -69,7 +71,7 @@ export function fetchPredictionsDay(stationNumber) {
               window.predictionDayEntireObject = responseJson;
               var result = [];
               responseJson.map((item) => {
-                    if(item.number === window.predictionday.number && item.day === window.predictionday.day){
+                    if(item.number === window.predictionday.number && item.day === window.predictionday.day && item.hour > window.predictionday.hour){
                         item.score = Math.round(item.score);
                         result.push(item);
                     }

@@ -46,7 +46,7 @@ export default class VizDataExtract extends Component {
         window.removeEventListener('resize', this.handleResize);
     }
     handleResize = () => {
-        this.setState({windowWidth: window.innerWidth});
+        this.setState({windowWidth: window.innerWidth - 100});
     }
     onRouteChanged(stationNumber, fromDate, toDate) {
         fetchCassandraData(stationNumber, fromDate, toDate).then((json) => {
